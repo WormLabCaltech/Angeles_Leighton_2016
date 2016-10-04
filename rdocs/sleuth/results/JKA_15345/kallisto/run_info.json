@@ -1,0 +1,9 @@
+{
+	"n_targets": 32905,
+	"n_bootstraps": 200,
+	"n_processed": 36844582,
+	"kallisto_version": "0.42.3",
+	"index_version": 10,
+	"start_time": "Thu Jan 14 20:40:10 2016",
+	"call": "kallisto quant -i transcripts.idx -o JKA_15345/kallisto --single -l 260 -s 50 -b 200 -t 4 15345_filtered.fastq"
+}

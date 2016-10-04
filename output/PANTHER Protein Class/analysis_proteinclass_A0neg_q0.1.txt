@@ -1,0 +1,18 @@
+#Analysis Type:	PANTHER Overrepresentation Test (release 20150430)
+#Annotation Version and Release Date:	PANTHER version 10.0 Released 2015-05-15
+#Analyzed List:	gene_list_A0neg_beta2_q0.1.csv (Caenorhabditis elegans)
+#Reference List:	Caenorhabditis elegans (all genes in database)
+#Bonferroni correction:	true
+#PANTHER Protein Class	Caenorhabditis elegans - REFLIST (20490)	#gene_list_A0neg_beta2_q0.1.csv (2793)	gene_list_A0neg_beta2_q0.1.csv #(expected)	#gene_list_A0neg_beta2_q0.1.csv (over/under)	#gene_list_A0neg_beta2_q0.1.csv (fold #Enrichment)	gene_list_A0neg_beta2_q0.1.csv #(P-value)
+PANTHER Protein Class	Number of Celegans Genes	Number Observed	Expected	Fold Enrichment	Over/Under	P value
+ATP synthase (PC00002)	29	15	3.95	+	3.79	3.14E-03
+ribosomal protein (PC00202)	178	61	24.26	+	2.51	4.09E-08
+dehydrogenase (PC00092)	240	73	32.71	+	2.23	1.27E-07
+oxidoreductase (PC00176)	561	138	76.47	+	1.80	1.49E-08
+RNA binding protein (PC00031)	636	145	86.69	+	1.67	6.69E-07
+protease (PC00190)	327	72	44.57	+	1.62	1.55E-02
+hydrolase (PC00121)	1103	222	150.35	+	1.48	1.93E-06
+nucleic acid binding (PC00171)	1527	270	208.15	+	1.30	1.95E-03
+Unclassified (UNCLASSIFIED)	12831	1552	1749.00	-	.89	0.00E00
+receptor (PC00197)	1994	154	271.80	-	.57	5.98E-14
+G-protein coupled receptor (PC00021)	928	22	126.50	-	 < 0.2	5.32E-29

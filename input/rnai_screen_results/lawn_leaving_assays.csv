@@ -1,0 +1,111 @@
+strain,date,lawn_worms,off_lawn_worms,censor,reason_to_censor,observations,scored_by,genotype
+example,22/06/2016,10,5,1,example,,David,N2
+GFP ,17/06/16,16,4,0,,,Tiffany ,N2
+GFP ,17/06/16,16,2,0,,,Tiffany ,N2
+GFP ,17/06/16,14,5,0,,,Tiffany ,N2
+01C3 ,17/06/16,19,1,0,,,Tiffany ,N2
+01C3 ,17/06/16,13,6,0,,,Tiffany ,N2
+01C3 ,17/06/16,15,4,0,,,Tiffany ,N2
+01C2 ,17/06/16,16,4,0,,,Tiffany ,N2
+GFP ,18/06/16,16,2,0,,,Tiffany ,N2
+GFP ,18/06/16,16,3,0,,,Tiffany ,N2
+GFP ,18/06/16,16,1,0,,,Tiffany ,N2
+02B4 ,18/06/16,18,2,0,,,Tiffany ,N2
+02B4 ,18/06/16,17,3,0,,,Tiffany ,N2
+02B4 ,18/06/16,15,3,0,,,Tiffany ,N2
+01C4 ,18/06/16,17,4,0,,,Tiffany ,N2
+01C4,18/06/16,18,1,0,,,Tiffany ,N2
+01C4,18/06/16,16,3,0,,,Tiffany ,N2
+GFP,19/06/16,18,1,0,,,Tiffany ,N2
+GFP,19/06/16,18,1,0,,,Tiffany ,N2
+GFP,19/06/16,18,2,0,,,Tiffany ,N2
+02C2,19/06/16,18,1,0,,,Tiffany ,N2
+02C2,19/06/16,19,2,0,,,Tiffany ,N2
+02C2,19/06/16,14,6,0,,,Tiffany ,N2
+03A4,19/06/16,17,3,0,,,Tiffany ,N2
+03A4,19/06/16,17,3,0,,,Tiffany ,N2
+03A4,19/06/16,17,1,0,,,Tiffany ,N2
+04A2,20/06/16,21,0,0,,,Tiffany ,N2
+04A2,20/06/16,18,2,0,,,Tiffany ,N2
+04A2,20/06/16,17,3,0,,,Tiffany ,N2
+GFP,21/06/16,17,3,0,,,Tiffany ,N2
+GFP,21/06/16,16,4,0,,,Tiffany ,N2
+GFP,21/06/16,19,1,0,,,Tiffany ,N2
+04A3,21/06/16,19,1,0,,,Tiffany ,N2
+04A3,21/06/16,17,1,0,,,Tiffany ,N2
+04A3,21/06/16,17,2,0,,,Tiffany ,N2
+04B4,21/06/16,19,1,0,,,Tiffany ,N2
+04B4,21/06/16,20,0,0,,,Tiffany ,N2
+04B4,21/06/16,16,4,0,,,Tiffany ,N2
+GFP,22/06/16,20,0,0,,,Tiffany ,N2
+GFP,22/06/16,18,1,0,,,Tiffany ,N2
+GFP,22/06/16,20,0,0,,,Tiffany ,N2
+05B3,22/06/16,20,0,0,,,Tiffany ,N2
+05B3,22/06/16,20,0,0,,,Tiffany ,N2
+05B3,22/06/16,21,0,0,,,Tiffany ,N2
+GFP,24/06/16,20,1,0,,,Tiffany ,N2
+GFP,24/06/16,19,0,0,,,Tiffany ,N2
+GFP,24/06/16,20,0,0,,,Tiffany ,N2
+06A2,24/06/16,20,0,0,,,Tiffany ,N2
+06A2,24/06/16,20,0,0,,,Tiffany ,N2
+06A2,24/06/16,20,0,0,,,Tiffany ,N2
+05C4,24/06/16,20,0,0,,,Tiffany ,N2
+05C4,24/06/16,20,0,0,,,Tiffany ,N2
+05C4,24/06/16,20,0,0,,,Tiffany ,N2
+07C1,24/06/16,19,0,0,,,Tiffany ,N2
+07C1,24/06/16,20,0,0,,,Tiffany ,N2
+07C1,24/06/16,19,1,0,,,Tiffany ,N2
+07C2,24/06/16,20,0,0,,,Tiffany ,N2
+07C2,24/06/16,20,0,0,,,Tiffany ,N2
+07C2,24/06/16,18,2,0,,,Tiffany ,N2
+07C3,24/06/16,20,0,0,,,Tiffany ,N2
+07C3,24/06/16,19,0,0,,,Tiffany ,N2
+07C3,24/06/16,18,2,0,,,Tiffany ,N2
+06B4,24/06/16,20,0,0,,,Tiffany ,N2
+06B4,24/06/16,19,1,0,,,Tiffany ,N2
+06B4,24/06/16,17,2,0,,,Tiffany ,N2
+GFP,25/06/16,19,2,0,,,Tiffany ,N2
+GFP,25/06/16,,,1,"shards fell into agar, smeared lawn",,Tiffany ,N2
+GFP,25/06/16,10,0,1,only 10 worms total used,,Tiffany ,N2
+10C1,25/06/16,20,0,0,,,Tiffany ,N2
+10C1,25/06/16,21,1,0,,,Tiffany ,N2
+10C1,25/06/16,20,1,0,,,Tiffany ,N2
+10C2,25/06/16,18,0,0,,,Tiffany ,N2
+10C2,25/06/16,20,0,0,,,Tiffany ,N2
+10C2,25/06/16,20,0,0,,,Tiffany ,N2
+09A3,25/06/16,20,0,0,,,Tiffany ,N2
+09A3,25/06/16,20,0,0,,,Tiffany ,N2
+09A3,25/06/16,20,0,0,,,Tiffany ,N2
+GFP,26/06/16,20,0,0,,,Tiffany ,N2
+GFP,26/06/16,20,0,0,,,Tiffany ,N2
+GFP,26/06/16,20,0,0,,,Tiffany ,N2
+08A2,26/06/16,20,0,0,,,Tiffany ,N2
+08A2,26/06/16,19,1,0,,,Tiffany ,N2
+08A2,26/06/16,20,0,0,,,Tiffany ,N2
+08A4,26/06/16,20,0,0,,,Tiffany ,N2
+08A4,26/06/16,20,0,0,,,Tiffany ,N2
+08A4,26/06/16,20,0,0,,,Tiffany ,N2
+09A1,26/06/16,17,3,0,,,Tiffany ,N2
+09A1,26/06/16,17,3,0,,,Tiffany ,N2
+09A1,26/06/16,20,0,0,,,Tiffany ,N2
+GFP,28/06/16,19,1,0,,,Tiffany ,N2
+GFP,28/06/16,20,0,0,,,Tiffany ,N2
+GFP,28/06/16,19,1,0,,,Tiffany ,N2
+15A4,28/06/16,18,2,0,,,Tiffany ,N2
+15A4,28/06/16,20,0,0,,,Tiffany ,N2
+15A4,28/06/16,18,2,0,,,Tiffany ,N2
+16A2,28/06/16,21,0,0,,,Tiffany ,N2
+16A2,28/06/16,20,0,0,,,Tiffany ,N2
+16A2,28/06/16,19,0,0,,,Tiffany ,N2
+14C2,28/06/16,19,1,0,,,Tiffany ,N2
+14C2,28/06/16,18,2,0,,,Tiffany ,N2
+14C2,28/06/16,20,0,0,,,Tiffany ,N2
+GFP,29/06/16,20,0,0,,,Tiffany ,N2
+GFP,29/06/16,20,0,0,,,Tiffany ,N2
+GFP,29/06/16,20,0,0,,,Tiffany ,N2
+01C3,29/06/16,19,1,0,,,Tiffany ,N2
+01C3,29/06/16,19,1,0,,,Tiffany ,N2
+01C3,29/06/16,20,0,0,,,Tiffany ,N2
+11A1,29/06/16,19,1,0,,,Tiffany ,N2
+11A1,29/06/16,20,0,0,,,Tiffany ,N2
+11A1,29/06/16,20,0,0,,,Tiffany ,N2

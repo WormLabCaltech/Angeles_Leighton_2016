@@ -1,0 +1,202 @@
+gene_name,code,group
+nlp-12,01A1,High in JK
+unc-73,01A2,Interaction
+unc-73,01A3,Interaction
+unc-73,01A4,Interaction
+unc-89,01B1,High in JK
+haf-9,01B2,Aging
+T05E7.1,01B3,Aging
+gld-2,01B4,Low in JK
+gld-2,01C1,Low in JK
+gld-2,01C2,Low in JK
+pqn-21,01C3,Low in JK
+pqn-21,01C4,Low in JK
+twk-1,02A1,Aging
+T10E9.3,02A2,High in JK
+pdi-3,02A3,High in JK
+unc-15,02A4,High in JK
+K07A1.6,02B1,Interaction
+gei-17,02B2,Interaction
+kin-10,02B3,Interaction
+C36B1.6,02B4,Low in JK
+Y106G6H.6,02C1,Interaction
+hmr-1,02C2,Low in JK
+nhr-74,02C3,High in JK
+F08A8.4,02C4,Aging
+F33E2.4,03A1,Interaction
+par-6,03A2,Interaction
+ins-30,03A3,Interaction
+Y74C10AR.2,03A4,Low in JK
+Y65B4BL.1,03B1,Aging
+rpl-1,03B2,Interaction
+W10D9.2,03B3,Interaction
+T04B8.5,03B4,Aging
+etr-1,03C1,Interaction
+B0432.13,03C2,Aging
+Y105C5A.13,03C3,aging
+nhx-6,03C4,high in JK
+F59H6.5,04A1,Low in JK
+ZC239.6,04A2,Low in JK
+R11F4.2,04A3,Low in JK
+R12C12.1,04A4,aging
+col-20,04B1,Aging
+fkh-8,04B2,Aging
+ifb-1,04B3,Aging
+dnj-8,04B4,low in JK
+tsp-10,04C1,Aging
+unc-105,04C2,High in JK
+kin-15,04C3,aging
+C06C3.4,04C4,Interaction
+col-80,05A1,aging
+ZK892.6,05A2,High in JK
+unc-53,05A3,Aging
+F40F8.1,05A4,High in JK
+col-86,05B1,High in JK
+moe-3,05B2,interaction
+ZK131.11,05B3,Low in JK
+unc-52,05B4,interaction
+gei-4,05C1,aging
+rpl-3,05C2,interaction
+cct-5,05C3,Low in JK
+F09F7.5,05C4,Low in JK
+F42A10.6,06A1,Interaction
+F42A10.7,06A2,Low in JK
+C23G10.6,06A3,High in JK
+F56C9.7,06A4,Interaction
+Y42G9A.2,06B1,High in JK
+R13A5.11,06B2,High in JK
+R08D7.4,06B3,aging
+M01A8.1,06B4,Low in JK
+W05B2.7,06C1,High in JK
+C48B4.3,06C2,interaction
+cnt-2,06C3,aging
+tsp-3,06C4,Interaction
+Y49E10.18,07A1,Interaction
+K08E3.5,07A2,High in JK
+cdh-10,07A3,Interaction
+F49F1.1,07A4,Interaction
+elo-5,07B1,Interaction
+T28H11.8,07B2,Interaction
+C06E7.2,07B3,High in JK
+C01B10.6,07B4,Interaction
+col-113,07C1,Low in JK
+R05G6.10,07C2,Low in JK
+F17E9.3,07C3,Low in JK
+nhr-31,07C4,aging
+twk-8,08A1,Aging
+pme-4,08A2,Low in JK
+elo-1,08A3,Interaction
+exc-5,08A4,Low in JK
+unc-43,08B1,aging
+R09H10.5,08B2,aging
+epi-1,08B3,Interaction
+ard-1,08B4,Low in JK
+R09E10.5,08C1,Interaction
+unc-43,08C2,aging
+F20B10.2,08C3,Interaction
+F54E12.2,08C4,aging
+F07C6.4,09A1,Low in JK
+T12G3.2,09A2,Interaction
+C08F11.7,09A3,Low in JK
+F02H6.4,09A4,High in JK
+rpl-12,09B1,High in JK
+Y105C5A.13,09B2,aging
+acr-17,09B3,interaction
+C17B7.5,09B4,High in JK
+col-139,09C1,aging
+spp-20,09C2,aging
+F14F9.3,09C3,interaction
+B0238.13,09C4,aging
+B0238.13,10A1,aging
+F31F7.1,10A2,aging
+F57F4.2,10A3,High in JK
+srg-31,10A4,aging
+C03G6.17,10B1,Interaction
+mec-9,10B2,Interaction
+T04C12.3,10B3,aging
+act-2,10B4,Low in JK
+ape-1,10C1,Low in JK
+R31.2,10C2,Low in JK
+F58H1.7,10C3,aging
+F10C2.3,10C4,interaction
+C14C10.2,11A1,aging
+cav-2,11A2,High in JK
+W07G4.5,11A3,Interaction
+T01D3.3,11A4,aging
+K02E11.7,11B1,High in JK
+C06B3.6,11B2,Interaction
+F21H7.2,11B3,aging
+rpl-38,11B4,High in JK
+C18D4.6,11C1,Low in JK
+T05E12.6,11C2,aging
+Y39B6A.21,11C3,aging
+K02E2.7,11C4,Interaction
+H11E01.2,12A1,Interaction
+lin-32,12A2,Interaction
+gcy-31,12A3,Low in JK
+vit-5,12A4,Interaction
+vit-4,12B1,Interaction
+vit-4,12B2,Interaction
+K05B2.2,12B3,Low in JK
+K05B2.2,12B4,Low in JK
+R07E4.1,12C1,Interaction
+smf-2,12C2,Interaction
+F41B4.2,12C3,High in JK
+F46C8.8,12C4,Interaction
+nuc-1,13A1,Interaction
+ref-2,13A2,High in JK
+ifp-1,13A3,Interaction
+K07E3.4,13A4,aging
+pgp-6,13B1,Interaction
+C07A4.2,13B2,High in JK
+egl-15,13B3,aging
+C23H4.4,13B4,High in JK
+C23H4.4,13C1,High in JK
+R07E3.6,13C2,Interaction
+adt-1,13C3,Interaction
+F11C1.5,13C4,aging
+abu-14 ,14A1,Interaction
+clec-145 ,14A2,missing
+C33B4.4 ,14A3,High in JK
+M28.10 ,14A4,Interaction
+zip-3 ,14B1,aging
+C08F1.11 ,14B2,aging
+F10C1.9 ,14B3,aging
+Y110A2AL.3 ,14B4,High in JK
+T02G5.14 ,14C1,Interaction
+math-10 ,14C2,Low in JK
+twk-48 ,14C3,Interaction
+clec-5 ,14C4,Interaction
+flp-25 ,15A1,Interaction
+asna-1 ,15A2,missing
+fbxa-42 ,15A3,High in JK
+best-9 ,15A4,Low in JK
+col-135 ,15B1,aging
+ost-1 ,15B2,High in JK
+clec-85 ,15B3,missing
+Y54G2A.3 ,15B4,Interaction
+col-129 ,15C1,aging
+clec-263 ,15C2,missing
+lipl-6 ,15C3,Interaction
+swsn-1 ,15C4,missing
+oac-32 ,16A1,Interaction
+H24K24.4 ,16A2,Low in JK
+acs-3 ,16A3,Interaction
+clec-215 ,16A4,missing
+cln-3.1 ,16B1,aging
+daf-28 ,16B2,Interaction
+F02D8.5 ,16B3,High in JK
+dgat-2 ,16B4,High in JK
+C54F6.15 ,16C1,aging
+figl-1 ,16C2,missing
+clec-25 ,16C3,missing
+ptr-22 ,16C4,aging
+asp-17 ,17A1,interaction
+del-1,17A2,High in JK
+K09E9.1,17A3,aging
+K08B5.2,17A4,interaction
+ser-1,17B1,High in JK
+dyf-11 ,17B2,missing
+ZK813.5 ,17B3,interaction
+C35C5.10 ,17B4,aging
+gfp,gfp,nan

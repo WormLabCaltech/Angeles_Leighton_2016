@@ -1,0 +1,24 @@
+#Analysis Type:	PANTHER Overrepresentation Test (release 20150430)
+#Annotation Version and Release Date:	PANTHER version 10.0 Released 2015-05-15
+#Analyzed List:	gene_list_A0_beta2_q0.1.csv (Caenorhabditis elegans)
+#Reference List:	Caenorhabditis elegans (all genes in database)
+#Bonferroni correction:	true
+#PANTHER Protein Class	Caenorhabditis elegans - REFLIST (20490)	#gene_list_A0_beta2_q0.1.csv (2971)	gene_list_A0_beta2_q0.1.csv (expected)	#gene_list_A0_beta2_q0.1.csv (over/under)	gene_list_A0_beta2_q0.1.csv (fold #Enrichment)	gene_list_A0_beta2_q0.1.csv (P-value)
+PANTHER Protein Class	Number of Celegans Genes	Number Observed	Expected	Fold Enrichment	Over/Under	P value
+annexin (PC00050)	51	21	7.39	+	2.84	5.66E-03
+ribosomal protein (PC00202)	178	67	25.81	+	2.60	1.46E-09
+dehydrogenase (PC00092)	240	82	34.80	+	2.36	8.96E-10
+reductase (PC00198)	198	59	28.71	+	2.06	7.72E-05
+oxidoreductase (PC00176)	561	164	81.34	+	2.02	3.08E-14
+serine protease (PC00203)	113	33	16.38	+	2.01	3.49E-02
+oxidase (PC00175)	120	35	17.40	+	2.01	2.33E-02
+intracellular calcium-sensing protein (PC00131)	121	35	17.54	+	1.99	2.72E-02
+calmodulin (PC00061)	121	35	17.54	+	1.99	2.72E-02
+ligase (PC00142)	231	60	33.49	+	1.79	3.81E-03
+protease (PC00190)	327	84	47.41	+	1.77	1.50E-04
+RNA binding protein (PC00031)	636	146	92.22	+	1.58	1.61E-05
+hydrolase (PC00121)	1103	235	159.93	+	1.47	1.11E-06
+nucleic acid binding (PC00171)	1527	293	221.41	+	1.32	1.78E-04
+Unclassified (UNCLASSIFIED)	12831	1680	1860.46	-	.90	0.00E00
+receptor (PC00197)	1994	150	289.13	-	.52	7.38E-19
+G-protein coupled receptor (PC00021)	928	29	134.56	-	.22	7.56E-27

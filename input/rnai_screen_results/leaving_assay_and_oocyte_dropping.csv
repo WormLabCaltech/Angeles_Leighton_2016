@@ -1,0 +1,332 @@
+strain,date,lawn_worms,off_lawn_worms,censor,reason_to_censor,observations,scored_by,oocyte_count, overnight_assay,genotype
+example,22/06/2016,10,5,1,example,,David,,,N2
+GFP ,17/06/16,16,4,0,,,Tiffany ,,no,N2
+GFP ,17/06/16,16,2,0,,,Tiffany ,,no,N2
+GFP ,17/06/16,14,5,0,,,Tiffany ,,no,N2
+01C3 ,17/06/16,19,1,0,,,Tiffany ,,no,N2
+01C3 ,17/06/16,13,6,0,,,Tiffany ,,no,N2
+01C3 ,17/06/16,15,4,0,,,Tiffany ,,no,N2
+01C2 ,17/06/16,16,4,0,,,Tiffany ,,no,N2
+GFP ,18/06/16,16,2,0,,,Tiffany ,,no,N2
+GFP ,18/06/16,16,3,0,,,Tiffany ,,no,N2
+GFP ,18/06/16,16,1,0,,,Tiffany ,,no,N2
+02B4 ,18/06/16,18,2,0,,,Tiffany ,,no,N2
+02B4 ,18/06/16,17,3,0,,,Tiffany ,,no,N2
+02B4 ,18/06/16,15,3,0,,,Tiffany ,,no,N2
+01C4 ,18/06/16,17,4,0,,,Tiffany ,,no,N2
+01C4 ,18/06/16,18,1,0,,,Tiffany ,,no,N2
+01C4 ,18/06/16,16,3,0,,,Tiffany ,,no,N2
+GFP ,19/06/16,18,1,0,,,Tiffany ,,no,N2
+GFP ,19/06/16,18,1,0,,,Tiffany ,,no,N2
+GFP ,19/06/16,18,2,0,,,Tiffany ,,no,N2
+02C2 ,19/06/16,18,1,0,,,Tiffany ,,no,N2
+02C2 ,19/06/16,19,2,0,,,Tiffany ,,no,N2
+02C2 ,19/06/16,14,6,0,,,Tiffany ,,no,N2
+03A4 ,19/06/16,17,3,0,,,Tiffany ,,no,N2
+03A4 ,19/06/16,17,3,0,,,Tiffany ,,no,N2
+03A4 ,19/06/16,17,1,0,,,Tiffany ,,no,N2
+04A2 ,20/06/16,21,0,0,,,Tiffany ,,no,N2
+04A2 ,20/06/16,18,2,0,,,Tiffany ,,no,N2
+04A2 ,20/06/16,17,3,0,,,Tiffany ,,no,N2
+GFP ,21/06/16,17,3,0,,,Tiffany ,,no,N2
+GFP ,21/06/16,16,4,0,,,Tiffany ,,no,N2
+GFP ,21/06/16,19,1,0,,,Tiffany ,,no,N2
+04A3,21/06/16,19,1,0,,,Tiffany ,,no,N2
+04A3,21/06/16,17,1,0,,,Tiffany ,,no,N2
+04A3,21/06/16,17,2,0,,,Tiffany ,,no,N2
+04B4,21/06/16,19,1,0,,,Tiffany ,,no,N2
+04B4,21/06/16,20,0,0,,,Tiffany ,,no,N2
+04B4,21/06/16,16,4,0,,,Tiffany ,,no,N2
+GFP,22/06/16,20,0,0,,,Tiffany ,,no,N2
+GFP,22/06/16,18,1,0,,,Tiffany ,,no,N2
+GFP,22/06/16,20,0,0,,,Tiffany ,,no,N2
+05B3,22/06/16,20,0,0,,,Tiffany ,,no,N2
+05B3,22/06/16,20,0,0,,,Tiffany ,,no,N2
+05B3,22/06/16,21,0,0,,,Tiffany ,,no,N2
+GFP,24/06/16,20,1,0,,,Tiffany ,,no,N2
+GFP,24/06/16,19,0,0,,,Tiffany ,,no,N2
+GFP,24/06/16,20,0,0,,,Tiffany ,,no,N2
+06A2,24/06/16,20,0,0,,,Tiffany ,,no,N2
+06A2,24/06/16,20,0,0,,,Tiffany ,,no,N2
+06A2,24/06/16,20,0,0,,,Tiffany ,,no,N2
+05C4,24/06/16,20,0,0,,,Tiffany ,,no,N2
+05C4,24/06/16,20,0,0,,,Tiffany ,,no,N2
+05C4,24/06/16,20,0,0,,,Tiffany ,,no,N2
+07C1,24/06/16,19,0,0,,,Tiffany ,,no,N2
+07C1,24/06/16,20,0,0,,,Tiffany ,,no,N2
+07C1,24/06/16,19,1,0,,,Tiffany ,,no,N2
+07C2,24/06/16,20,0,0,,,Tiffany ,,no,N2
+07C2,24/06/16,20,0,0,,,Tiffany ,,no,N2
+07C2,24/06/16,18,2,0,,,Tiffany ,,no,N2
+07C3,24/06/16,20,0,0,,,Tiffany ,,no,N2
+07C3,24/06/16,19,0,0,,,Tiffany ,,no,N2
+07C3,24/06/16,18,2,0,,,Tiffany ,,no,N2
+06B4,24/06/16,20,0,0,,,Tiffany ,,no,N2
+06B4,24/06/16,19,1,0,,,Tiffany ,,no,N2
+06B4,24/06/16,17,2,0,,,Tiffany ,,no,N2
+GFP,25/06/16,19,2,0,,,Tiffany ,,no,N2
+GFP,25/06/16,,,1,"shards fell into agar, smeared lawn",,Tiffany ,,no,N2
+GFP,25/06/16,10,0,1,only 10 worms total used,,Tiffany ,,no,N2
+10C1,25/06/16,20,0,0,,,Tiffany ,,no,N2
+10C1,25/06/16,21,1,0,,,Tiffany ,,no,N2
+10C1,25/06/16,20,1,0,,,Tiffany ,,no,N2
+10C2,25/06/16,18,0,0,,,Tiffany ,,no,N2
+10C2,25/06/16,20,0,0,,,Tiffany ,,no,N2
+10C2,25/06/16,20,0,0,,,Tiffany ,,no,N2
+09A3,25/06/16,20,0,0,,,Tiffany ,,no,N2
+09A3,25/06/16,20,0,0,,,Tiffany ,,no,N2
+09A3,25/06/16,20,0,0,,,Tiffany ,,no,N2
+GFP,26/06/16,20,0,0,,,Tiffany ,,no,N2
+GFP,26/06/16,20,0,0,,,Tiffany ,,no,N2
+GFP,26/06/16,20,0,0,,,Tiffany ,,no,N2
+08A2,26/06/16,20,0,0,,,Tiffany ,,no,N2
+08A2,26/06/16,19,1,0,,,Tiffany ,,no,N2
+08A2,26/06/16,20,0,0,,,Tiffany ,,no,N2
+08A4,26/06/16,20,0,0,,,Tiffany ,,no,N2
+08A4,26/06/16,20,0,0,,,Tiffany ,,no,N2
+08A4,26/06/16,20,0,0,,,Tiffany ,,no,N2
+09A1,26/06/16,17,3,0,,,Tiffany ,,no,N2
+09A1,26/06/16,17,3,0,,,Tiffany ,,no,N2
+09A1,26/06/16,20,0,0,,,Tiffany ,,no,N2
+GFP,28/06/16,19,1,0,,,Tiffany ,,yes,N2
+GFP,28/06/16,20,0,0,,,Tiffany ,,yes,N2
+GFP,28/06/16,19,1,0,,,Tiffany ,,yes,N2
+15A4,28/06/16,18,2,0,,,Tiffany ,,yes,N2
+15A4,28/06/16,20,0,0,,,Tiffany ,,yes,N2
+15A4,28/06/16,18,2,0,,,Tiffany ,,yes,N2
+16A2,28/06/16,21,0,0,,,Tiffany ,,yes,N2
+16A2,28/06/16,20,0,0,,,Tiffany ,,yes,N2
+16A2,28/06/16,19,0,0,,,Tiffany ,,yes,N2
+14C2,28/06/16,19,1,0,,,Tiffany ,,yes,N2
+14C2,28/06/16,18,2,0,,,Tiffany ,,yes,N2
+14C2,28/06/16,20,0,0,,,Tiffany ,,yes,N2
+GFP,29/06/16,20,0,0,,,Tiffany ,,yes,N2
+GFP,29/06/16,20,0,0,,,Tiffany ,,yes,N2
+GFP,29/06/16,20,0,0,,,Tiffany ,,yes,N2
+01C3,29/06/16,19,1,0,,,Tiffany ,,yes,N2
+01C3,29/06/16,19,1,0,,,Tiffany ,,yes,N2
+01C3,29/06/16,20,0,0,,,Tiffany ,,yes,N2
+11A1,29/06/16,19,1,0,,,Tiffany ,,yes,N2
+11A1,29/06/16,20,0,0,,,Tiffany ,,yes,N2
+11A1,29/06/16,20,0,0,,,Tiffany ,,yes,N2
+GFP,6/7/16,16,4,0,,,Tiffany ,,yes,N2
+GFP,6/7/16,17,3,0,,,Tiffany ,,yes,N2
+GFP,6/7/16,15,5,0,,,Tiffany ,,yes,N2
+02C2,6/7/16,16,4,0,,,Tiffany ,,yes,N2
+02C2,6/7/16,16,3,0,,,Tiffany ,,yes,N2
+02B4,6/7/16,18,2,0,,,Tiffany ,,yes,N2
+02B4,6/7/16,17,3,0,,,Tiffany ,,yes,N2
+02B4,6/7/16,19,1,0,,,Tiffany ,,yes,N2
+03A4,6/7/16,18,2,0,,,Tiffany ,,yes,N2
+03A4,6/7/16,19,0,0,,,Tiffany ,,yes,N2
+03A4,6/7/16,16,3,0,,,Tiffany ,,yes,N2
+04A1,6/7/16,19,1,0,,,Tiffany ,,yes,N2
+04A1,6/7/16,20,0,0,,,Tiffany ,,yes,N2
+04A1,6/7/16,13,7,0,,,Tiffany ,,yes,N2
+GFP,7/7/16,16,4,1,extra drop of lawn on the edge of plate,,Tiffany ,,yes,N2
+GFP,7/7/16,15,5,0,,,Tiffany ,,yes,N2
+GFP,7/7/16,12,8,0,,,Tiffany ,,yes,N2
+05C4,7/7/16,18,2,0,,,Tiffany ,,yes,N2
+04A3,7/7/16,15,5,0,,,Tiffany ,,yes,N2
+04A3,7/7/16,15,5,0,,,Tiffany ,,yes,N2
+04B4,7/7/16,20,0,0,,,Tiffany ,,yes,N2
+04B4,7/7/16,16,4,0,,,Tiffany ,,yes,N2
+04B4,7/7/16,13,7,0,,,Tiffany ,,yes,N2
+05B3,7/7/16,14,6,0,,,Tiffany ,,yes,N2
+05B3,7/7/16,16,4,0,,,Tiffany ,,yes,N2
+05B3,7/7/16,16,4,0,,,Tiffany ,,yes,N2
+GFP,23/07/16,12,8,0,,,Tiffany ,,yes,N2
+GFP,23/07/16,12,8,0,,,Tiffany ,,yes,N2
+GFP,23/07/16,14,6,0,,,Tiffany ,,yes,N2
+GFP,23/07/16,15,5,0,,,Tiffany ,,yes,N2
+GFP,23/07/16,12,8,0,,,Tiffany ,,yes,N2
+06A2,23/07/16,18,2,0,,,Tiffany ,,yes,N2
+06A2,23/07/16,14,6,0,,,Tiffany ,,yes,N2
+06A2,23/07/16,11,9,0,,,Tiffany ,,yes,N2
+06B4,23/07/16,12,8,0,,,Tiffany ,,yes,N2
+06B4,23/07/16,15,5,0,,,Tiffany ,,yes,N2
+06B4,23/07/16,12,7,0,,,Tiffany ,,yes,N2
+07C2,23/07/16,16,4,0,,,Tiffany ,,yes,N2
+07C2,23/07/16,13,0,0,,only 13 worms total,Tiffany ,,yes,N2
+07C2,23/07/16,15,5,0,,,Tiffany ,,yes,N2
+07C3,23/07/16,18,2,0,,,Tiffany ,,yes,N2
+07C3,23/07/16,13,7,0,,,Tiffany ,,yes,N2
+07C3,23/07/16,12,8,0,,,Tiffany ,,yes,N2
+08A2,23/07/16,11,9,0,,,Tiffany ,,yes,N2
+08A2,23/07/16,15,4,0,,,Tiffany ,,yes,N2
+08A2,23/07/16,17,2,0,,,Tiffany ,,yes,N2
+08A4,23/07/16,11,9,0,,,Tiffany ,,yes,N2
+08A4,23/07/16,13,7,0,,,Tiffany ,,yes,N2
+08A4,23/07/16,13,7,0,,,Tiffany ,,yes,N2
+09A1,23/07/16,16,4,0,,,Tiffany ,,yes,N2
+09A1,23/07/16,12,8,0,,,Tiffany ,,yes,N2
+09A1,23/07/16,15,5,0,,,Tiffany ,,yes,N2
+09A3,23/07/16,18,2,0,,,Tiffany ,,yes,N2
+09A3,23/07/16,10,10,0,,,Tiffany ,,yes,N2
+09A3,23/07/16,13,7,0,,,Tiffany ,,yes,N2
+08B4,23/07/16,14,5,0,,,Tiffany ,,yes,N2
+08B4,23/07/16,15,5,0,,,Tiffany ,,yes,N2
+08B4,23/07/16,14,6,0,,,Tiffany ,,yes,N2
+GFP,24/07/16,18,4,0,,,Tiffany ,,yes,N2
+GFP,24/07/16,17,3,0,,,Tiffany ,,yes,N2
+GFP,24/07/16,15,5,0,,,Tiffany ,,yes,N2
+10C1,24/07/16,16,4,0,,,Tiffany ,,yes,N2
+10C1,24/07/16,16,4,0,,,Tiffany ,,yes,N2
+10C1,24/07/16,18,1,0,,,Tiffany ,,yes,N2
+10C2,24/07/16,19,2,0,,,Tiffany ,,yes,N2
+10C2,24/07/16,19,1,0,,,Tiffany ,,yes,N2
+10C2,24/07/16,17,3,0,,,Tiffany ,,yes,N2
+11C1,24/07/16,17,3,0,,,Tiffany ,,yes,N2
+11C1,24/07/16,19,1,0,,,Tiffany ,,yes,N2
+11C1,24/07/16,16,4,0,,,Tiffany ,,yes,N2
+12A3,24/07/16,19,0,0,,,Tiffany ,,yes,N2
+12A3,24/07/16,17,3,0,,,Tiffany ,,yes,N2
+12A3,24/07/16,20,0,0,,,Tiffany ,,yes,N2
+12B3,24/07/16,19,1,0,,,Tiffany ,,yes,N2
+12B3,24/07/16,17,3,0,,,Tiffany ,,yes,N2
+12B3,24/07/16,17,3,0,,,Tiffany ,,yes,N2
+12B4,24/07/16,19,0,0,,,Tiffany ,,yes,N2
+12B4,24/07/16,17,3,0,,,Tiffany ,,yes,N2
+12B4,24/07/16,19,1,0,,,Tiffany ,,yes,N2
+GFP,25/07/16,10,11,0,,,Tiffany ,7,yes,N2
+GFP,25/07/16,16,4,0,,,Tiffany ,4,yes,JK
+GFP,25/07/16,20,0,0,,,Tiffany ,2,yes,JK
+GFP,25/07/16,14,7,0,,,Tiffany ,4,yes,JK
+GFP,25/07/16,10,9,0,,,Tiffany ,2,yes,JK
+02A2,25/07/16,16,4,0,,,Tiffany ,8,yes,JK
+02A2,25/07/16,14,6,0,,,Tiffany ,3,yes,JK
+02A2,25/07/16,10,10,0,,,Tiffany ,6,yes,JK
+02A2,25/07/16,11,9,0,,,Tiffany ,5,yes,JK
+01A1,25/07/16,18,2,0,,,Tiffany ,12,yes,JK
+01A1,25/07/16,10,10,0,,,Tiffany ,12,yes,JK
+01A1,25/07/16,14,6,0,,,Tiffany ,7,yes,JK
+01A1,25/07/16,18,2,0,,,Tiffany ,10,yes,JK
+01A1,25/07/16,15,5,0,,,Tiffany ,7,yes,JK
+01B1,25/07/16,14,6,0,,,Tiffany ,6,yes,JK
+01B1,25/07/16,15,5,0,,,Tiffany ,5,yes,JK
+01B1,25/07/16,15,5,0,,,Tiffany ,9,yes,JK
+01B1,25/07/16,12,8,0,,,Tiffany ,11,yes,JK
+01B1,25/07/16,17,3,0,,,Tiffany,3,yes,JK
+GFP,26/07/16,18,1,0,,,Tiffany,5,yes,JK
+GFP,26/07/16,19,1,0,,,Tiffany,0,yes,JK
+GFP,26/07/16,18,2,0,,,Tiffany,3,yes,JK
+GFP,26/07/16,20,0,0,,,Tiffany,0,yes,JK
+06B1,26/07/16,18,2,0,,,Tiffany,5,yes,JK
+06B1,26/07/16,17,3,0,,,Tiffany,2,yes,JK
+06B1,26/07/16,15,6,0,,,Tiffany,9,yes,JK
+06B1,26/07/16,9,11,0,,,Tiffany,8,yes,JK
+06B1,26/07/16,18,2,0,,,Tiffany,6,yes,JK
+06B1,26/07/16,11,9,0,,,Tiffany,8,yes,JK
+05B1,26/07/16,22,0,0,,,Tiffany,16,yes,JK
+05B1,26/07/16,9,11,0,,,Tiffany,4,yes,JK
+05B1,26/07/16,6,15,0,,,Tiffany,15,yes,JK
+05B1,26/07/16,15,6,0,,,Tiffany,0,yes,JK
+02A3,26/07/16,13,7,0,,,Tiffany,7,yes,JK
+02A3,26/07/16,20,0,0,,,Tiffany,12,yes,JK
+02A3,26/07/16,16,4,0,,,Tiffany,10,yes,JK
+02A3,26/07/16,14,6,0,,,Tiffany,15,yes,JK
+02A3,26/07/16,15,5,0,,,Tiffany,5,yes,JK
+04C2,26/07/16,13,7,0,,,Tiffany,12,yes,JK
+04C2,26/07/16,15,5,0,,,Tiffany,19,yes,JK
+04C2,26/07/16,14,6,0,,,Tiffany,27,yes,JK
+02A4,26/07/16,11,9,0,,,Tiffany,24,yes,JK
+02A4,26/07/16,9,11,0,,,Tiffany,17,yes,JK
+02A4,26/07/16,3,17,0,,,Tiffany,9,yes,JK
+03C4,26/07/16,16,4,0,,,Tiffany,12,yes,JK
+03C4,26/07/16,9,9,0,,,Tiffany,5,yes,JK
+03C4,26/07/16,13,7,0,,,Tiffany,12,yes,JK
+03C4,26/07/16,11,8,0,,,Tiffany,1,yes,JK
+03C4,26/07/16,9,11,0,,,Tiffany,5,yes,JK
+05A4,26/07/16,16,4,0,,,Tiffany,2,yes,JK
+05A4,26/07/16,15,5,0,,,Tiffany,7,yes,JK
+ 05A4,26/07/16,11,9,0,,,Tiffany,11,yes,JK
+ 05A4,26/07/16,16,4,0,,,Tiffany,7,yes,JK
+ 05A4,26/07/16,18,2,0,,,Tiffany,7,yes,JK
+06A3,26/07/16,20,0,0,,,Tiffany,9,yes,JK
+06A3,26/07/16,13,7,0,,,Tiffany,12,yes,JK
+06A3,26/07/16,15,4,0,,,Tiffany,1,yes,JK
+06A3,26/07/16,11,9,0,,,Tiffany,2,yes,JK
+06A3,26/07/16,7,13,0,,,Tiffany,12,yes,JK
+05A2,26/07/16,14,1,0,,,Tiffany,14,yes,JK
+05A2,26/07/16,11,8,0,,,Tiffany,15,yes,JK
+05A2,26/07/16,20,0,0,,,Tiffany,17,yes,JK
+05A2,26/07/16,16,4,0,,,Tiffany,26,yes,JK
+05A2,26/07/16,17,3,0,,,Tiffany,27,yes,JK
+02C3,26/07/16,9,11,0,,,Tiffany,3,yes,JK
+02C3,26/07/16,12,7,0,,,Tiffany,7,yes,JK
+02C3,26/07/16,11,8,0,,,Tiffany,5,yes,JK
+02C3,26/07/16,10,10,0,,,Tiffany,3,yes,JK
+11A2,27/07/16,14,6,0,,,Tiffany,18,yes,JK
+11A2,27/07/16,16,4,0,,,Tiffany,21,yes,JK
+11A2,27/07/16,17,3,0,,,Tiffany,20,yes,JK
+11A2,27/07/16,19,1,0,,,Tiffany,17,yes,JK
+11A2,27/07/16,14,6,0,,,Tiffany,23,yes,JK
+11A2,27/07/16,18,2,0,,,Tiffany,15,yes,JK
+09B4,27/07/16,19,10,0,,,Tiffany,22,yes,JK
+09B4,27/07/16,13,6,0,,,Tiffany,13,yes,JK
+09B4,27/07/16,18,2,0,,,Tiffany,12,yes,JK
+09B4,27/07/16,13,7,0,,,Tiffany,14,yes,JK
+09B4,27/07/16,15,5,0,,,Tiffany,9,yes,JK
+07B3,27/07/16,18,2,0,,,Tiffany,11,yes,JK
+07B3,27/07/16,20,0,0,,,Tiffany,13,yes,JK
+07B3,27/07/16,17,2,0,,,Tiffany,13,yes,JK
+06C1,27/07/16,17,2,0,,,Tiffany,22,yes,JK
+06C1,27/07/16,14,6,0,,,Tiffany,15,yes,JK
+06C1,27/07/16,1,3,0,,,Tiffany,20,yes,JK
+11B1,27/07/16,15,5,0,,,Tiffany,21,yes,JK
+11B1,27/07/16,18,2,0,,,Tiffany,15,yes,JK
+11B1,27/07/16,13,7,0,,,Tiffany,15,yes,JK
+07A2,27/07/16,18,2,0,,,Tiffany,13,yes,JK
+07A2,27/07/16,16,4,0,,,Tiffany,16,yes,JK
+GFP,27/07/16,14,6,0,,,Tiffany,31,yes,JK
+GFP,27/07/16,17,3,0,,,Tiffany,27,yes,JK
+GFP,27/07/16,15,5,0,,,Tiffany,27,yes,JK
+GFP,27/07/16,19,0,0,,,Tiffany,18,yes,JK
+GFP,27/07/16,19,0,0,,,Tiffany,21,yes,JK
+10A3,27/07/16,12,8,0,,,Tiffany,28,yes,JK
+10A3,27/07/16,20,0,0,,,Tiffany,14,yes,JK
+10A3,27/07/16,13,8,0,,,Tiffany,20,yes,JK
+10A3,27/07/16,13,7,0,,,Tiffany,2,yes,JK
+10A3,27/07/16,11,9,0,,,Tiffany,15,yes,JK
+06B2,27/07/16,14,6,0,,,Tiffany,21,yes,JK
+06B2,27/07/16,19,1,0,,,Tiffany,22,yes,JK
+06B2,27/07/16,12,8,0,,,Tiffany,29,yes,JK
+GFP,28/08/16,16,3,0,,,Daniel,15,yes,JK
+GFP,28/08/16,9,11,0,,,Daniel,11,yes,JK
+14B4,28/08/16,18,3,0,,,Daniel,10,yes,JK
+14B4,28/08/16,18,2,0,,,Daniel,15,yes,JK
+14B4,28/08/16,18,2,0,,,Daniel,21,yes,JK
+14B4,28/08/16,19,1,0,,,Daniel,21,yes,JK
+14B4,28/08/16,17,3,0,,,Daniel,12,yes,JK
+15B2,28/08/16,19,1,0,,,Daniel,8,yes,JK
+15B2,28/08/16,20,0,0,,,Daniel,6,yes,JK
+14B4,28/08/16,16,3,0,,,Daniel,12,yes,JK
+13A2,28/08/16,13,7,0,,,Daniel,17,yes,JK
+13A2,28/08/16,17,4,0,,,Daniel,12,yes,JK
+13A2,28/08/16,17,3,0,,,Daniel,20,yes,JK
+15A3,28/08/16,12,8,0,,,Daniel,10,yes,JK
+15A3,28/08/16,15,5,0,,,Daniel,7,yes,JK
+15A3,28/08/16,16,3,0,,,Daniel,17,yes,JK
+15A3,28/08/16,19,2,0,,,Daniel,17,yes,JK
+13B4,29/08/16,15,5,0,,,Daniel,22,yes,JK
+13B4,29/08/17,20,0,0,,,Daniel,28,yes,JK
+13B4,29/08/18,18,1,0,,,Daniel,32,yes,JK
+13B4,29/08/19,20,0,0,,,Daniel,39,yes,JK
+13B4,29/08/20,17,3,0,,,Daniel,30,yes,JK
+13B4,29/08/21,16,2,0,,,Daniel,28,yes,JK
+17B1,29/08/22,18,2,0,,,Daniel,18,yes,JK
+17B1,29/08/23,13,7,0,,,Daniel,21,yes,JK
+17B1,29/08/24,18,2,0,,,Daniel,21,yes,JK
+17A2,29/08/25,16,4,0,,,Daniel,21,yes,JK
+17A2,29/08/26,19,1,0,,,Daniel,18,yes,JK
+17A2,29/08/27,17,3,0,,,Daniel,32,yes,JK
+GFP,29/08/28,16,4,0,,,Daniel,24,yes,JK
+GFP,29/08/29,18,2,0,,,Daniel,16,yes,JK
+GFP,29/08/30,11,8,0,,,Daniel,24,yes,JK
+GFP,29/08/31,15,4,0,,,Daniel,24,yes,JK
+16B3,29/08/32,17,2,0,,,Daniel,22,yes,JK
+16B3,29/08/33,17,3,0,,,Daniel,13,yes,JK
+16B3,29/08/34,19,1,0,,,Daniel,20,yes,JK
+16B3,29/08/35,17,4,0,,,Daniel,16,yes,JK
+16B3,29/08/36,19,1,0,,,Daniel,33,yes,JK
+16B3,29/08/37,15,5,0,,,Daniel,11,yes,JK
