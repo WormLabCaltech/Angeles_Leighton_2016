@@ -1,5 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1475563992 "Angeles_And_Leighton_Manuscript.tex" "Angeles_And_Leighton_Manuscript.pdf" "Angeles_And_Leighton_Manuscript" 1475563994
+["bibtex Angeles_And_Leighton_Manuscript"] 1475568312 "Angeles_And_Leighton_Manuscript.aux" "Angeles_And_Leighton_Manuscript.bbl" "Angeles_And_Leighton_Manuscript" 1475617542
+  "./genetics.bst" 1472230394 27548 9518348c9d2309cb93196228cd797c0f ""
+  "Angeles_And_Leighton_Manuscript.aux" 1475617542 13713 5ba23e8c530c46e823794c1ce995ddf9 ""
+  "Angeles_And_Leighton_Manuscript.bcf" 0 -1 0 ""
+  "citations.bib" 1475567401 47016 26d27bc3770fff32e3a86d5759c96414 ""
+  (generated)
+  "Angeles_And_Leighton_Manuscript.bbl"
+  "Angeles_And_Leighton_Manuscript.blg"
+["pdflatex"] 1475617539 "Angeles_And_Leighton_Manuscript.tex" "Angeles_And_Leighton_Manuscript.pdf" "Angeles_And_Leighton_Manuscript" 1475617542
   "../output/figs/final_figs/aberrant_aging.pdf" 1475563882 439422 435cf13bf40349a85f0fed8bccffdda5 ""
   "../output/figs/final_figs/aging_transcriptomics.pdf" 1473369903 4440636 7b679e07de7c2820eda86cb521514261 ""
   "../output/figs/final_figs/lawn_leaving_rnai_assay.pdf" 1473375793 266915 9a9aacdd3ac41ca1ec44b107fd50d555 ""
@@ -17,6 +25,7 @@
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm" 1136768653 7040 b2bd27e2bfe6f6948cbc3239cae7444f ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm" 1136768653 4964 f223217e5e1f85fa3742fb0480aba9e8 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm" 1136768653 7292 d408122871055bbc541d7280c154e210 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm" 1136768653 2532 9ad73cf4dd2173a847f2a5f5608e0b9a ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm" 1136768653 3456 16dd534f88eb2bd21ebc7203786b436e ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm" 1136768653 1804 7b5f73028f6509167f47ace9d69509ed ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplr8c.tfm" 1136768653 1348 0e8eb69b4437626c0f6c9bed4a4e373c ""
@@ -47,6 +56,7 @@
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb" 1136849748 39013 b244066151b1e3e718f9b8e88a5ff23b ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb" 1136849748 44648 23115b2a545ebfe2c526c3ca99db8b95 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb" 1136849748 48169 b4fd9d908b9ee8c65d4305ad39071c5e ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb" 1136849748 52406 dad2f72863a03727d5f536c64a69c452 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb" 1136849748 52665 661b1e6b26edb5f50dd491f8a701cb57 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb" 1136849748 50022 90249cba7e3e4e9845f80328d6f9bd13 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb" 1136849748 45955 6dfcb282cf470ceb18d57d017b7898d6 ""
@@ -55,6 +65,7 @@
   "/usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/helvetic/phvr8c.vf" 1136768653 3556 570286160ebfdd10d887aaa718e2e64d ""
   "/usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf" 1136768653 2344 44ff28c9ef2fc97180cd884f900fee71 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf" 1136768653 2348 717f0e01beff9c30c0df4945e471886f ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf" 1136768653 2316 c3899bd8afb459a9a5a9a546bf3029a2 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf" 1136768653 1380 037725697594405988999f61172f52de ""
   "/usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplr8c.vf" 1136768653 3504 f65f653e1ad318a9d01b4af15300683a ""
   "/usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf" 1136768653 2324 a163806de13ddf37313d2ee968aa0a98 ""
@@ -235,14 +246,15 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1475105269 1950515 49a2f0de8467d02420dc742360dc4a75 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1475105304 3873677 ad4c9aeedd9986136e23da5206655c67 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "Angeles_And_Leighton_Manuscript.aux" 1475563994 11489 a75cccae923f6b2f767e7ed408444a80 ""
-  "Angeles_And_Leighton_Manuscript.out" 1475563992 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Angeles_And_Leighton_Manuscript.tex" 1475563984 26239 5daad21dd13dc2136c120927e8c565bd ""
+  "Angeles_And_Leighton_Manuscript.aux" 1475617542 13713 5ba23e8c530c46e823794c1ce995ddf9 ""
+  "Angeles_And_Leighton_Manuscript.bbl" 1475568312 5266 3e62ce94194883e3af845cfe4b27315d "bibtex Angeles_And_Leighton_Manuscript"
+  "Angeles_And_Leighton_Manuscript.out" 1475617540 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Angeles_And_Leighton_Manuscript.tex" 1475617538 28181 3a176a22274e6664544580fc4b2d5b62 ""
   "G3_Horizontal_Color_High_Resolution.jpg" 1472230743 78932 b07014cef95f770bf8ab97d20ccb5681 ""
   "gsag3jnl.cls" 1472230474 10618 c4186caaa4641c2df234017df99061af ""
   "styles/inv.sty" 1472230630 288 06f7d208aaf5d5f9366f85e59d02734f ""
   (generated)
+  "Angeles_And_Leighton_Manuscript.pdf"
   "Angeles_And_Leighton_Manuscript.log"
   "Angeles_And_Leighton_Manuscript.aux"
   "Angeles_And_Leighton_Manuscript.out"
-  "Angeles_And_Leighton_Manuscript.pdf"

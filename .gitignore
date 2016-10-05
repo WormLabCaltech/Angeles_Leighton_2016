@@ -95,3 +95,23 @@ ENV/
 *.fls
 
 *.gz
+
+*.aux
+
+*.bbl
+
+*.blg
+
+*.dvi
+
+*.aux
+
+*.fdb_latexmk
+
+*.fls
+
+*.gz
+
+*.gz
+
+*.fls

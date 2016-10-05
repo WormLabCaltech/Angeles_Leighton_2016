@@ -26,8 +26,8 @@
 \newcommand{\goldpval}{$<10^{-38}$}
 
 % website commands
-\newcommand{\website}{\url{https://wormlabcaltech.github.io/Angeles_And_Leighton_2016/}}
-\newcommand{\webref}{\href{https://wormlabcaltech.github.io/Angeles_And_Leighton_2016/}{website}}
+\newcommand{\website}{\url{https://wormlabcaltech.github.io/Angeles_Leighton_2016/}}
+\newcommand{\webref}{\href{https://wormlabcaltech.github.io/Angeles_Leighton_2016/}{website}}
 
 \title{Sperm Loss Phenocopies Early Aging in \cel{}}
 
@@ -77,6 +77,12 @@ Aging is a natural phenomenon that affects most, if not all, animals.
 % TODO middle paragraph
 While there has been a long-standing interest in \cel{} longevity and aging past 20 days of life, which has led to a rich literature~\citep{}, there has not been such intense study into the changes that occur during the period of early aging. We refer to early aging as the period of time that occurs between the first day of adulthood (post-L4 molt) and 72 hours later. In this period of time, \cel{} worms undergo a transition between a hermaphroditic, self-fertile stage and its final form as a female worm.
 
+We attempted to elucidate the transcriptomic changes that occur in early aging in the worm. We reasoned that early aging would have two components that ought to be separable in principle. Since the final stage of the worm is as a female, there might be transcriptomic changes associated with sperm status. A second component of aging, on the other hand, should be decoupled from sperm-status. We designed a two factor experiment to test our hypothesis.
+
+Wild-type worms naturally become female as they age. These worms should experience both components of early aging as time proceeds. On the other hand, \cel{} defective in sperm formation will never transition to a hermaphroditic stage. As time moves forward, these spermless worms should not exhibit changes related to sperm or fertility status, and should only exhibit the genotype-independent changes. Additionally, we reasoned that we might be able to identify gene expression changes due to different life histories: whereas hermaphrodites lay almost 300 eggs over three days, spermless females likely engage in more mate-seeking behavior. The different life histories could affect gene expression and aging.
+
+As a model for a spermless female worm, we selected the \fog{} mutant for analysis. \fog{} is involved in germ-cell sex determination in the hermaphrodite worm and is required for spermatogenesis~\citep{Schedl1988,Clifford2000}. This protein is only expressed in the germline, which makes it a good target to generate spermless mutants with, since our perturbation would be targeted exclusively within the gonad.
+
 Here, we show that early aging can be divided into two additive components. First, a component that is associated with loss of hermaphroditic sperm and which leads to increases in the levels of transcription factors that are canonically associated with development and cellular differentiation, and enriched in neuronal functions. We also describe a second transcriptomic module consisting of \agen{} genes that is probably associated with biological age in \cel{} and that is invariant between worms that undergo a hermaphroditic egg-laying stage and worms that are never fertilized. Our results can be viewed online in interactive plots at the following address: \website{}.
 
 % figure experiment design
@@ -95,23 +101,23 @@ Here, we show that early aging can be divided into two additive components. Firs
 
 \subsection{RNA extraction}
 \label{sb:rna_extraction}
-Synchronized worms were grown to either young adulthood or the 6th day of adulthood prior to RNA extraction. Synchronization and aging were carried out according to protocols described previously~\citep{}. 1000--5000 worms from each replicate were rinsed into a microcentrifuge tube in S basal (5.85g/L NaCl, 1g/L $\mathrm{K}_2\mathrm{HPO}_4$, 6g/L $\mathrm{KH}_2\mathrm{PO}_4$), and then spun at 14,000rpm for 30s. The supernatant was removed and 1mL of Trizol was added. Worms were lysed by vortexing for 30s at room temperature and then 20 minutes at 4\degree. The Trizol lysate was then spun at 14,000rpm for 10~minutes at 4\degree{} down to allow removal of insoluble materials. Thereafter the Ambion TRIzol protocol was followed to finish the RNA extraction (MAN0001271 Rev. Date: 13 Dec 2012).
+Synchronized worms were grown to either young adulthood or the 6th day of adulthood prior to RNA extraction. Synchronization and aging were carried out according to protocols described previously~\citep{Leighton2014}. 1000--5000 worms from each replicate were rinsed into a microcentrifuge tube in S basal (5.85g/L NaCl, 1g/L $\mathrm{K}_2\mathrm{HPO}_4$, 6g/L $\mathrm{KH}_2\mathrm{PO}_4$), and then spun at 14,000rpm for 30s. The supernatant was removed and 1mL of Trizol was added. Worms were lysed by vortexing for 30s at room temperature and then 20 minutes at 4\degree. The Trizol lysate was then spun at 14,000rpm for 10~minutes at 4\degree{} down to allow removal of insoluble materials. Thereafter the Ambion TRIzol protocol was followed to finish the RNA extraction (MAN0001271 Rev. Date: 13 Dec 2012).
 
 \subsection{RNA-seq}
 \label{sb:rna_seq}
 
 \subsection{RNA interference}
 \label{sb:rnai}
-RNAi was performed as described in previous protocols~\citep{}. RNAi bacterial strains were grown in LB plus 100$\mu$g/mL ampicillin overnight. Fresh RNAi cultures were then plated onto NGM agar plates containing 25$\mu$g/mL carbenicillin and 1mM IPTG. N2 or \fog{}\emph{(q71)} hermaphrodites grown on \ecol{} OP50 were bleached onto sterile plates, and starved L1s transferred to recently seeded RNAi plates.
+RNAi was performed as described in previous protocols~\citep{Kamath2001} using a commercially available RNAi library~\citep{Kamath2003}. RNAi bacterial strains were grown in LB plus 100$\mu$g/mL ampicillin overnight. Fresh RNAi cultures were then plated onto NGM agar plates containing 25$\mu$g/mL carbenicillin and 1mM IPTG. N2 or \fog{}\emph{(q71)} hermaphrodites grown on \ecol{} OP50 were bleached onto sterile plates, and starved L1s transferred to recently seeded RNAi plates.
 All assays were performed on the offspring of these L1s. Worms grown on every strain were monitored for gross abnormalities, such as sterility, lethality and larval arrest. Control worms in all assays were fed with an anti-GFP RNAi strain. All RNAi worms were grown at 20\degree{} C.
 
 \subsection{Oocyte dropping assay}
 \label{sb:oocyte_assay}
-We performed a slightly modified oocyte dropping assay based on previously described protocols~\citep{}.~Feminized \fog{}\emph{(q71)} hermaphrodites were picked as virgin L4s the day before the assay to a fresh RNAi plate. The following day, the adult animals were placed on assay plates (NGM agar seeded with 15$\mu$L of \ecol{} OP50 four days earlier), twenty worms per assay, and allowed to incubate at room temperature. Laid oocytes were counted after two hours. Plates were then left at room temperature overnight to serve as lawn-leaving assays.
+We performed a slightly modified oocyte dropping assay based on previously described protocols~\citep{White2012}. Feminized \fog{}\emph{(q71)} hermaphrodites were picked as virgin L4s the day before the assay to a fresh RNAi plate. The following day, the adult animals were placed on assay plates (NGM agar seeded with 15$\mu$L of \ecol{} OP50 four days earlier), twenty worms per assay, and allowed to incubate at room temperature. Laid oocytes were counted after two hours. Plates were then left at room temperature overnight to serve as lawn-leaving assays.
 
 \subsection{Lawn-leaving assay}
 \label{sb:lawn_leaving}
-Young adult N2 hermaphrodites were selected the day of the assay and placed on assay plates (same as the oocyte dropping plates), twenty worms per assay, and allowed to incubate at room temperature overnight. Assays for \fog{}\emph{(q71)} hermaphrodites were performed on the same worms as used in the oocyte dropping assays. The following morning, plates were scored for leaving, with any worm touching any part of the bacterial lawn with any part of its body deemed to be “on” the lawn, and all others deemed to be “off”.
+Lawn-leaving assays were performed as described previously~\citep{Lipton2004}. Young adult N2 hermaphrodites were selected the day of the assay and placed on assay plates (same as the oocyte dropping plates), twenty worms per assay, and allowed to incubate at room temperature overnight. Assays for \fog{}\emph{(q71)} hermaphrodites were performed on the same worms as used in the oocyte dropping assays. The following morning, plates were scored for leaving, with any worm touching any part of the bacterial lawn with any part of its body deemed to be “on” the lawn, and all others deemed to be “off”.
 
 \subsection{Brood size counting}
 \label{sb:brood_size}
@@ -120,8 +126,8 @@ Worms were selected for this assay as L4 hermaphrodites to ensure that all proge
 \subsection{Statistical Analysis}
 \label{sb:statistics}
 \subsubsection{RNA-Seq Analysis.}
-RNA-seq alignment was performed using Kallisto~\citep{} with 200 bootstraps. The commands used for read-alignment are in file % TODO
-. Differential expression analysis was performed using Sleuth~\citep{}. The following Generalized Linear Model (GLM) was fit:
+RNA-seq alignment was performed using Kallisto~\citep{Bray2015} with 200 bootstraps. The commands used for read-alignment are in file % TODO
+. Differential expression analysis was performed using Sleuth~\citep{Pimentel2016}. The following Generalized Linear Model (GLM) was fit:
 
 \begin{equation}
   \log(y_i) = \beta_{0,i} + \beta_{G,i}\dot~G + \beta_{A,i}\dot~A + \beta_{A::G,i}\dot~A~G,
@@ -130,15 +136,17 @@ RNA-seq alignment was performed using Kallisto~\citep{} with 200 bootstraps. The
 
 where $y_i$ are the TPM counts for the ith gene; $\beta_{0,i}$ is the intercept for the ith gene, and $\beta_{X,i}$ is the regression coefficient for variable $X$ for the $i$th gene; $A$ is a binary age variable indicating young adult (0) or old adult (1) and $G$ is the genotype variable indicating wild-type (0) or \fog{} (1); $\beta_{A::G, i}$ refers to the regression coefficient accounting for the interaction between the age and genotype variables in the $i$th gene. Genes were called significant if the FDR-adjusted q-value for any regression coefficient was less than 0.1. Our script for differential analysis is available on GitHub.
 
-Regression coefficients and TPM counts were processed using Python. Data analysis was performed using the Pandas, NumPy and SciPy libraries~\citep{}. Graphics were created using the Matplotlib and Seaborn libraries~\citep{}.
+Regression coefficients and TPM counts were processed using Python 3.5 in a Jupyter Notebook~\citep{Perez2007}. Data analysis was performed using the Pandas, NumPy and SciPy libraries~\citep{McKinney2011,VanDerWalt2011,Oliphant2007}. Graphics were created using the Matplotlib and Seaborn libraries~\citep{Waskom,Hunter2007}. Interactive graphics were generated using Bokeh~\citep{Team2014}.
 
-Tissue Enrichment Analysis was performed using WormBase's TEA tool~\citep{}. We also used the tissue annotation dictionary provided by WormBase to identify genes that were altered in specific tissues.
+Tissue Enrichment Analysis was performed using WormBase's TEA tool~\citep{Angeles-Albores2016} for Python.
+
 \subsubsection{Brood Size Analysis.}
 
 Brood size results were analyzed using Welch's t-test to identify genes that were significantly different from a GFP RNAi control. RNAi control results were pooled over multiple days because we could not detect systematic day-day variation. We did not apply FDR or Bonferroni correction because, at a p-value threshold for significance of 0.05, we expected 1 false positive on average per screen.
-\subsubsection{lawn-leaving Analysis.}
 
-lawn-leaving results were analyzed using a $\chi^2$ test for categorical variables. Results were considered statistically significant if $p<0.05$. No FDR or Bonferroni correction was applied because the size of the screen was too small, with 1 false positive expected on average per screen. However, the lawn-leaving results suffered from high variance, which can lead to false positive results.
+\subsubsection{Lawn-leaving Analysis.}
+
+Lawn-leaving results were analyzed using a $\chi^2$ test for categorical variables. Results were considered statistically significant if $p<0.05$. No FDR or Bonferroni correction was applied because the size of the screen was too small, with 1 false positive expected on average per screen. However, the lawn-leaving results suffered from high variance, which can lead to false positive results.
 To safeguard against false positive discovery, we used a non-parametric bootstrap to estimate the true $\chi^2$ value. Using a bootstrap does not lead to statistical acceptance of any gene that was not accepted without a bootstrap; however, applying a boostrap does lead to statistical rejection of a large number of results.
 \subsubsection{Oocyte Dropping Analysis.}
 
@@ -167,7 +175,7 @@ Strains are available upon request. File S1 XXXX. File S2 contains XXXX. File S3
 
 We used a linear generalized model (see \nameref{sb:statistics}) with interactions to identify a transcriptomic profile associated with the \fog{} genotype, a transcriptomic profile of \cel{} aging common to both genotypes. We identified an aging transcriptomic phenotypic consisting of \agen{} genes that were differentially expressed in 6 day old animals relative to 3 day old animals. This constitutes almost one quarter of the genes in \cel{}. Tissue Enrichment Analysis (TEA) showed that muscle-associated and hypodermis-associated genes are particularly enriched in this dataset (see Figure~\ref{fig:agingtranscriptome}).
 
-To verify the quality of our dataset, we generated a list of genes expected to be altered in 6 day old worms using previous literature reports including downstream genes of \emph{daf-12}, \emph{daf-16}, and aging and lifespan extension datasets~\citep{}. Out of \goldn{} genes in our golden standards, we found \goldfound{}. This results was statistically significant with a p-value \goldpval{}.
+To verify the quality of our dataset, we generated a list of genes expected to be altered in 6 day old worms using previous literature reports including downstream genes of \emph{daf-12}, \emph{daf-16}, and aging and lifespan extension datasets~\citep{}. Out of \goldn{} genes in our golden standards, we found \goldfound{} genes. This results was statistically significant with a p-value \goldpval{}.
 
 \begin{table*}[htbp]
 \renewcommand{\familydefault}{\sfdefault}\normalfont{}
@@ -197,14 +205,14 @@ We were surprised at the large fraction of genes that overlapped between these t
 
 This aberrant behaviour can be most clearly observed by plotting the $\beta$ regression coefficients for each variable against each other. Doing so reveals a clear trend along the line $y=x$. However, our model is built to specifically disallow this. The only situation in which $\beta_\mathrm{aging} = \beta_\mathrm{genotype}$ is a valid statement in our model is when $\beta_\mathrm{aging::genotype} \neq 0$. Therefore, we also plotted $\beta_\mathrm{aging::genotype}$ against $\beta_\mathrm{aging}$. This revealed a strong inverse relationship: The interaction term cancels the aging (or genotype) term. An old, \fog{} worm would be represented as
 $\beta_\mathrm{aging} +\beta_\mathrm{genotype} + \beta_\mathrm{aging::genotype} = \beta_\mathrm{genotype}$.
-Therefore, genes that are associated with sperm loss through mutation in the \fog{} gene do not change through early aging in these animals. However, in animals that are wild-type, these same genes will eventually change to the same levels as in the \fog{} mutants. In other words, \fog{} partially phenocopies the aging process in wild-type animals 3 days post-adulthood.
+Therefore, genes that are associated with sperm loss through mutation in the \fog{} gene do not change through early aging in these animals. However, in animals that are wild-type, these same genes will eventually change to the same levels as in the \fog{} mutants. In other words, \fog{} partially phenocopies the aging process in wild-type animals 3 days post-adulthood (see Fig.~\ref{fig:aberrant_aging}).
 
 % aberrant aging
 \begin{figure}[htbp]
 \renewcommand{\familydefault}{\sfdefault}\normalfont{}
 \centering
 \includegraphics[width=\linewidth]{../output/figs/final_figs/aberrant_aging.pdf}
-\caption{ \fog{} partially phenocopies early aging in \cel{}. Feminization by loss of \fog{} is associated with a transcriptomic phenotype involving \fogn{} genes. These genes are also altered in wild-type worms as they progress from young adulthood to old adulthood. However, progression from young to old adulthood in a \fog{} background results in no change in the expression level of these genes. \textbf{a} $\beta_\mathrm{aging}$ vs $\beta_\mathrm{genotype}$ shows that these values have a correlation close to unity. Black line is the line $y=x$, not a line of best fit. \textbf{b} $beta_\mathrm{aging::genotype}$ vs $\beta_\mathrm{aging}$ shows that there is an inverse correlation between these two variables, which means that whereas in a wild-type animal these genes would change expression level as it ages, in a \fog{} animal these genes would not change.
+\caption{ \fog{} partially phenocopies early aging in \cel{}. Feminization by loss of \fog{} is associated with a transcriptomic phenotype involving \fogn{} genes. \intersectn{}/\fogn{} of these genes are also altered in wild-type worms as they progress from young adulthood to old adulthood, and \coexpressed{} change in the same direction. However, progression from young to old adulthood in a \fog{} background results in no change in the expression level of these genes. \textbf{a} $\beta_\mathrm{aging}$ vs $\beta_\mathrm{genotype}$ shows that these values have a correlation close to unity. Black line is the line $y=x$, not a line of best fit. \textbf{b} $beta_\mathrm{aging::genotype}$ vs $\beta_\mathrm{aging}$ shows that there is an inverse correlation between these two variables, which means that whereas in a wild-type animal these genes would change expression level as it ages, in a \fog{} animal these genes would not change.
 The black line is the line $y=-x$, and is not a line of best fit. For both graphs, color is proportional to $-\log{Q}$. Purple shows Q-values close to 0.1, whereas yellow shows values $<10^{-20}$.
 An interactive version of these graphs can be found on our \webref{}.
 }%
@@ -308,9 +316,6 @@ Given the enrichment of neuronal transcription factors that are associated with 
 \label{sub:Interpretation of Screen Hits}
 
 
-
-
-
-% \bibliography{example-bibliography}
+\bibliography{citations}
 
 \end{document}
