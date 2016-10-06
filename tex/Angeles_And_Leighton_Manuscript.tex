@@ -26,8 +26,9 @@
 \newcommand{\goldpval}{$<10^{-38}$}
 
 % website commands
-\newcommand{\website}{\url{https://wormlabcaltech.github.io/Angeles_Leighton_2016/}}
-\newcommand{\webref}{\href{https://wormlabcaltech.github.io/Angeles_Leighton_2016/}{website}}
+\newcommand{\website}{\href{https://wormlabcaltech.github.io/Angeles_Leighton_2016/}}
+\newcommand{\webref}{
+\href{https://wormlabcaltech.github.io/Angeles_Leighton_2016/}{website}}
 
 \title{Sperm Loss Phenocopies Early Aging in \cel{}}
 
@@ -45,13 +46,17 @@
 \affil[$\S$]{Department of Biology and Biological Engineering, Caltech, Pasadena, CA, 91125, USA}
 % \affil[$\ast\ast$]{Department of Biology, Stanford, Stanford, CA, 94305, USA.}
 
-\keywords{\cel{} \\ \fog{} \\ aging \\ transcriptome}
+\keywords{\cel{} \\ \fog{} \\ aging \\ longevity \\ transcriptome}
 
 \runningtitle{Effects of Life History on the Transcriptomic Phenotypes of Two  Genotypes of \cel} % For use in the footer
 
 \correspondingauthor{Angeles-Albores}
 
 \begin{abstract}
+  Aging is a natural process that is associated with cellular and organismal degeneration through time. Although there has been extensive research into extreme aging and lifespan extension in \cel{}, there is comparatively little research focusing on the effects of aging in middle-aged animals. Here, we have studied a timepoint we call early aging, defined as the 3 days that occur after the L4 molt.
+  We studied early aging in wild-type and spermless animals to understand whether egg-laying or sperm-status lead to different transcriptomic aging profiles.
+  We find that spermless young adult animals partially phenocopy wild-type animals that have lost their sperm after 3 days of egg-laying, and that spermless animals also exhibit less transcriptomic changes associated with aging throughout these 3 days. Our results indicate that sperm loss triggers naturally ocurring transcriptomic changes.
+  These changes involve a variety of factors, and they are enriched in transcription factors canonically associated with neuronal development and differentiation.
 \end{abstract}
 
 \setboolean{displaycopyright}{true}
@@ -75,15 +80,17 @@
 Aging is a natural phenomenon that affects most, if not all, animals.
 
 % TODO middle paragraph
-While there has been a long-standing interest in \cel{} longevity and aging past 20 days of life, which has led to a rich literature~\citep{}, there has not been such intense study into the changes that occur during the period of early aging. We refer to early aging as the period of time that occurs between the first day of adulthood (post-L4 molt) and 72 hours later. In this period of time, \cel{} worms undergo a transition between a hermaphroditic, self-fertile stage and its final form as a female worm.
+While there has been a long-standing interest in \cel{} longevity and aging past 20 days of life, which has led to a rich literature~\citep{}, there has not been such intense study into the changes that occur during a period we refer to as `early aging'.
+We define early aging in \cel{} as the period of time that occurs between the first day of adulthood (post-L4 molt) and 72 hours later. In this period of time, \cel{} worms undergo a transition between a hermaphroditic, self-fertile stage and its final form as a female worm.
 
-We attempted to elucidate the transcriptomic changes that occur in early aging in the worm. We reasoned that early aging would have two components that ought to be separable in principle. Since the final stage of the worm is as a female, there might be transcriptomic changes associated with sperm status. A second component of aging, on the other hand, should be decoupled from sperm-status. We designed a two factor experiment to test our hypothesis.
+We wanted to understand the transcriptomic changes that occur in early aging in the worm. We reasoned that early aging would have two components that ought to be separable in principle. Since the final stage of the worm is as a female, there might be transcriptomic changes associated with sperm status. A second component of aging, on the other hand, should be decoupled from sperm-status. We designed a two factor experiment to test our hypothesis (see Fig.~\ref{fig:wormlife}).
 
 Wild-type worms naturally become female as they age. These worms should experience both components of early aging as time proceeds. On the other hand, \cel{} defective in sperm formation will never transition to a hermaphroditic stage. As time moves forward, these spermless worms should not exhibit changes related to sperm or fertility status, and should only exhibit the genotype-independent changes. Additionally, we reasoned that we might be able to identify gene expression changes due to different life histories: whereas hermaphrodites lay almost 300 eggs over three days, spermless females likely engage in more mate-seeking behavior. The different life histories could affect gene expression and aging.
 
 As a model for a spermless female worm, we selected the \fog{} mutant for analysis. \fog{} is involved in germ-cell sex determination in the hermaphrodite worm and is required for spermatogenesis~\citep{Schedl1988,Clifford2000}. This protein is only expressed in the germline, which makes it a good target to generate spermless mutants with, since our perturbation would be targeted exclusively within the gonad.
 
-Here, we show that early aging can be divided into two additive components. First, a component that is associated with loss of hermaphroditic sperm and which leads to increases in the levels of transcription factors that are canonically associated with development and cellular differentiation, and enriched in neuronal functions. We also describe a second transcriptomic module consisting of \agen{} genes that is probably associated with biological age in \cel{} and that is invariant between worms that undergo a hermaphroditic egg-laying stage and worms that are never fertilized. Our results can be viewed online in interactive plots at the following address: \website{}.
+Here, we show that early aging can be divided into two additive components. First, a component that is associated with loss of hermaphroditic sperm and which leads to increases in the levels of transcription factors that are canonically associated with development and cellular differentiation, and enriched in neuronal functions.
+We also describe a second transcriptomic module consisting of \agen{} genes that is probably associated with biological age in \cel{} and that is invariant between worms that undergo a hermaphroditic egg-laying stage and worms that are never fertilized. To facilitate exploration of the data, we have generated a website with interactive plots. This website is located at: \url{https://github.com/WormLabCaltech/Angeles_Leighton_2016}.
 
 % figure experiment design
 \begin{figure}[htbp]
@@ -106,6 +113,11 @@ Synchronized worms were grown to either young adulthood or the 6th day of adulth
 \subsection{RNA-seq}
 \label{sb:rna_seq}
 
+RNA integrity was assessed using RNA 6000 Pico Kit for Bioanalyzer (Agilent Technologies \#5067-1513) and mRNA was isolated using NEBNext Poly(A) mRNA Magnetic Isolation Module (NEB \#E7490). RNA-seq libraries were constructed using NEBNext Ultra RNA Library Prep Kit for Illumina (NEB \#E7530) following manufacturer’s instructions. Briefly, mRNA isolated from $\sim1\mu$g of total RNA was fragmented to the average size of 200 nt by incubating at 94 °C for 15 min in first strand buffer, cDNA was synthesized using random primers and ProtoScript II Reverse Transcriptase followed by second strand synthesis using NEB Second Strand Synthesis Enzyme Mix. Resulting DNA fragments were end-repaired, dA tailed and ligated to NEBNext hairpin adaptors (NEB \#E7335).
+After ligation, adaptors were converted to the ‘Y’ shape by treating with USER enzyme and DNA fragments were size selected using Agencourt AMPure XP beads (Beckman Coulter \#A63880) to generate fragment sizes between 250 and 350 bp. Adaptor-ligated DNA was PCR amplified followed by AMPure XP bead clean up. Libraries were quantified with Qubit dsDNA HS Kit (ThermoFisher Scientific \#Q32854) and the size distribution was confirmed with High Sensitivity DNA Kit for Bioanalyzer (Agilent Technologies \#5067- 4626).
+Libraries were sequenced on Illumina HiSeq2500 in single read mode with the read length of 50 nt following manufacturer's instructions. Base calls were performed with RTA 1.13.48.0 followed by conversion to FASTQ with bcl2fastq 1.8.4.
+
+
 \subsection{RNA interference}
 \label{sb:rnai}
 RNAi was performed as described in previous protocols~\citep{Kamath2001} using a commercially available RNAi library~\citep{Kamath2003}. RNAi bacterial strains were grown in LB plus 100$\mu$g/mL ampicillin overnight. Fresh RNAi cultures were then plated onto NGM agar plates containing 25$\mu$g/mL carbenicillin and 1mM IPTG. N2 or \fog{}\emph{(q71)} hermaphrodites grown on \ecol{} OP50 were bleached onto sterile plates, and starved L1s transferred to recently seeded RNAi plates.
@@ -126,8 +138,7 @@ Worms were selected for this assay as L4 hermaphrodites to ensure that all proge
 \subsection{Statistical Analysis}
 \label{sb:statistics}
 \subsubsection{RNA-Seq Analysis.}
-RNA-seq alignment was performed using Kallisto~\citep{Bray2015} with 200 bootstraps. The commands used for read-alignment are in file % TODO
-. Differential expression analysis was performed using Sleuth~\citep{Pimentel2016}. The following Generalized Linear Model (GLM) was fit:
+RNA-seq alignment was performed using Kallisto~\citep{Bray2015} with 200 bootstraps. The commands used for read-alignment are in the S.I.. Differential expression analysis was performed using Sleuth~\citep{Pimentel2016}. The following Generalized Linear Model (GLM) was fit:
 
 \begin{equation}
   \log(y_i) = \beta_{0,i} + \beta_{G,i}\dot~G + \beta_{A,i}\dot~A + \beta_{A::G,i}\dot~A~G,
@@ -147,16 +158,15 @@ Brood size results were analyzed using Welch's t-test to identify genes that wer
 \subsubsection{Lawn-leaving Analysis.}
 
 Lawn-leaving results were analyzed using a $\chi^2$ test for categorical variables. Results were considered statistically significant if $p<0.05$. No FDR or Bonferroni correction was applied because the size of the screen was too small, with 1 false positive expected on average per screen. However, the lawn-leaving results suffered from high variance, which can lead to false positive results.
-To safeguard against false positive discovery, we used a non-parametric bootstrap to estimate the true $\chi^2$ value. Using a bootstrap does not lead to statistical acceptance of any gene that was not accepted without a bootstrap; however, applying a boostrap does lead to statistical rejection of a large number of results.
+To safeguard against false positive discovery, we used a non-parametric bootstrap to estimate the true $\chi^2$ value. Using a bootstrap on this dataset does not lead to statistical acceptance of any gene that was not accepted without a bootstrap; however, applying a boostrap does lead to statistical rejection of a large number of results.
 \subsubsection{Oocyte Dropping Analysis.}
 
 Oocyte dropping results were analyzed using a non-parametric bootstrapped Mann-Whitney U-test because the GFP control variance was very large relative to the variance of the RNAi treatments. Results were considered statistically significant if $p<0.05$.
 
 
-
 \subsection{Data Availability}
 \label{sb:data_availability}
-Strains are available upon request. File S1 XXXX. File S2 contains XXXX. File S3 contains XXXX. Sequence data are available at GenBank and the accession numbers are listed in File S3. Gene expression data are available at GEO with the accession number: XXXXXX. Code used to generate the simulated data is provided in file XXXX.
+Strains are available upon request. All of the data and scripts pertinent for this project except the raw reads can be found on our github repository \url{https://github.com/WormLabCaltech/Angeles_Leighton_2016}. File S1 contains Kallisto commands used to process the read alignments as well as the accession numbers for the raw-reads, whcih are available at GenBank. File S2 contains the list of genes that were altered in aging regardless of genotype. File S3 contains the list of genes that change with sperm loss.
 
 \section{Results}
 \label{sec:results}
@@ -197,11 +207,11 @@ P7.p & 1 &	6	& 0.001382\\
 \end{tableminipage}
 \end{table*}
 
-To better understand this dataset, we extracted all the transcription factors that were altered in the aging gene-set. We found \tfaging{} transcription factors. We expected these transcription factors to reflect the same tissue enrichment as the bulk dataset, but the results showed enrichment of hypodermic tissues and neuronal tissues, not muscle (see Table~\ref{tab:tea_tf_age}). Many of these transcription factors have been typically associated with developmental processess, and it is unclear why they would change expression in adult animals. Interactive volcano plots for each gene-set can be found in our \webref{}, where all the transcription factors are shown as green and all significantly altered genes are plotted in gray (no downsampling).
+We extracted all the transcription factors that were altered in the aging gene-set. We found \tfaging{} transcription factors. We expected these transcription factors to reflect the same tissue enrichment as the bulk dataset, but the results showed enrichment of hypodermic tissues and neuronal tissues, not muscle (see Table~\ref{tab:tea_tf_age}). Many of these transcription factors have been  associated with developmental processess, and it is unclear why they would change expression in adult animals. Interactive volcano plots for each gene-set can be found in our \webref{}.
 
-Next, we extracted the regression coefficients associated with genotype change, we were also able to identify \fogn{} genes associated with the \fog{} genotype, including \tffog{} transcription factors. Gonad-related tissues were enriched in this gene set, consistent with the function of \fog{} as a sperm transcription factor. As before, tissue enrichment analysis of these transcription factors reveals that they are involved in neural development. Of the \fogn{} genes that we identified in the \fog{} transcriptome, \intersectn{} genes were also identified in our aging set. Moreover, of these \intersectn{}  genes, \coexpressed{} genes changed in the same direction in age and genotype.
+We were also able to identify \fogn{} genes associated with the \fog{} genotype, including \tffog{} transcription factors. Gonad-related tissues were enriched in this gene set, consistent with the function of \fog{} as a sperm specification factor. As before, tissue enrichment analysis of these transcription factors reveals that they are involved in neural development. Of the \fogn{} genes that we identified in the \fog{} transcriptome, \intersectn{} genes were also identified in our aging set. Moreover, of these \intersectn{}  genes, \coexpressed{} genes changed in the same direction in age and genotype.
 
-We were surprised at the large fraction of genes that overlapped between these two categories. We built our model to explicitly avoid overlap between variables. Our original expectation had been that certain genes would show a common aging phenotype regardless of genotype; that \fog{} would exhibit a specific set of changes; and that a small set of genes would be altered between genotypes throughout the course of aging. However, the large fraction of genes that exhibit shared changes between both variables suggests that almost all genes that are involved in sperm loss through mutation of \fog{} have an aberrant aging behaviour.
+We were surprised at the large fraction of genes that overlapped between these two categories. We built our model to explicitly avoid overlap between variables. Our original expectation had been that certain genes would show a common aging phenotype regardless of genotype; that \fog{} would exhibit a specific set of changes; and that a small set of genes would age differently between genotypes. However, the large fraction of genes that exhibit shared changes between both variables suggests that almost all genes that are involved in sperm loss through mutation of \fog{} have an aberrant aging behaviour.
 
 This aberrant behaviour can be most clearly observed by plotting the $\beta$ regression coefficients for each variable against each other. Doing so reveals a clear trend along the line $y=x$. However, our model is built to specifically disallow this. The only situation in which $\beta_\mathrm{aging} = \beta_\mathrm{genotype}$ is a valid statement in our model is when $\beta_\mathrm{aging::genotype} \neq 0$. Therefore, we also plotted $\beta_\mathrm{aging::genotype}$ against $\beta_\mathrm{aging}$. This revealed a strong inverse relationship: The interaction term cancels the aging (or genotype) term. An old, \fog{} worm would be represented as
 $\beta_\mathrm{aging} +\beta_\mathrm{genotype} + \beta_\mathrm{aging::genotype} = \beta_\mathrm{genotype}$.
@@ -212,7 +222,7 @@ Therefore, genes that are associated with sperm loss through mutation in the \fo
 \renewcommand{\familydefault}{\sfdefault}\normalfont{}
 \centering
 \includegraphics[width=\linewidth]{../output/figs/final_figs/aberrant_aging.pdf}
-\caption{ \fog{} partially phenocopies early aging in \cel{}. Feminization by loss of \fog{} is associated with a transcriptomic phenotype involving \fogn{} genes. \intersectn{}/\fogn{} of these genes are also altered in wild-type worms as they progress from young adulthood to old adulthood, and \coexpressed{} change in the same direction. However, progression from young to old adulthood in a \fog{} background results in no change in the expression level of these genes. \textbf{a} $\beta_\mathrm{aging}$ vs $\beta_\mathrm{genotype}$ shows that these values have a correlation close to unity. Black line is the line $y=x$, not a line of best fit. \textbf{b} $beta_\mathrm{aging::genotype}$ vs $\beta_\mathrm{aging}$ shows that there is an inverse correlation between these two variables, which means that whereas in a wild-type animal these genes would change expression level as it ages, in a \fog{} animal these genes would not change.
+\caption{ \fog{} partially phenocopies early aging in \cel{}. Feminization by loss of \fog{} is associated with a transcriptomic phenotype involving \fogn{} genes. \intersectn{}/\fogn{} of these genes are also altered in wild-type worms as they progress from young adulthood to old adulthood, and \coexpressed{} change in the same direction. However, progression from young to old adulthood in a \fog{} background results in no change in the expression level of these genes. \textbf{a} $\beta_\mathrm{aging}$ vs $\beta_\mathrm{genotype}$ shows that these values have a correlation close to unity. Black line is the line $y=x$, not a line of best fit. \textbf{b} $\beta_\mathrm{aging::genotype}$ vs $\beta_\mathrm{aging}$ shows that there is an inverse correlation between these two variables, which means that whereas in a wild-type animal these genes would change expression level as it ages, in a \fog{} animal these genes would not change.
 The black line is the line $y=-x$, and is not a line of best fit. For both graphs, color is proportional to $-\log{Q}$. Purple shows Q-values close to 0.1, whereas yellow shows values $<10^{-20}$.
 An interactive version of these graphs can be found on our \webref{}.
 }%
@@ -222,8 +232,6 @@ An interactive version of these graphs can be found on our \webref{}.
 
 \subsection*{Screens}
 \label{subs:Screens}
-
-We designed three screens to test our gene sets. We selected gene targets by identifying genes that belonged exclusively to one of the three sets defined previously. We selected two assays that could be performed to test genes associated with genotype change. We reasoned that genes that are negatively correlated with the \fog{} genotype could be associated with fertility, whereas genes that are positively correlated with the \fog{} genotype could be associated with ovulation rate. Moreover, lawn leaving is known to be associated with sperm status~\citep{}, so we decided to perform a second screen to study lawn-leaving behaviour.
 
 % figure 3 (brood assay)
 \begin{figure}[htbp]
@@ -235,16 +243,7 @@ We designed three screens to test our gene sets. We selected gene targets by ide
 \label{fig:broodassay}
 \end{figure}
 
-We performed a brood size screen, selecting as targets genes that were upregulated in N2 but downregulated in \fog{}, and we also included some genes from alternative categories if we visually noticed serious decreases in brood size. We identified 9 genes that altered brood size (see Figure~\ref{fig:broodassay}). Of these 7 genes, XXX were previously known. XXX/7 were genes that were associated specifically with the \fog{} phenotype. XXX/7 were associated with aging or life history.
-
-% brood assay
-% exc-5
-% R09H10.5 - expressed in intestine
-% ard-1 - alcohol dehydrogenase, fat content
-% ape-1 - p53 deydrogenase, sterile
-% W07G4.5 - intestine
-% R07E4.1
-% zip-3
+We performed a brood size screen, selecting as targets genes that were upregulated in N2 but downregulated in \fog{}. We identified 9 genes that altered brood size (see Figure~\ref{fig:broodassay}). Of these 7 genes, XXX were previously known. XXX/7 were genes that were associated specifically with the \fog{} phenotype. XXX/7 were associated with aging or life history.
 
 % figure 5 (oocyte dropping)
 \begin{figure}[htbp]
@@ -256,7 +255,7 @@ We performed a brood size screen, selecting as targets genes that were upregulat
 \label{fig:oocytedropping}
 \end{figure}
 
-We reasoned that some of the genes in our genotype dataset might also be associated with ovulation rate in \fog{}. We selected genes that showed upregulation in \fog{} animals and placed them on a lawn for two hours. We observed large variation in the ovulation rate for the control RNAi, and as a result no genes were associated with alterations in ovulation rate. However, the pooled variance across the screen was very similar to the control variance, suggesting that our failure to identify genes was not a result of poor conditions or experimental variance. Our screen identified a single hit: C23H4.4, a carboxyl ester lipase with unknown function.
+Some of the genes in our genotype dataset could be associated with ovulation rate in \fog{}. We selected genes that showed upregulation in \fog{} animals and placed them on a lawn for two hours. We observed large variation in the ovulation rate for the control RNAi, and as a result no genes were associated with alterations in ovulation rate. However, the pooled variance across the screen was very similar to the control variance, suggesting that our failure to identify genes was not a result of poor conditions or experimental variance. Our screen identified a single hit: C23H4.4, a carboxyl ester lipase with unknown function.
 
 % figure 4 (lawn-leaving)
 \begin{figure}[htbp]
@@ -271,6 +270,35 @@ We reasoned that some of the genes in our genotype dataset might also be associa
 We also performed lawn-leaving assays because previous research has reported differences in N2 and \fog{} leaving rates~\citep{}. We tested genes that increased in \fog{} animals in a \fog{} background, expecting that decreasing these genes should lead to a reversal of the lawn-leaving assay. Likewise, we tested genes that were decreased in \fog{} animals in an N2 background, expecting that knockdown of these genes would cause lawn-leaving. We identified 9 genes that had an altered lawn-leaving profile in an N2 background.
 We also identified 9 genes that had an altered lawn-leaving profile in a \fog{} background. Oddly, both screens identified  genes that mainly stimulate lawn-leaving. Initially, we had expected that RNAi knockdown would allow us to identify genes that inhibit lawn-leaving behaviour in an N2 background; whereas RNAi knockdown in a \fog{} background would identify genes that promote lawn-leaving. However, our screen only identified genes that suppress lawn-leaving in an N2 background. All other hits stimulated lawn-leaving.
 
+\section*{Discussion}
+\label{sec:discussion}
+
+\subsection*{Defining an Early Aging Phenotype}
+\label{sub:Defining an Early Aging Phenotype}
+
+Our experimental design enables us to decouple the effects of egg-laying from aging. As a result of this, we identified a set of almost 4,000 genes that are altered similarly between wild-type and \fog{} mutants. Due to the read depth of our transcriptomic data (20 million reads) and the number of samples measured (3 biological replicates for 4 different life stages/genotypes), this dataset constitutes a high-quality description of the genetic changes that occur in natural \cel{} early aging independently of genotype.
+
+\subsection*{Developmental Factors Change During Early Aging}
+\label{sub:development_in_aging}
+
+Our transcriptomic explorations revealed a host of transcription factors that changed during early aging in \cel{}. Many of these transcription factors have been associated with embryonic development via cellular differentiation and specification. For example, we identified the transcription factor \emph{lin-32}, which has been associated with neuron development~\citep{}; the Six5 ortholog \emph{unc-39} has been associated with axonal pathfinding; \emph{cnd-1}, a homolog  of the vertebrate NeuroD transcription factors, is expressed in the early embryo and its expression is reported to disappear by the end of the first larval stage~\citep{}.
+
+Our explorations shown that the loss of the \fog{} transcription factor phenocopies early aging in \cel{}. The reason for phenocopying is unclear at this point, but we speculate that such a result could happen if an animal could sense its own fertilization status. Indeed, prior work has established that \cel{} is capable of detecting its fertilization state, and that this state has consequences for pheromone production and mating behaviours.
+Given the enrichment of neuronal transcription factors that are associated with sperm loss in our dataset, we believe this dataset should contain some of the transcriptomic modules that are involved in these pheromone and behavioural pathways. Currently, we cannot judge how many of the changes induced by loss of hermaphroditic sperm are developmental (i.e., irreversible), and how many can be rescued by mating to a male.
+While an entertaining thought experiment, establishing whether these transcriptomic changes can be rescued by males is a daunting experimental task, given that the timescales for robust, whole-animal transcriptomic changes could reasonably be the same as the timescale of onset of embryonic transcription.
+
+\subsection*{Interpretation of Screen Hits}
+\label{sub:Interpretation of Screen Hits}
+% brood assay
+% exc-5 - FGD1 ortholog, guanine nucleotide exchange factor
+% R09H10.5 - expressed in intestine
+% ard-1 - alcohol dehydrogenase, fat content
+% ape-1 - p53 deydrogenase, sterile
+% W07G4.5 - intestine
+% R07E4.1 -
+% zip-3
+
+% lawn leaving
 % n2
 % ZK131.11 - pathogen defense
 % F42A10.7 - stress
@@ -293,27 +321,6 @@ We also identified 9 genes that had an altered lawn-leaving profile in a \fog{} 
 % nhr-74 - tf
 % F57F4.2 - nan
 % R13A5.11 - involved in reproduction
-
-
-
-\section*{Discussion}
-\label{sec:discussion}
-
-\subsection*{Defining an Early Aging Phenotype}
-\label{sub:Defining an Early Aging Phenotype}
-
-Our experimental design enables us to decouple the effects of egg-laying from aging. As a result of this, we identified a set of almost 4,000 genes that are altered similarly between wild-type and \fog{} mutants. Due to the read depth of our transcriptomic data (20 million reads) and the number of samples measured (3 biological replicates for 4 different life stages/genotypes), this dataset constitutes a high-quality description of the genetic changes that occur in natural \cel{} aging.
-
-\subsection*{Developmental Factors Change During Early Aging}
-\label{sub:development_in_aging}
-
-Our transcriptomic explorations revealed a host of transcription factors that changed during early aging in \cel{}. Many of these transcription factors have been associated with embryonic development via cellular differentiation and specification. For example, we identified the transcription factor \emph{lin-32}, which has been associated with neuron development~\citep{}; the Six5 ortholog \emph{unc-39} has been associated with axonal pathfinding; \emph{cnd-1}, a homolog  of the vertebrate NeuroD transcription factors, is expressed in the early embryo and its expression is reported to disappear by the end of the first larval stage~\citep{}.
-
-Our explorations shown that the loss of the \fog{} transcription factor phenocopies early aging in \cel{}. The reason for phenocopying is unclear at this point, but we speculate that such a result could happen if an animal could sense its own fertilization status. Indeed, prior work has established that \cel{} is capable of detecting its fertilization state, and that this state has consequences for pheromone production and mating behaviours.
-Given the enrichment of neuronal transcription factors that are associated with sperm loss in our dataset, we believe this dataset should contain some of the transcriptomic modules that are involved in these pheromone and behavioural pathways. Currently, we cannot judge how many of the changes induced by loss of hermaphroditic sperm are developmental (i.e., irreversible), and how many can be rescued by mating to a male. While an entertaining thought experiment, establishing whether these transcriptomic changes can be rescued by males is a daunting experimental task, given that the timescales for robust, whole-animal transcriptomic changes could reasonably be the same as the timescale of onset of embryonic transcription.
-
-\subsection*{Interpretation of Screen Hits}
-\label{sub:Interpretation of Screen Hits}
 
 
 \bibliography{citations}

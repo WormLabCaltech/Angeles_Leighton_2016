@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Angeles_And_Leighton_Manuscript"] 1475568312 "Angeles_And_Leighton_Manuscript.aux" "Angeles_And_Leighton_Manuscript.bbl" "Angeles_And_Leighton_Manuscript" 1475617542
+["bibtex Angeles_And_Leighton_Manuscript"] 1475788278 "Angeles_And_Leighton_Manuscript.aux" "Angeles_And_Leighton_Manuscript.bbl" "Angeles_And_Leighton_Manuscript" 1475788482
   "./genetics.bst" 1472230394 27548 9518348c9d2309cb93196228cd797c0f ""
-  "Angeles_And_Leighton_Manuscript.aux" 1475617542 13713 5ba23e8c530c46e823794c1ce995ddf9 ""
+  "Angeles_And_Leighton_Manuscript.aux" 1475788482 13707 f733c85da610a0d2c7d541d70f9ff49a ""
   "Angeles_And_Leighton_Manuscript.bcf" 0 -1 0 ""
   "citations.bib" 1475567401 47016 26d27bc3770fff32e3a86d5759c96414 ""
   (generated)
   "Angeles_And_Leighton_Manuscript.bbl"
   "Angeles_And_Leighton_Manuscript.blg"
-["pdflatex"] 1475617539 "Angeles_And_Leighton_Manuscript.tex" "Angeles_And_Leighton_Manuscript.pdf" "Angeles_And_Leighton_Manuscript" 1475617542
+["pdflatex"] 1475788480 "Angeles_And_Leighton_Manuscript.tex" "Angeles_And_Leighton_Manuscript.pdf" "Angeles_And_Leighton_Manuscript" 1475788482
   "../output/figs/final_figs/aberrant_aging.pdf" 1475563882 439422 435cf13bf40349a85f0fed8bccffdda5 ""
   "../output/figs/final_figs/aging_transcriptomics.pdf" 1473369903 4440636 7b679e07de7c2820eda86cb521514261 ""
   "../output/figs/final_figs/lawn_leaving_rnai_assay.pdf" 1473375793 266915 9a9aacdd3ac41ca1ec44b107fd50d555 ""
@@ -246,15 +246,15 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1475105269 1950515 49a2f0de8467d02420dc742360dc4a75 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1475105304 3873677 ad4c9aeedd9986136e23da5206655c67 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "Angeles_And_Leighton_Manuscript.aux" 1475617542 13713 5ba23e8c530c46e823794c1ce995ddf9 ""
-  "Angeles_And_Leighton_Manuscript.bbl" 1475568312 5266 3e62ce94194883e3af845cfe4b27315d "bibtex Angeles_And_Leighton_Manuscript"
-  "Angeles_And_Leighton_Manuscript.out" 1475617540 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Angeles_And_Leighton_Manuscript.tex" 1475617538 28181 3a176a22274e6664544580fc4b2d5b62 ""
+  "Angeles_And_Leighton_Manuscript.aux" 1475788482 13707 f733c85da610a0d2c7d541d70f9ff49a ""
+  "Angeles_And_Leighton_Manuscript.bbl" 1475788278 5266 3e62ce94194883e3af845cfe4b27315d "bibtex Angeles_And_Leighton_Manuscript"
+  "Angeles_And_Leighton_Manuscript.out" 1475788480 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Angeles_And_Leighton_Manuscript.tex" 1475788479 30167 db3d89be9ab1923860d255aa401ec101 ""
   "G3_Horizontal_Color_High_Resolution.jpg" 1472230743 78932 b07014cef95f770bf8ab97d20ccb5681 ""
   "gsag3jnl.cls" 1472230474 10618 c4186caaa4641c2df234017df99061af ""
   "styles/inv.sty" 1472230630 288 06f7d208aaf5d5f9366f85e59d02734f ""
   (generated)
-  "Angeles_And_Leighton_Manuscript.pdf"
-  "Angeles_And_Leighton_Manuscript.log"
   "Angeles_And_Leighton_Manuscript.aux"
+  "Angeles_And_Leighton_Manuscript.pdf"
   "Angeles_And_Leighton_Manuscript.out"
+  "Angeles_And_Leighton_Manuscript.log"
