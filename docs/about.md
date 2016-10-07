@@ -24,7 +24,7 @@ Daniel is a post-doc with Leonid Kruglyak at UCLA, where he researches... . He c
 #### Tiffany Tsou
 Tiffany is an undergrad at UCSB where she is currently majoring in Biology. She was a SURF at Caltech in 2016, where she was a productive member of the team. Apart from crowning herself 'Pope of the Nematode Church', she was an outstanding student and without her this paper would not be possible.
 
-#### Tiffany K. Shaw
+#### Tiffany H. Khaw
 Tiffany is an undergrad at Stanford University where she is majoring in Molecular Biology. She was a SURF at Caltech in 2014, where she was a fantastic student and crucial in the RNA extraction process for this paper.
 
 #### Igor Antoshechkin
