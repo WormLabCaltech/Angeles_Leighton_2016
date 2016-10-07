@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/404.md</loc>
-<lastmod>2016-08-23T00:00:00-07:00</lastmod>
-</url>
-<url>
-<loc>/404</loc>
+<loc>/404.html</loc>
 </url>
 <url>
 <loc>/about/</loc>
 </url>
 <url>
 <loc>/</loc>
+</url>
+<url>
+<loc>/Brood%20Size%20Analysis.html</loc>
+<lastmod>2016-10-06T21:33:03-07:00</lastmod>
+</url>
+<url>
+<loc>/RNASeqAnalysis.html</loc>
+<lastmod>2016-10-06T21:32:45-07:00</lastmod>
 </url>
 </urlset>
