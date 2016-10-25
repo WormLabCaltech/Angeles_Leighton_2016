@@ -1,10 +1,23 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+\usepackage[T1]{fontenc}
 
-\title{Sections and Chapters}
-\author{Gubert Farnsworth}
-\date{ }
+
+\title{Kallisto Commands, Brief Description of All Other SI}
+\author{David Angeles-Albores\textsuperscript{1,$\dagger{}$}
+\and{}
+Daniel H.W. Leighton\textsuperscript{2,$\dagger{}$}
+\and{}
+Tiffany Tsou\textsuperscript{1}
+\and{}
+Tiffany H. Khaw\textsuperscript{1}
+\and{}
+Igor Antoshechkin\textsuperscript{3}
+\and{}
+Paul W. Sternberg\textsuperscript{1,*}
+}
+
 
 
 \begin{document}
@@ -14,7 +27,11 @@
 
  \section{Kallisto Commands}
 
- The Kallisto Commands were written in an automated fashion in . The shell script can be found at the following url: \url{www.github.com/}
+ The Kallisto Commands were written in an automated fashion using a Python script. The shell script can be found at the following url: \url{https://github.com/WormLabCaltech/Angeles_Leighton_2016/blob/master/input/kallisto_commands.sh}.
+
+ The resulting TPM files were analysed using Sleuth via a customized R script, \texttt{aging\_rna\_seq\_analysis.R}. This script can be found here: \url{https://github.com/WormLabCaltech/Angeles_Leighton_2016/blob/master/rdocs/aging_rna_seq_analysis.R}.
+
+ The results from Sleuth were analyzed using Python in a Jupyter notebook. All Python code can be found in the \texttt{src} directory of our Github repository.
 
 
 \end{document}
