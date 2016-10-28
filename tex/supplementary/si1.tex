@@ -2,7 +2,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage[T1]{fontenc}
+\usepackage{booktabs}
 
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\newcommand{\cel}{\emph{C.~elegans}}
 
 \title{Kallisto Commands, Brief Description of All Other SI}
 \author{David Angeles-Albores\textsuperscript{1,$\dagger{}$}
@@ -32,6 +35,39 @@ Paul W. Sternberg\textsuperscript{1,*}
  The resulting TPM files were analysed using Sleuth via a customized R script, \texttt{aging\_rna\_seq\_analysis.R}. This script can be found here: \url{https://github.com/WormLabCaltech/Angeles_Leighton_2016/blob/master/rdocs/aging_rna_seq_analysis.R}.
 
  The results from Sleuth were analyzed using Python in a Jupyter notebook. All Python code can be found in the \texttt{src} directory of our Github repository.
+
+
+\section{Supplementary Files 2, 3, 4}
+
+Supplementary Files 2, 3, and 4 contain the output of Sleuth after differential expression analysis. The files contain the columns detailed in Table~\ref{tab:sleuth_columns}. Supplementary File 2 contains what can be loosely interpreted as the fold-change of each gene between young and old adult worms. Supplementary File 3 contains what can be loosely interpreted as the fold-change of each gene between wild-type and \emph{fog-2} worms. Supplementary File 4 contains the genes that changed differently as wild-type worms aged and \emph{fog-2} worms aged. For Supplementary File 4, the `b' column should be interpreted as the change in the aging log-fold change. That is, an aging \emph{fog-2} animal would have a log-fold change in a given gene \emph{X} equal to $b_\mathrm{age} + b_\mathrm{interaction}$, whereas an aging wild-type animal would have a log-fold change equal to $b_\mathrm{age}$.
+
+\begin{table*}
+  \centering{}
+  \ra{1.3}
+   \begin{tabular}{@{}ll@{}}
+   \toprule{}\\
+   Column Name & Description\\
+  \toprule{}\\
+   target\_id & Gene identifier, usually unique to each isoform in \cel{}\\
+   pval & P-value indicating significance of differential expression.\\
+    & NOT FDR Corrected. NOT used to identify D.E. genes\\
+   qval & P-value after correcting for multiple hypothesis testing.\\
+    & This column is used to establish statistical significance\\
+   b & The slope of the regression along a specified axis.\\
+    & \textbf{Loosely} interpreted as natural log of the fold-change.\\
+    se\_b & Standard error of b.\\
+    mean\_obs & Mean of the logarithm of the observed counts.\\
+    var\_obs & Variance of the logarithm of the observed counts.\\
+    tech\_var & Technical variance of the logarithm of the observed counts.\\
+    sigma\_sq & Biological variance of the logarithm of the observed counts.\\
+    smooth\_sigma\_sq & Smoothed biological variance of the logarithm of the observed counts.\\
+    ens\_gene & WormBase Identifier (not isoform specific).\\
+    ext\_gene & Human-readable Gene Name\\
+   \bottomrule{}
+ \end{tabular}
+\caption{List of columns in file SI1--3.}
+\label{tab:sleuth_columns}
+\end{table*}
 
 
 \end{document}
