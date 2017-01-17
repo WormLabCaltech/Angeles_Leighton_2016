@@ -451,15 +451,17 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8t.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
 INPUT ../output/figs/final_figs/aging_transcriptomics.pdf
 INPUT ../output/figs/final_figs/aging_transcriptomics.pdf
 INPUT ../output/figs/final_figs/aging_transcriptomics.pdf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
 INPUT G3_Horizontal_Color_High_Resolution.jpg
 INPUT ./G3_Horizontal_Color_High_Resolution.jpg
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/helvetic/phvbo8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8r.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
@@ -492,8 +494,6 @@ INPUT Angeles_And_Leighton_Manuscript.bbl
 INPUT Angeles_And_Leighton_Manuscript.bbl
 INPUT G3_Horizontal_Color_High_Resolution.jpg
 INPUT ./G3_Horizontal_Color_High_Resolution.jpg
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT G3_Horizontal_Color_High_Resolution.jpg
 INPUT ./G3_Horizontal_Color_High_Resolution.jpg
 INPUT Angeles_And_Leighton_Manuscript.aux

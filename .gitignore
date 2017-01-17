@@ -115,3 +115,7 @@ ENV/
 *.gz
 
 *.fls
+
+phenotype_ontology.csv
+
+go_dictionary.csv
