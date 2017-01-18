@@ -49,7 +49,7 @@ student and crucial in the RNA extraction process for this paper.
 
 #### Igor Antoshechkin
 
-Dr. Igor Antoshechkin is the head of the Millard and Muriel Jacobs Genetics and
+Igor Antoshechkin is the head of the Millard and Muriel Jacobs Genetics and
 Genomics Laboratory at Caltech. He was in charge of sequencing and quality
 control of the RNA samples.
 
