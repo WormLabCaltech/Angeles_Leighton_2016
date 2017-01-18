@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RNA-Seq Analysis for Angeles and Leighton, 2016
-permalink: rnaseq
+permalink: /rnaseq/
 ---
 
 # Table of Contents
