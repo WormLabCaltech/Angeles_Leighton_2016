@@ -4,17 +4,18 @@ title: About
 permalink: /about/
 ---
 
-<!-- TODO: Add link to paper-->
-<!-- TODO: Add link to repo -->
-Hi, welcome to the main website for our project ['The *C. elegans* female state:
-decoupling the transcriptomic effects of aging and sperm-status'](). This
-website contains interactive plots of the analysis, and also contains an HTML
-version of the Jupyter Notebook for our analysis.
+Hi, welcome to the main website for our project
+['The *C. elegans* female state:
+decoupling the transcriptomic effects of aging and
+sperm-status']().
+This website contains interactive plots of the analysis, and also contains an
+HTML version of the Jupyter Notebook for our analysis.
 [Here](https://github.com/WormLabCaltech/Angeles_And_Leighton_2016) is the
 repository where all of the data is contained.
 
 <!-- TODO: Add link to draft -->
-Moreover, an open-access version of our paper can be found [here]().
+The BioRxiv version of our paper can be found
+[here](http://biorxiv.org/content/early/2016/10/30/083113).
 
 This website constitutes 100% of the Supplementary Material and Extended Results
 for our paper.
