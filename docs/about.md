@@ -27,10 +27,13 @@ interests are in genetics, evolution and quantitative biology. For more about
 him, visit [his website](https://dangeles.github.io)
 
 #### Daniel Leighton
-Daniel is a post-doc with Leonid Kruglyak at UCLA, where he researches....
-He completed his Ph.D. in the lab of Paul W Sternberg, where he elucidated an
+Daniel is a post-doc with [Leonid Kruglyak](https://labs.genetics.ucla.edu/kruglyak/home)
+at UCLA, where he does population
+genetics research on the variations in metabolism across natural *C. elegans*
+populations. He completed his Ph.D. with Paul, where he elucidated an
 interesting connection between the fertilization state of a female *C. elegans*
-and pheromone production.
+and pheromone production (see the
+[paper](http://www.pnas.org/content/111/50/17905.long)).
 
 #### Tiffany Tsou
 Tiffany is an undergrad at UCSB where she is currently majoring in Biology. She
