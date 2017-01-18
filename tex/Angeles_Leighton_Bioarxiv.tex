@@ -244,11 +244,11 @@ stage. As time moves forward, these spermless worms only exhibit changes
 related to biological aging. We also reasoned that we might be able to identify
 gene expression changes due to different life histories: whereas hermaphrodites
 lay almost 300 eggs over three days, spermless females do not lay a single one.
-The different life histories could affect gene expression and aging.
+The different life histories could affect gene expression.
 
 Here, we show that we can detect a transcriptional signature associated both
 with loss of hermaphroditic sperm and entrance into the endogenous female state.
-We can also detect changes associated specifically with the biological aging.
+We can also detect changes associated specifically with biological aging.
 Loss of sperm leads to increases in the expression levels of transcription
 factors that are canonically associated with development and cellular
 differentiation and enriched in neuronal functions.
@@ -373,8 +373,9 @@ Graphics were created using the Matplotlib and Seaborn
 libraries~\cite{Waskom,Hunter2007}. Interactive graphics were generated using
 Bokeh~\cite{Team2014}.
 
-Tissue Enrichment Analysis was performed using WormBase's TEA
-tool~\cite{Angeles-Albores2016} for Python.
+Tissue, Phenotype and Gene Ontology Enrichment
+Analyses (TEA, PEA and GEA, respectively) were performed using the WormBase
+Enrichment Suite for Python~\cite{Angeles-Albores2016}.
 
 % \subsubsection*{Brood Size Analysis.}
 % Brood size results were analyzed using Welch's t-test to identify RNAi treatments that were significantly different from a \emph{gfp} RNAi control. RNAi control results were pooled over multiple days because we could not detect systematic day-day variation. We did not apply FDR or Bonferroni correction because, at a p-value threshold for significance of 0.05, we expected 1 false positive on average per screen.
@@ -420,7 +421,7 @@ are differentially expressed isoforms of  predicted transcription factor
 genes~\cite{Reece-Hoyes2005}. An interactive version of this graph can be found
 on our \webref{}. \textbf{B} Tissue Enrichment
 Analysis~\cite{Angeles-Albores2016} showed that genes associated with muscle
-tissues and hypodermis are enriched in aging-related genes.
+tissues and the nervous system are enriched in aging-related genes.
 Only statistically significantly enriched tissues are shown. Enrichment Fold
 Change is defined as $Observed/Expected$.\ hmc stands for head mesodermal cell.
 }
@@ -502,18 +503,37 @@ significantly different from 0 if the q-value associated with it was less than
 
 \subsubsection*{A quarter of all genes change expression between the 1st day of
                 adulthood and the 6th day of adulthood in \cel{}.}
+% We identified a transcriptomic signature consisting of \agen{} genes that were
+% differentially expressed in 6th day adult animals of either genotype relative
+% to 1st day adult animals (see SI file 2). This constitutes more than one quarter
+% of the genes in \cel{}. Tissue Enrichment Analysis
+% (TEA)~\cite{Angeles-Albores2016} showed that muscle- and hypodermis-associated
+% genes are particularly enriched in this dataset (see
+% Figure~\ref{fig:agingtranscriptome}b). Gene ontology analysis using
+% PEA revealed that genes that were differentially expressed during the course of
+% aging were enriched in terms related to metabolism
+% (TCA;\@ cellular amino acid catabolic process; purine nucleobase metabolic
+% process; respiratory electron transport chain) as well as gene signaling
+% (oxidative phosphorylation; regulation of gene expression, epigenetic).
 We identified a transcriptomic signature consisting of \agen{} genes that were
 differentially expressed in 6th day adult animals of either genotype relative
 to 1st day adult animals (see SI file 2). This constitutes more than one quarter
 of the genes in \cel{}. Tissue Enrichment Analysis
-(TEA)~\cite{Angeles-Albores2016} showed that muscle- and hypodermis-associated
-genes are particularly enriched in this dataset (see
-Figure~\ref{fig:agingtranscriptome}b). Gene ontology analysis using
-PANTHER~\cite{Mi2009} with the PANTHER GO-Slim Cellular Component dataset
-revealed that aging-related genes were enriched in terms related to metabolism
-(TCA;\@ cellular amino acid catabolic process; purine nucleobase metabolic
-process; respiratory electron transport chain) as well as gene signaling
-(oxidative phosphorylation; regulation of gene expression, epigenetic).
+(TEA)~\cite{Angeles-Albores2016} showed that
+nervous tissues including the `nerve ring', `dorsal nerve cord', `PVD' and
+`labial sensillum' were enriched in genes that become differentially expressed
+through aging. Likewise, certain muscle groups (`anal depressor muscle',
+`intestinal muscle') were enriched.
+(see Figure~\ref{fig:agingtranscriptome}b). Gene Enrichment Analysis
+(GEA)~\cite{} revealed that genes that
+were differentially expressed during the course of
+aging were enriched in terms involving respiration (`respiratory
+chain', `oxoacid metabolic process'); translation (`cytosolic large
+ribosomal subunit'); and nucleotide metabolism (`purine nucleotide', `nucleoside
+phosphate' and `ribose phosphate' metabolic process). Phenotype Enrichment
+Analysis (PEA)~\cite{} showed enrichment
+of phenotypes that affect the \cel{} gonad, including `gonad vesiculated',
+`gonad small', `oocytes lack nucleus' and `rachis narrow'.
 
 To verify the quality of our dataset, we generated a list of \goldn{} golden
 standard genes expected to be altered in 6th day adult worms using previous
@@ -523,37 +543,42 @@ Lund2002,McCormick2012,Eckley2013}. Out of \goldn{} standard genes, we found
 \goldfound{} genes in our time-responsive dataset. This result was statistically
 significant with a p-value \goldpval{}.
 
-\begin{table*}
-\renewcommand{\familydefault}{\sfdefault}\normalfont{}
-\centering{}
-\ra{1.3}
-\caption{\textbf{Transcription Factor TEA Results.} We ran TEA on the
-transcription factors associated with aging. Raw results showed a large list of
-terms associated with embryonic tissues that are neuronal precursors (AB
-lineage), so we trimmed the results by removing any terms that were expected to
-show up less than once in our list (if a term is expected to show up $10^{-3}$
-times in a list, 1 occurrence is enough to show enrichment in this list,
-leading to many false positives). The best 5 results by Q-value are shown below.}
-\begin{tabular}{@{}lccr@{}}
-\toprule{}
-Tissue & Expected & Observed & Q-value\\
-\bottomrule{}\\
-P11 & 1 & 9 & $<10^{-5}$\\
-ventral nerve cord &	9 &	26 &	$<10^{-5}$\\
-dorsal nerve cord &	5 &	19 & $<10^{-5}$\\
-head muscle & 3	& 13 &	$<10^{-4}$\\
-P7.p & 1 &	6	& $<10^{-2}$\\
-\bottomrule{}
-\end{tabular}
-\label{tab:tea_tf_age}
-\end{table*}
+% \begin{table*}
+% \renewcommand{\familydefault}{\sfdefault}\normalfont{}
+% \centering{}
+% \ra{1.3}
+% \caption{\textbf{Transcription Factor TEA Results.} We ran TEA on the
+% transcription factors associated with aging. Raw results showed a large list of
+% terms associated with embryonic tissues that are neuronal precursors (AB
+% lineage), so we trimmed the results by removing any terms that were expected to
+% show up less than once in our list (if a term is expected to show up $10^{-3}$
+% times in a list, 1 occurrence is enough to show enrichment in this list,
+% leading to many false positives). The best 5 results by Q-value are shown below.}
+% \begin{tabular}{@{}lccr@{}}
+% \toprule{}
+% Tissue & Expected & Observed & Q-value\\
+% \bottomrule{}\\
+% % P11 & 1 & 9 & $<10^{-5}$\\
+% % ventral nerve cord &	9 &	26 &	$<10^{-5}$\\
+% % dorsal nerve cord &	5 &	19 & $<10^{-5}$\\
+% % head muscle & 3	& 13 &	$<10^{-4}$\\
+% % P7.p & 1 &	6	& $<10^{-2}$\\
+% \bottomrule{}
+% \end{tabular}
+% \label{tab:tea_tf_age}
+% \end{table*}
 
 Next, we used a published compendium~\cite{Reece-Hoyes2005} to search for known
 or predicted transcription factors. We found \tfaging{} transcription factors in
-the set of genes with differential expression in aging nematodes. We expected
-these transcription factors to reflect the same tissue enrichment as the bulk
-dataset, but the results showed enrichment of hypodermal and neuronal tissues,
-not muscle (see Table~\ref{tab:tea_tf_age}). Many of these transcription factors
+the set of genes with differential expression in aging nematodes. We subjected
+this list of transcription factors to TEA to understand their expression
+patterns. 6 of these
+transcription factors were expressed in the `hermaphrodite specific neuron'
+(HSN), a neuron physiologically relevant for egg-laying (\emph{hlh-14}, \emph{sem-4},
+\emph{ceh-20}, \emph{egl-46}, \emph{ceh-13}, \emph{hlh-3}), which represented
+a statistically significant 2-fold enrichment of this tissue ($q<10^{-1}$).
+The term `head muscle' was also overrepresented at twice the expected level
+($q<10^-1$, 13 genes). Many of these transcription factors
 have been  associated with developmental processess, and it is unclear why they
 would change expression in adult animals. Interactive volcano plots for each
 gene-set can be found in our \webref{}.
@@ -561,23 +586,46 @@ gene-set can be found in our \webref{}.
 \subsubsection*{The whole-organism \fog{} transcriptome in \cel{}.}
 
 We were also able to identify \fogn{} genes associated with the \fog{} genotype,
-including \tffog{} transcription factors (see SI file 3). Gonad-related tissues
-were enriched in this gene set (sex organ; midbody; somatic gonad, $q < 0.1$
-for all), consistent with the function of \fog{} as a sperm specification factor
+including \tffog{} transcription factors (see SI file 3).
+% Gonad-related tissues
+% were enriched in this gene set (midbody; somatic gonad, $q<0.1$
+% for all), consistent with the function of \fog{} as a sperm specification factor
+TEA showed that the terms `AB', `midbody', `uterine muscle', `cephalic sheath
+cell', `anal depressor muscle' and `PVD' were enriched in this gene set. The
+terms `AB' and `midbody' likely reflect the impact of \fog{} on the germline
 (see Jupyter Notebook, section on
 \href{https://wormlabcaltech.github.io/Angeles_Leighton_2016/RNASeqAnalysis.html#Run-TEA}{Tissue Enrichment Analysis}).
-Gene Ontology analysis using the PANTHER GO-Slim Celluar Component
-dataset~\cite{Mi2009} showed that this dataset was enriched in terms related to
-metabolism (TCA;\@ generation of precursor metabolites and energy; lipid
-metabolic process), and in cell division (mitosis). Additionally, this dataset
-was depleted for genes annotated with the term `sensory perception of chemical
-stimulus'.  Similarly to the transcription factors associated with aging, tissue
-enrichment analysis of these transcription factors reveals that they are involved
-in neural development. Of the \fogn{} genes that we identified in the \fog{}
+% Gene Ontology analysis using the PANTHER GO-Slim Celluar Component
+% dataset~\cite{Mi2009} showed that this dataset was enriched in terms related to
+% metabolism (TCA;\@ generation of precursor metabolites and energy; lipid
+% metabolic process), and in cell division (mitosis). Additionally, this dataset
+% was depleted for genes annotated with the term `sensory perception of chemical
+% stimulus'.
+% Similarly to the transcription factors associated with aging, tissue
+% enrichment analysis of these transcription factors reveals that they are involved
+% in neural development.
+Phenotype enrichment showed that only a single phenotype, `spindle orientation
+variant' was enriched in the \fog{} transcriptome ($q<10^{-1}$, 38 genes, 2-fold
+enrichment). Most genes annotated as `spindle orientation variant' were
+slightly upregulated, and therefore are unlikely to uniquely reflect reduced
+germline proliferation. GO term enrichment was very similar to the aging gene
+set and reflected enrichment in annotations pertaining to translation and
+respiration. Unlike the aging gene set, the \fog{} transcriptome was
+significantly enriched in `myofibril' and `G-protein coupled receptor binding'
+($q<10^{-1}$). Enrichment of the term `G-protein coupled receptor binding' was
+due to 14 genes: \emph{cam-1}, \emph{mom-2},  \emph{dsh-1}, \emph{spp-10},
+\emph{flp-6}, \emph{flp-7}, \emph{flp-9}, \emph{flp-13}, \emph{flp-14},
+\emph{flp-18},
+\emph{K02A11.4}, \emph{nlp-12}, \emph{nlp-13}, and \emph{nlp-40}.
+\emph{dsh-1},
+\emph{mom-2} and \emph{cam-1} are members of the Wnt signaling pathway.
+Most of these genes were up-regulated, suggesting increased G-protein binding
+activity in \fog{} mutants.
+
+Of the \fogn{} genes that we identified in the \fog{}
 transcriptome, \intersectn{} genes were also identified in our aging set.
 Moreover, of these \intersectn{}  genes, \coexpressed{} genes changed in the
 same direction in response either aging or germline feminization.
-
 We were surprised at the large fraction of genes that overlapped between these
 two categories. Such a large overlap is indicative of correlations between aging
 and sperm-loss. There are four possibilities. First, the \fog{} mutant worms may
@@ -642,41 +690,54 @@ information suggests that these \femalen{} genes define a female state in
 \cel{}.
 
 \subsection*{Analysis of the Female State Transcriptome}
-\begin{table*}
-\renewcommand{\familydefault}{\sfdefault}\normalfont{}
-\centering{}
-\ra{1.3}
-\caption{
-\textbf{Gene Ontology Enrichment.} Gene Ontology Enrichment Analysis
-was performed using PantherDB~\cite{Mi2009} on genes associated with the female
-state. The terms reflect changes in translational machinery. On the other hand,
-this list was depleted in genes that tend to be associated with sensory
-perception.
-}
-\begin{tabular}{@{}lccr@{}}
-\toprule{}
-Term & Expected & Observed & P-value\\
-\bottomrule{}\\
-Translation & 5 & 17 & $8.63\times{}10^{-3}$\\
-Proteolysis &	10 &	24 &	$1.12\times{}10^{-2}$\\
-Sensory Perception &	15 &	2 & $4.97\times{}10^{-3}$\\
-\bottomrule{}
-\end{tabular}
-\label{tab:female_go}
-\end{table*}
+% \begin{table*}
+% \renewcommand{\familydefault}{\sfdefault}\normalfont{}
+% \centering{}
+% \ra{1.3}
+% \caption{
+% \textbf{Gene Ontology Enrichment.} Gene Ontology Enrichment Analysis
+% was performed using PantherDB~\cite{Mi2009} on genes associated with the female
+% state. The terms reflect changes in translational machinery. On the other hand,
+% this list was depleted in genes that tend to be associated with sensory
+% perception.
+% }
+% \begin{tabular}{@{}lccr@{}}
+% \toprule{}
+% Term & Expected & Observed & P-value\\
+% \bottomrule{}\\
+% Translation & 5 & 17 & $8.63\times{}10^{-3}$\\
+% Proteolysis &	10 &	24 &	$1.12\times{}10^{-2}$\\
+% Sensory Perception &	15 &	2 & $4.97\times{}10^{-3}$\\
+% \bottomrule{}
+% \end{tabular}
+% \label{tab:female_go}
+% \end{table*}
+
+\begin{figure}
+  \renewcommand{\familydefault}{\sfdefault}\normalfont{}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../output/figs/final_figs/female_state_enrichment.pdf}
+  \caption{
+  Phenotype and GO enrichment of genes involved in the female state.
+  \textbf{A}. PEA.
+  \textbf{B}. GEA.
+  Most of the terms enriched in PEA reflect the abundance of ribosomal subunits
+  present in this gene set.
+  }
+\label{fig:female_state_enrich}
+\end{figure}
 
 To better understand the changes that happen after sperm loss, we performed
-tissue enrichment and gene ontology enrichment analyses on the set of \femalen{}
-genes that we associated with the female state. TEA showed no tissue
-enrichment using this gene-set. We also used PantherDB~\cite{Mi2009} to perform
-GO enrichment analysis. GO enrichment analysis showed that this gene list was
-enriched in ribosomal-related genes and in genes associated with proteolysis.
-Such terms could reflect changes in post-translational modifications, which
-might reflect changes in small molecule and pheromone production in response to
-sperm loss. On the other hand, this gene list was depleted for genes associated
-with sensory perception (see Table~\ref{tab:female_go}).
-
-
+tissue enrichment, phenotype enrichment and gene ontology enrichment analyses
+on the set of \femalen{} genes that we associated with the female state.
+TEA showed no tissue enrichment using this gene-set. GEA
+showed that this gene list was enriched in constituents of the ribosomal
+subunits almost four times above background ($q<10^{-5}$, 17 genes). The
+enrichment of ribosomal constituents in this gene set in turn drives the
+enriched phenotypes: `avoids bacterial lawn',
+`diplotene absent during oogenesis', `gonad vesiculated', `pachytene progression
+during oogenesis variant', and `rachis narrow'. The expression of most of these
+ribosomal subunits is down-regulated in aged animals or in \fog{} mutants.
 
 % \subsection*{Screens}
 % \label{subs:Screens}
@@ -803,8 +864,9 @@ development~\cite{Chalfie1989,Zhao1995,Portman2000}; the Six5 ortholog
 migration\cite{Manser1990,Yanowitz2004}; \emph{cnd-1}, a homolog  of the
 vertebrate NeuroD transcription factors, is expressed in the early embryo and is
 also involved in axon guidance~\cite{Schmitz2007}.
-Why these transcription factors turn on is a mystery, but we speculate that this
-hints at important neuronal changes that are taking place.
+Why these transcription factors increase their expression is a mystery,
+but we speculate that this hints at important neuronal changes that are
+taking place.
 % Such changes might not be unexpected, given changes in behaviour and
 % pheromone production that are known to occur as hermaphrodites
 % become older~\cite{Morsci2011,Leighton2014}.
@@ -878,9 +940,15 @@ gene expression. By identifying differentially expressed genes and using
 ontology enrichment analyses to identify gene functions, sites of expression
 or phenotypes that are enriched in a given gene set, researchers can obtain a
 clearer picture of the changes that occur in the worm in a less biased manner
-than by identifying gross morphological changes. To the best of our knowledge,
-the female state is the first, but and hopefully not the last, state in the
-\cel{} literature to be identified primarily through transcriptomic methods.
+than by identifying gross morphological changes.
+% To the best of our knowledge, the female state is the first, but and hopefully
+% not the last, state in the \cel{} literature to be identified primarily through transcriptomic methods.
+RNA-seq is emerging as a powerful technology that has been used successfully in
+the past as a qualitative tool for target acquisition. More recent work has
+successfully used RNA-seq to establish genetic interactions between
+genes~\cite{}. In this work, we have shown that RNA-seq data can be analyzed via
+linear regression models with interactions to successfully identify internal
+states in a multi-cellular organism. 
 
 \section*{Acknowledgments}
 
