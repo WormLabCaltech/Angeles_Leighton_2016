@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: Volcano Plots
 permalink: /volcano/
 ---
 
-# Volcano plot for each variable
+# Aging Volcano
 
 <iframe src="{{ site.baseurl }}/plots/aging_volcano.html"
     style="max-width = 100%"
