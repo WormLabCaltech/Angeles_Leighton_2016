@@ -6,7 +6,7 @@ permalink: /volcano/
 
 # Volcano plot for each variable
 
-<iframe src="/plots/aging_volcano.html"
+<iframe src="{{ site.baseurl }}/plots/aging_volcano.html"
     style="max-width = 100%"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
