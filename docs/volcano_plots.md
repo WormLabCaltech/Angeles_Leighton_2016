@@ -12,6 +12,8 @@ happens given that the null hypothesis is true. In practice, we are often
 interested in the genes that have the lowest q-value and the largest effect
 size.
 
+In the plots below, green points are genes that are not transcription factors,
+and orange points are transcription factors. 
 
 # Aging Volcano
 
