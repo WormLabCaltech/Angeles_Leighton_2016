@@ -42,8 +42,7 @@ the same sign!
     seamless="seamless"
     frameborder="0">
 </iframe>
-# Changes due to sperm depletion are not additive with changes in expression
-# associated with mutation of *fog-2*
+# Changes due to sperm depletion are not additive with changes in expression associated with mutation of *fog-2*
 
 Next we checked whether the interaction coefficient was positively or negatively
 correlated with the aging coefficient. A negative correlation indicates that,
