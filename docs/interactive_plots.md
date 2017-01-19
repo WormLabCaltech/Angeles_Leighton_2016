@@ -17,5 +17,5 @@ aging and the *fog-2* phenotype.
 
 The plots in the Female State tab show how *fog-2* partially phenocopies the
 aging process that worms undergo between the 1st day of adulthood and the 6th
-day. Our guess is that this phenocopying is the result of sperm depletion, and
+day. Our guess is that this phenocopying is the result of sperm depletion,
 which probably leads to major metabolic and physiologic changes in the worm.
