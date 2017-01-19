@@ -42,10 +42,8 @@ the same sign!
     seamless="seamless"
     frameborder="0">
 </iframe>
-
-
 # Changes due to sperm depletion are not additive with changes in expression
-associated with mutation of *fog-2*
+# associated with mutation of *fog-2*
 
 Next we checked whether the interaction coefficient was positively or negatively
 correlated with the aging coefficient. A negative correlation indicates that,
@@ -66,7 +64,6 @@ aging are acting along the same molecular pathways.
     seamless="seamless"
     frameborder="0">
 </iframe>
-
 For completeness, we also show a plot of the genotype coefficient versus the
 interaction coefficient. Having seen the plot above, we expect a negative
 correlation between genotype and interaction. Indeed, that is what we see.
