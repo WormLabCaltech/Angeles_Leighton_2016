@@ -11,7 +11,7 @@
 % hyperref makes references clicky.
 \usepackage{nameref}
 % line numbers
-\usepackage[right]{lineno}
+\usepackage[switch]{lineno}
 % improves typesetting in LaTeX
 % \usepackage{microtype}
 % degree symbol
@@ -124,9 +124,9 @@ transcriptomic effects of aging and sperm-status}
   \textbf{\titleone}
 }
 
-\author{David Angeles-Albores\textsuperscript{1,$\dagger{}$}
+\author{David Angeles-Albores\textsuperscript{1, $\dagger{}$}
 \and{}
-Daniel H.W. Leighton\textsuperscript{2,$\dagger{}$}
+Daniel H.W. Leighton\textsuperscript{1, 2, $\dagger{}$}
 \and{}
 Tiffany Tsou\textsuperscript{1}
 \and{}
@@ -150,8 +150,8 @@ Paul W. Sternberg\textsuperscript{1,*}
 \textbf{$\dagger$} These authors contributed equally to this work\\
 \textbf{1} Department of Biology and Biological Engineering,
 and Howard Hughes Medical Institute, Caltech, Pasadena, CA, 91125, USA\\
-\textbf{2} Department of Human Genetics, Department of Biological Chemistry,
-and Howard Hughes Medical Institute, University of California,
+\textbf{2} Current: Department of Human Genetics, Department of Biological
+Chemistry, and Howard Hughes Medical Institute, University of California,
 Los Angeles, Los Angeles, CA 90095, USA\\
 \textbf{3} Department of Biology and Biological Engineering, Caltech,
 Pasadena, CA, 91125, USA\\
@@ -160,36 +160,32 @@ Pasadena, CA, 91125, USA\\
 \section*{Abstract}
 \bf{}  Understanding genome and gene function in a whole organism requires us to
 fully comprehend the life cycle and the physiology of the organism in question.
-Although \cel{} is traditionally though of as a hermaphrodite, XX animals exhaust
-their sperm and become (endogenous) females after 3 days of egg-laying. The
-molecular physiology of this state has not been studied as intensely as other
-parts of the life cycle, in spite of documented changes in behavior and
-metabolism that occur at this stage. To study the female state of \cel{},
-we designed an experiment to measure the transcriptomes of 1st day adult
-females; endogenous, 6th day adult females; and at the same time points, mutant
-feminized worms. At these time points, we were able to separate the effects of
-biological aging from the transition into the female state.
-We find that spermless young adult animals partially phenocopy 6 day old
-wild-type animals that have depleted their sperm after egg-laying, and that
-spermless animals also exhibit fewer differentially expressed genes as they age
-throughout these 6 days. Our results indicate that sperm loss is responsible for
-some of the naturally occuring transcriptomic changes that occur during the life
-cycle of these animals.
-These changes are enriched in transcription factors canonically associated with
-neuronal development and differentiation. Our data provide a high-quality
-picture of the changes that happen in global gene expression throughout the
-period of early aging in the worm.\vspace{10mm}
-
+Although \cel{} is traditionally thought of as a hermaphrodite, XX animals exhaust
+their sperm and become endogenous females after 3 days of egg-laying.
+The molecular physiology of this state has not been as intensely studied as other
+parts of the life cycle, despite documented changes in behavior and metabolism
+that occur at this stage. To study the female state of \cel{}, we measured the
+transcriptomes of 1st day adult hermaphrodites; endogenous, 6th day adult females;
+and at the same time points, mutant \fog{} worms that have a feminized germline
+phenotype. At these time points, we could separate the effects of biological
+aging from the transition into the female state. \fog{} mutants partially phenocopy
+6 day adult wild-type animals and exhibit fewer differentially expressed genes as
+they age throughout these 6 days. Therefore, \emph{fog-2} is epistatic to age as
+assessed by this transcriptomic phenotype, which indicates that both factors act
+on sperm status to mediate entry into the female state. These changes are enriched
+in transcription factors canonically associated with neuronal development and
+differentiation. Our data provide a high-quality picture of the changes that
+happen in global gene expression throughout the period of early aging in the
+worm.\vspace{10mm}
 ]
 % now start line numbers
-\nolinenumbers{}
+\linenumbers{}
 
 % the * after section prevents numbering
 \section*{Introduction}
 \label{sec:introduction}
-% TODO cite wormbook “primer” chapter
-Transcriptome analysis by RNA-seq~\cite{Mortazavi2008} has allowed for high
-depth analysis of gene expression changes between life stages and environmental
+Transcriptome analysis by RNA-seq~\cite{Mortazavi2008} has allowed for indepth
+analysis of gene expression changes between life stages and environmental
 conditions in many species~\cite{Gerstein2014,Blaxter2012}.
 \emph{Caenorhabditis~elegans}, a genetic model nematode with extremely
 well defined and largely invariant development~\cite{Sulston1977,Sulston1983},
@@ -202,14 +198,12 @@ in \cel{} past the entrance into adulthood.
 
 A distinct challenge to the study of aging transcriptomes in \cel{} is the
 hermaphroditic lifestyle of wild-type individuals of this species. Young adult
-hermaphrodites are capable of
-self-fertilization~\cite{Brenner1974,Corsi2015}, and the resulting
-embryos will contribute RNA to the resulting data.
+hermaphrodites are capable of self-fertilization~\cite{Brenner1974,Corsi2015},
+and the resulting embryos will contribute RNA to whole-organism RNA extractions.
 Most previous attempts to study the \cel{} aging transcriptome have addressed
 the aging process only indirectly, or relied on the use of genetically or
-chemically sterilized animals to avoid this
-problem~\cite{Murphy2003,Halaschek-wiener2005,Lund2002,McCormick2012,Eckley2013,
-Boeck2016,Rangaraju2015}.
+chemically sterilized animals to avoid this problem~\cite{Murphy2003,
+Halaschek-wiener2005,Lund2002,McCormick2012,Eckley2013,Boeck2016,Rangaraju2015}.
 In addition, most of these studies obtained transcriptomes using microarrays,
 which are less accurate than RNA-seq, especially for low-expressed
 genes~\cite{Wang2014}.
@@ -229,7 +223,7 @@ intestine~\cite{McGee2011} and nervous system~\cite{Liu2013}, changes
 traditionally attributed to the aging process~\cite{Golden2007}.
 
 To decouple the effects of aging and sperm-loss, we devised a two factor
-experiment. First, we examined wild-type XX animals at the beginning of
+experiment. We examined wild-type XX animals at the beginning of
 adulthood (before worms contained embryos, referred to as 1st day adults) and
 after sperm depletion (6 days after the last molt, which we term 6th day
 adults). Second, we examined feminized XX animals that fail to produce sperm but
@@ -238,12 +232,12 @@ Fig.~\ref{fig:wormlife}). We used \fog{} mutants to obtain feminized animals.
 \gene{fog-2} is involved in germ-cell sex determination in the hermaphrodite
 worm and is required for sperm production~\cite{Schedl1988,Clifford2000}.
 
-\cel{} defective in sperm formation will never transition to a hermaphroditic
-stage. As time moves forward, these spermless worms only exhibit changes
-related to biological aging. We also reasoned that we might be able to identify
-gene expression changes due to different life histories: whereas hermaphrodites
-lay almost 300 eggs over three days, spermless females do not lay a single one.
-The different life histories could affect gene expression.
+\cel{} defective in sperm formation will never transition into or out of a
+hermaphroditic stage. As time moves forward, these spermless worms only exhibit
+changes related to biological aging. We also reasoned that we might be able to
+identify gene expression changes due to different life histories: whereas
+hermaphrodites lay almost 300 eggs over three days, spermless females do not lay
+a single one. The different life histories could affect gene expression.
 
 Here, we show that we can detect a transcriptional signature associated both
 with loss of hermaphroditic sperm and entrance into the endogenous female state.
@@ -254,7 +248,8 @@ differentiation and enriched in neuronal functions.
 Biological aging causes transcriptomic changes consisting of \agen{} genes
 in \cel{}. 4,552 of these changes occur in both genotypes we studied,
 indicating they do not depend on life history or genotype. To facilitate
-exploration of the data, we have generated a website with interactive plots:
+exploration of the data, we have generated a website where we have deposited
+additional graphics, as well as all of the code used to generate these analyses:
 \website{}.
 
 % figure experiment design
@@ -262,7 +257,7 @@ exploration of the data, we have generated a website with interactive plots:
 \renewcommand{\familydefault}{\sfdefault}\normalfont{}
 \centering
 \captionsetup{width=\linewidth}
-\includegraphics[width=\linewidth]{../../output/figs/final_figs/worm_life_fog2_vs_n2.pdf}
+\includegraphics[width=0.6\linewidth]{../../output/figs/final_figs/worm_life_fog2_vs_n2.pdf}
 \caption{Experimental design to identify genes associated with sperm loss and
 with aging. Studying the wild-type worm alone would measure time- and
 sperm-related changes at the same time, without allowing us to separate these
@@ -272,6 +267,7 @@ designs, we can measure and separate both modules.
 }%
 \label{fig:wormlife}
 \end{figure}
+
 
 \section*{Materials and Methods}
 \label{sec:materials_methods}
@@ -306,7 +302,7 @@ Magnetic Isolation Module (New England Biolabs, NEB, \#E7490). RNA-Seq libraries
 were constructed using NEBNext Ultra RNA Library Prep Kit for Illumina (NEB
 \#E7530) following manufacturer’s instructions. Briefly, mRNA isolated from
 $\sim1\mu$g of total RNA was fragmented to the average size of 200nt by
-incubating at 94$\degree$C for 15min in first strand buffer, cDNA was synthesized
+incubating at 94$\degree$C for 15~min in first strand buffer, cDNA was synthesized
 using random primers and ProtoScript II Reverse Transcriptase followed by
 second strand synthesis using Second Strand Synthesis Enzyme Mix (NEB).
 Resulting DNA fragments were end-repaired, dA tailed and ligated to NEBNext
@@ -324,8 +320,8 @@ with RTA 1.13.48.0 followed by conversion to FASTQ with bcl2fastq 1.8.4.
 
 \subsection*{Statistical Analysis}
 \label{sb:statistics}
-\subsubsection*{RNA-Seq Analysis.}
-\label{sb:model}
+
+\subsubsection*{RNA-Seq Analysis}
 RNA-Seq alignment was performed using Kallisto~\cite{Bray2016} with 200
 bootstraps. The commands used for read-alignment are in the S.I. file 1.
 Differential expression analysis was performed using Sleuth~\cite{Pimentel2016}.
@@ -363,25 +359,19 @@ Enrichment Suite for Python~\cite{Angeles-Albores2016,Angeles-Albores106369}.
 Strains are available from the \emph{Caenorhabditis} Genetics Center. All of the
 data and scripts pertinent for this project except the raw reads can be found on
 our Github repository
-\url{https://github.com/WormLabCaltech/Angeles_Leighton_2016}. File S1 contains
-the Kallisto commands used to process the read alignments as well as the
-accession numbers for the raw-reads, whcih are available at GenBank. It also
-contains a detailed explanation for the format of files S2 and S3. File S2
+\url{https://github.com/WormLabCaltech/Angeles_Leighton_2016}. File S1
 contains the list of genes that were altered in aging regardless of genotype.
-File S3 contains the list of genes and their associations with the \fog{}
-phenotype. File S4 contains the genes that changed differently in aging
-wild-type worms and in \fog{} mutants. Raw reads will be deposited in the
-Sequence Read Archive and made available shortly.
+File S2 contains the list of genes and their associations with the \fog{}
+phenotype. File S3 contains genes associated with the female state. Raw reads
+were deposited to the Sequence Read Archive under the accession code SUB2457229.
 
-\section*{Results}
-\label{sec:results}
-
-% figure (aging transcriptomics)
+\section*{Results and Discussion}
 \begin{figure}[htbp]
 \renewcommand{\familydefault}{\sfdefault}\normalfont{}
 \centering
 \includegraphics[width=\linewidth]{../../output/figs/final_figs/aging_transcriptomics.pdf}
-\caption{\textbf{A} We identified a common aging transcriptome between N2 and
+\caption{
+\textbf{A} We identified a common aging transcriptome between N2 and
 \fog{} animals, consisting of 6,193 differentially expressed isoforms totaling
 \agen{} genes. The volcano plot is randomly down-sampled 30\% for ease of
 viewing. Each point represents an individual isoform. $\beta{}_\mathrm{Aging}$
@@ -390,11 +380,12 @@ log-fold change. The y-axis shows the negative logarithm of the q-values for
 each point. Green points are differentially expressed isoforms; orange points
 are differentially expressed isoforms of  predicted transcription factor
 genes~\cite{Reece-Hoyes2005}. An interactive version of this graph can be found
-on our \webref{}. \textbf{B} Tissue Enrichment
-Analysis~\cite{Angeles-Albores2016} showed that genes associated with muscle
-tissues and the nervous system are enriched in aging-related genes.
-Only statistically significantly enriched tissues are shown. Enrichment Fold
-Change is defined as $Observed/Expected$.\ hmc stands for head mesodermal cell.
+on our \webref{}.
+\textbf{B} Tissue Enrichment Analysis~\cite{Angeles-Albores2016} showed that
+genes associated with muscle tissues and the nervous system are enriched in
+aging-related genes. Only statistically significantly enriched tissues are shown.
+Enrichment Fold Change is defined as $Observed/Expected$.\ hmc stands for head
+mesodermal cell.
 }
 \label{fig:agingtranscriptome}
 \end{figure}
@@ -415,11 +406,13 @@ Figure~\ref{fig:agingtranscriptome}a).
 \begin{figure}[htbp]
 \renewcommand{\familydefault}{\sfdefault}\normalfont{}
 \centering
-\includegraphics[width=0.9\linewidth]{../../output/figs/final_figs/linear_regression.pdf}
-\caption{\textbf{A} A linear regression with two variables, age and genotype.
+\includegraphics[width=\linewidth]{../../output/figs/final_figs/linear_regression.pdf}
+\caption{
+\textbf{A}. A linear regression with two variables, age and genotype.
 The expression level of a gene increases by the same amount as worms age
 regardless of genotype. However, \fog{} has more mRNA than the wild-type at all
-stages (blue arrow). \textbf{B} A linear regression with two variables and an
+stages (blue arrow).
+\textbf{B}. A linear regression with two variables and an
 interaction term. In this example, the expression level of this hypothetical
 gene is different between wild-type worms and \fog{} (blue arrow). Although the
 expression level of this gene increases with age, the slope is different between
@@ -448,23 +441,25 @@ associated with both the \fog{} self-sterile phenotype and with biological age
 of the wild-type animal. One way to statistically model such correlation between
 variables is to add an interaction term to the linear regression.
 This interaction term allows extra flexibility in describing how changes occur
-between conditions. For example, if age increased the expression of a
-theoretical gene \gene{X} in a wild-type animal, and if that same gene was
-altered in a \fog{} animal, but the increase in the levels of gene \gene{X} in
-\fog{} is much, much greater than in the wild-type, then we could add a positive
+between conditions.
+For example, suppose a given theoretical gene \gene{X} has expression levels that
+increase in a \gene{fog-2}-dependent manner, but also increases in an
+age-dependent manner. However, aged \fog{} animals do not have expression levels
+of \gene{X} that would be expected from adding the effect of the two perturbations;
+instead, the expression levels of \gene{X} in this animal are considerably above
+what is expected. In this case, we could add a positive
 interaction coefficient to the model to explain the effect of genotype on the
-y-intercept as well as the slope (see Fig.~\ref{fig:linear_reg}b). Likewise, if
-the levels of \gene{X} in a \fog{} animal did not change with age, but if we
-were certain that gene \gene{X} increases its expression with age in the
-wild-type, then we could add a negative interaction term to the model to signal
-that the genotype affected the slope of the animal.
+y-intercept as well as the slope (see Fig.~\ref{fig:linear_reg}b).
+When the two
+perturbations are loss-of-function mutations, such interactions are epistatic
+interactions.
 
-For these reasons, we used a linear generalized model (see \nameref{sb:model})
+For these reasons, we used a linear generalized model (see \nameref{sb:statistics})
 with interactions to identify a transcriptomic profile associated with the
 \fog{} genotype independently of age, as well as a transcriptomic profile of
 \cel{} aging common to both genotypes. The change associated with each variable
 is referred as $\beta$; this number, although related to the natural logarithm
-of the fold change, is not exactly equal to it. However, it is true that larger
+of the fold change, is not equal to it. However, it is true that larger
 magnitudes of $\beta$ indicate greater change. Thus, for each gene we performed
 a linear regression, and we evaluated the whether the $\beta$ values associated
 with each coefficient were significantly different from 0 via a Wald test
@@ -503,27 +498,21 @@ Next, we used a published compendium~\cite{Reece-Hoyes2005} to search for known
 or predicted transcription factors. We found \tfaging{} transcription factors in
 the set of genes with differential expression in aging nematodes. We subjected
 this list of transcription factors to TEA to understand their expression
-patterns. 6 of these
-transcription factors were expressed in the `hermaphrodite specific neuron'
-(HSN), a neuron physiologically relevant for egg-laying (\gene{hlh-14}, \gene{sem-4},
-\gene{ceh-20}, \gene{egl-46}, \gene{ceh-13}, \gene{hlh-3}), which represented
-a statistically significant 2-fold enrichment of this tissue ($q<10^{-1}$).
-The term `head muscle' was also overrepresented at twice the expected level
-($q<10^{-1}$, 13 genes). Many of these transcription factors
-have been  associated with developmental processess, and it is unclear why they
-would change expression in adult animals. Interactive volcano plots for each
-gene-set can be found in our \webref{}.
+patterns. 6 of these transcription factors were expressed in the `hermaphrodite
+specific neuron' (HSN), a neuron physiologically relevant for egg-laying
+(\gene{hlh-14}, \gene{sem-4}, \gene{ceh-20}, \gene{egl-46}, \gene{ceh-13},
+\gene{hlh-3}), which represented a statistically significant 2-fold enrichment of
+this tissue ($q<10^{-1}$). The term `head muscle' was also overrepresented at
+twice the expected level ($q<10^{-1}$, 13 genes). Many of these transcription
+factors have been  associated with developmental processess, and it is unclear
+why they would change expression in adult animals.
 
 \subsection*{The whole-organism \fog{} transcriptome in \cel{}.}
-
-We were also able to identify \fogn{} genes associated with the \fog{} genotype,
-including \tffog{} transcription factors (see SI file 3).
-TEA showed that the terms `AB', `midbody', `uterine muscle', `cephalic sheath
-cell', `anal depressor muscle' and `PVD' were enriched in this gene set. The
-terms `AB' and `midbody' likely reflect the impact of \fog{} on the germline
-(see Jupyter Notebook, section on
-\href{https://wormlabcaltech.github.io/Angeles_Leighton_2016/RNASeqAnalysis.html#Run-TEA}
-{Tissue Enrichment Analysis}).
+We identified \fogn{} genes associated with the \fog{} genotype, including
+\tffog{} transcription factors (see SI file 3). TEA showed that the terms `AB',
+`midbody', `uterine muscle', `cephalic sheath cell', `anal depressor muscle' and
+`PVD' were enriched in this gene set. The terms `AB' and `midbody' likely reflect
+the impact of \fog{} on the germline.
 Phenotype enrichment showed that only a single phenotype, `spindle orientation
 variant' was enriched in the \fog{} transcriptome ($q<10^{-1}$, 38 genes, 2-fold
 enrichment). Most genes annotated as `spindle orientation variant' were
@@ -539,36 +528,39 @@ due to 14 genes: \gene{cam-1}, \gene{mom-2},  \gene{dsh-1}, \gene{spp-10},
 \gene{K02A11.4}, \gene{nlp-12}, \gene{nlp-13}, and \gene{nlp-40}.
 \gene{dsh-1},
 \gene{mom-2} and \gene{cam-1} are members of the Wnt signaling pathway.
-Most of these genes were up-regulated, suggesting increased G-protein binding
-activity in \fog{} mutants.
+Most of these genes' expression levels were up-regulated, suggesting increased
+G-protein binding activity in \fog{} mutants.
 
 \subsection*{The \fog{} transcriptome overlaps significantly with the aging
 transcriptome}
-
 Of the \fogn{} genes that we identified in the \fog{}
 transcriptome, \intersectn{} genes were also identified in our aging set.
 Moreover, of these \intersectn{}  genes, \coexpressed{} genes changed in the
 same direction in response either aging or germline feminization.
-We were surprised at the large fraction of genes that overlapped between these
-two categories. Such a large overlap is indicative of correlations between aging
-and sperm-loss. There are four possibilities. First, the \fog{} worms may
+The overlap between these transcriptomes suggests an interplay between sperm-status
+and age. The nature of the interplay should be captured by the interaction coefficients
+in our model.
+There are four possibilities. First, the \fog{} worms may
 have a fast-aging phenotype, in which case the interaction coefficients should
-match the sign of the aging coefficient. Second, the \fog{} worms may
+match the sign of the aging coefficient.
+Second, the \fog{} worms may
 have a slow-aging phenotype, in which case the interaction coefficients should
-have an interaction coefficient that is of opposite sign, but not greater
+have an interaction coefficient that is of opposite sign, but not greater in
 magnitude than the aging coefficient (if a gene increases in aging in a
-wild-type worm, it should still increase in a \fog{} worm, albeit more slowly).
+wild-type worm, it should still increase in a \fog{} worm, albeit less).
 Third, the \fog{} worms exhibit a rejuvenation phenotype. If this is the case,
 then these genes should have an interaction coefficient that is of opposite sign
 and greater magnitude than their aging coefficient, such that the change of
 these genes in \fog{} mutant worms is reversed relative to the wild-type.
 Finally, if these genes are indicative of a female state, then these genes
 should not change with age in \fog{} animals, since these animals do not exit
-this state during the course of the experiment. Moreover, because wild-type
+this state during the course of the experiment.
+Moreover, because wild-type
 worms become female as they age, a further requirement for a transcriptomic
 signature of the female state is that aging coefficients for genes in this
 signature should have genotype coefficients of equal sign and magnitude. In
 other words, entrance into the female state should be not be path-dependent.
+
 
 % aberrant aging
 \begin{figure}
@@ -589,29 +581,32 @@ level of these genes.
 The correlation between feminization and aging is almost 1:1.
 \textbf{B} Epistasis plot of aging versus feminization. Epistasis plots indicate
 whether two genes (or perturbations) act on the same pathway. When two effects act
-on the same pathway, this is reflected by a slope of $-0.5$.
+on the same pathway, this is reflected by a slope of $-0.5$. The measured slope
+was $-0.51 \pm 0.01$.
 }%
 \label{fig:aberrant_aging}
 \end{figure}
 
-To evaluate which of these possibilities was most likely to be true, we selected
-the \intersectn{} genes that had aging coefficients, genotype coefficients and
-interaction coefficients significantly different from zero and we plotted their
-temporal coefficients against their genotype coefficients (see
-Fig.~\ref{fig:aberrant_aging}a). We observed a striking correlation between
-aging and genotype coefficients. Most of these genes fell near the line $y=x$,
-suggesting that these genes define a female state. As a further test that these
-genes actually define a female state, we generated an epistasis plot using genes
-that had genotype, aging and interaction beta values significantly different
-from zero.
-Briefly, epistasis plots plot the expected change in expression of a double
-perturbation on the x-axis (genotype plus aging) and the y-axis plots the deviation
-from this expected value. Previously we have shown that if two genes act in a
+To evaluate which of these possibilities was most likely, we selected
+the \intersectn{} genes that had aging, genotype and interaction coefficients
+significantly different from zero and we plotted their temporal coefficients
+against their genotype coefficients (see Fig.~\ref{fig:aberrant_aging}a). We
+observed that the aging coefficients were strongly predictive of the genotype
+coefficients. Most of these genes fell near the line $y=x$, suggesting that these
+genes define a female state. As a further test that these genes actually define
+a female state, we generated an epistasis plot using this gene set. We have
+previously used epistasis plots to measure transcriptome-wide epistasis between
+genes in a pathway~\cite{Angeles-Albores2017}.
+Briefly, an epistasis plot plots the expected expression of a double perturbation
+under an additive model (null model) on the x-axis, and the deviation from this
+null model in the y-axis. In other words, we calculated the x-coordinates for each
+point by adding $\beta_\mathrm{Genotype} + \beta_\mathrm{Aging}$, and the
+y-coordinates are equal to $\beta_{Interaction}$ for each isoform.
+Previously we have shown that if two genes act in a
 linear pathway, an epistasis plot will generate a line with slope equal to $-0.5$.
-When we generated an epistasis plot and performed a linear regression on the
-resulting graph, we observed a slope of $-0.51\pm 0.01$, which suggests that the
-\gene{fog-2} gene and time are acting to generate the same transcriptomic phenotype,
-probably along the same pathway.
+When we generated an epistasis plot and found the line of best fit, we observed
+a slope of $-0.51\pm 0.01$, which suggests that the \gene{fog-2} gene and time
+are acting to generate a single transcriptomic phenotype along a single pathway.
 Overall, we identified
 \femalen{} genes that increased in the same direction through age or mutation
 of the \fog{} gene and that had an interaction coefficient of opposite sign to
@@ -624,7 +619,8 @@ information suggests that these \femalen{} genes define a female state in
 \begin{figure}
   \renewcommand{\familydefault}{\sfdefault}\normalfont{}
   \centering
-  \includegraphics[width=0.9\linewidth]{../../output/figs/final_figs/female_state_enrichment.pdf}
+  \includegraphics[width=0.9\linewidth]
+  {../../output/figs/final_figs/female_state_enrichment.pdf}
   \caption{
   Phenotype and GO enrichment of genes involved in the female state.
   \textbf{A}. Phenotype Enrichment Analysis.
@@ -675,57 +671,37 @@ We set out to study the self-fertilizing (hermaphroditic) to self-sterile
 aged. Our computational approach enabled us to separate between two biological
 processes that are correlated within samples. Because of this intra-sample
 correlation, identifying this state via pairwise comparisons would not have been
-straightforward. Although it is a favoured method amongst biologists, such
+straightforward. Although it is a favored method amongst biologists, such
 pairwise comparisons suffer from a number of drawbacks.
 First, pairwise comparisons are unable to draw on the full statistical power
 available to an experiment because they discard almost all information except
 the samples being compared. Second, pairwise comparisons require a researcher
 to define \emph{a priori} which comparisons are informative. For experiments
 with many variables, the number of pairwise combinations is explosively large.
-Indeed, even for this two-factor experiment, there are 6 possible combinations
-of pairwise comparisons. On the other hand, by specifying a linear regression
-model, each gene can be summarized with three variables, each of which can be
-analyzed and understood without the need to resort to further pairwise
-combinations.
-
-\subsection*{mRNA Levels of Developmental Factors Change Between 1st
-             to 6th Day of Adulthood in \cel{}}
-\label{sub:development_in_aging}
-
-Our transcriptomes reveal a host of transcription factors that changed between
-the 1st and 6th day of adulthood in \cel{}. Many of these transcription factors
-have been associated with development via cellular differentiation and
-specification. For example, we identified the transcription factor
-\emph{lin-32}, which has been associated with neuron
-development~\cite{Chalfie1989,Zhao1995,Portman2000}; the Six5 ortholog
-\emph{unc-39} has been associated with axonal pathfinding and neuron
-migration\cite{Manser1990,Yanowitz2004}; \emph{cnd-1}, a homolog  of the
-vertebrate NeuroD transcription factors, is expressed in the early embryo and is
-also involved in axon guidance~\cite{Schmitz2007}.
-Why these transcription factors increase their expression is a mystery,
-but we speculate that this hints at important neuronal changes that are
-taking place.
+Indeed, even for this two-factor experiment, there are 6 possible pairwise
+comparisons. On the other hand, by specifying a linear regression model, each
+gene can be summarized with three variables, each of which can be analyzed and
+understood without the need to resort to further pairwise combinations.
 
 Our explorations have shown that the loss of \fog{} partially phenocopies the
 transcriptional events that occur naturally as \cel{} ages from the 1st day of
 adulthood to the 6th day of adulthood. Moreover, epistasis analysis of these
 perturbations suggest that they act on the same pathway, namely sperm generation
 and depletion (see Fig.~\ref{fig:lifecycle}). Sperm generation promotes a non-female
-states, whereas sperm depletion causes entry into the female state.
-Given the enrichment of neuronal transcription factors that are associated with
-sperm loss in our dataset, we believe this dataset should contain some of the
-transcriptomic modules that are involved in these pheromone production and
-behavioral pathways, although we have been unable to find these genes.
-Currently, we cannot judge how many of the changes induced by loss of
-hermaphroditic sperm are developmental (i.e., irreversible), and how many can be
-rescued by mating to a male.
-While an entertaining thought experiment, establishing whether these
-transcriptomic changes can be rescued by males is a daunting experimental task,
-given that the timescales for physiologic changes could reasonably be the same
-as the timescale of onset of embryonic transcription. All in all, our research
-supports the idea that wide-ranging transcriptomic effects of aging in various
-tissues can be observed well before onset of mortality, and that \cel{}
-continues to develop as it enters a new state of its life cycle.
+states, whereas sperm depletion causes entry into the female state. Given the
+enrichment of neuronal transcription factors that are associated with sperm loss
+in our dataset, we believe this dataset should contain some of the transcriptomic
+modules that are involved in these pheromone production and behavioral pathways,
+although we have been unable to find these genes. Currently, we cannot judge how
+many of the changes induced by loss of hermaphroditic sperm are developmental
+(i.e., irreversible), and how many can be rescued by mating to a male.
+While an entertaining thought experiment, establishing whether these transcriptomic
+changes can be rescued by males is a daunting experimental task, given that the
+timescales for physiologic changes could reasonably be the same as the timescale
+of onset of embryonic transcription. All in all, our research supports the idea
+that wide-ranging transcriptomic effects of aging in various tissues can be
+observed well before onset of mortality, and that \cel{} continues to develop as
+it enters a new state of its life cycle.
 
 \subsection*{The \cel{} life cycle, life stages and life states}
 
@@ -788,6 +764,25 @@ genes~\cite{Dixit2016,Adamson2016}.
 In this work, we have shown that whole-organism RNA-seq data can also be analyzed
 via a similar formalism to successfully identify internal states in a
 multi-cellular organism.
+
+% \subsection*{mRNA Levels of Developmental Factors Change Between 1st
+%              to 6th Day of Adulthood in \cel{}}
+% \label{sub:development_in_aging}
+%
+% Our transcriptomes reveal a host of transcription factors that changed between
+% the 1st and 6th day of adulthood in \cel{}. Many of these transcription factors
+% have been associated with development via cellular differentiation and
+% specification. For example, we identified the transcription factor
+% \emph{lin-32}, which has been associated with neuron
+% development~\cite{Chalfie1989,Zhao1995,Portman2000}; the Six5 ortholog
+% \emph{unc-39} has been associated with axonal pathfinding and neuron
+% migration\cite{Manser1990,Yanowitz2004}; \emph{cnd-1}, a homolog  of the
+% vertebrate NeuroD transcription factors, is expressed in the early embryo and is
+% also involved in axon guidance~\cite{Schmitz2007}.
+% Why these transcription factors increase their expression is a mystery,
+% but we speculate that this hints at important neuronal changes that are
+% taking place.
+
 
 \section*{Acknowledgments}
 
