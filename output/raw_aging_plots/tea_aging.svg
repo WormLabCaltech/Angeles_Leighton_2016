@@ -19,10 +19,10 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 183.091756 348.018995 
+    <path d="M 205.098282 348.018995 
 L 563.04 348.018995 
 L 563.04 12.96 
-L 183.091756 12.96 
+L 205.098282 12.96 
 z
 " style="fill:none;"/>
    </g>
@@ -59,7 +59,7 @@ L 18.5 7.8125
 z
 " id="Computer_Modern_Bright_Math_Slanted-58"/>
       </defs>
-      <g style="fill:#262626;" transform="translate(174.403588 364.013038)scale(0.13 -0.13)">
+      <g style="fill:#262626;" transform="translate(196.410114 364.013038)scale(0.13 -0.13)">
        <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-48"/>
        <use transform="translate(50.643218 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright_Math_Slanted-58"/>
        <use transform="translate(79.700665 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-48"/>
@@ -95,7 +95,7 @@ C 3.796875 49.984375 4.40625 49.484375 4.703125 49.078125
 C 5.5 48.078125 6.296875 46.875 7.296875 45.96875 
 " id="Computer_Modern_Bright-50"/>
       </defs>
-      <g style="fill:#262626;" transform="translate(219.9551 364.013038)scale(0.13 -0.13)">
+      <g style="fill:#262626;" transform="translate(242.177787 364.013038)scale(0.13 -0.13)">
        <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-48"/>
        <use transform="translate(50.643218 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright_Math_Slanted-58"/>
        <use transform="translate(79.700665 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-50"/>
@@ -129,7 +129,7 @@ C 16.203125 35.171875 28.09375 53.546875 30.59375 59.28125
 C 30.90625 59.78125 31 60.375 31.296875 60.875 
 " id="Computer_Modern_Bright-52"/>
       </defs>
-      <g style="fill:#262626;" transform="translate(265.506611 364.013038)scale(0.13 -0.13)">
+      <g style="fill:#262626;" transform="translate(287.94546 364.013038)scale(0.13 -0.13)">
        <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-48"/>
        <use transform="translate(50.643218 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright_Math_Slanted-58"/>
        <use transform="translate(79.700665 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-52"/>
@@ -173,7 +173,7 @@ C 11.703125 19.34375 11.296875 22.140625 11.5 24.859375
 C 12 31.984375 17 38.515625 24.40625 39.515625 
 " id="Computer_Modern_Bright-54"/>
       </defs>
-      <g style="fill:#262626;" transform="translate(311.058123 364.013038)scale(0.13 -0.13)">
+      <g style="fill:#262626;" transform="translate(333.713133 364.013038)scale(0.13 -0.13)">
        <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-48"/>
        <use transform="translate(50.643218 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright_Math_Slanted-58"/>
        <use transform="translate(79.700665 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-54"/>
@@ -217,7 +217,7 @@ C 9.40625 13.390625 8.5 23.40625 13.703125 29.0625
 C 16.296875 31.78125 20 33.203125 23.703125 33.5 
 " id="Computer_Modern_Bright-56"/>
       </defs>
-      <g style="fill:#262626;" transform="translate(356.609634 364.013038)scale(0.13 -0.13)">
+      <g style="fill:#262626;" transform="translate(379.480807 364.013038)scale(0.13 -0.13)">
        <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-48"/>
        <use transform="translate(50.643218 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright_Math_Slanted-58"/>
        <use transform="translate(79.700665 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-56"/>
@@ -243,7 +243,7 @@ C 27.5 67 27.90625 66.359375 26 64.875
 C 21.90625 61.71875 16.203125 60.015625 9.703125 60.015625 
 " id="Computer_Modern_Bright-49"/>
       </defs>
-      <g style="fill:#262626;" transform="translate(402.161146 364.013038)scale(0.13 -0.13)">
+      <g style="fill:#262626;" transform="translate(425.24848 364.013038)scale(0.13 -0.13)">
        <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-49"/>
        <use transform="translate(50.643218 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright_Math_Slanted-58"/>
        <use transform="translate(79.700665 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-48"/>
@@ -254,7 +254,7 @@ C 21.90625 61.71875 16.203125 60.015625 9.703125 60.015625
      <g id="line2d_7"/>
      <g id="text_7">
       <!-- $1.2$ -->
-      <g style="fill:#262626;" transform="translate(447.712657 364.013038)scale(0.13 -0.13)">
+      <g style="fill:#262626;" transform="translate(471.016153 364.013038)scale(0.13 -0.13)">
        <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-49"/>
        <use transform="translate(50.643218 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright_Math_Slanted-58"/>
        <use transform="translate(79.700665 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-50"/>
@@ -265,25 +265,14 @@ C 21.90625 61.71875 16.203125 60.015625 9.703125 60.015625
      <g id="line2d_8"/>
      <g id="text_8">
       <!-- $1.4$ -->
-      <g style="fill:#262626;" transform="translate(493.264169 364.013038)scale(0.13 -0.13)">
+      <g style="fill:#262626;" transform="translate(516.783826 364.013038)scale(0.13 -0.13)">
        <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-49"/>
        <use transform="translate(50.643218 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright_Math_Slanted-58"/>
        <use transform="translate(79.700665 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-52"/>
       </g>
      </g>
     </g>
-    <g id="xtick_9">
-     <g id="line2d_9"/>
-     <g id="text_9">
-      <!-- $1.6$ -->
-      <g style="fill:#262626;" transform="translate(538.81568 364.013038)scale(0.13 -0.13)">
-       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-49"/>
-       <use transform="translate(50.643218 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright_Math_Slanted-58"/>
-       <use transform="translate(79.700665 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-54"/>
-      </g>
-     </g>
-    </g>
-    <g id="text_10">
+    <g id="text_9">
      <!-- Enrichment Fold Change -->
      <defs>
       <path d="M 8 69.328125 
@@ -595,7 +584,7 @@ C 8.90625 28.53125 13.203125 39.171875 22 42.1875
 C 23.09375 42.59375 24.296875 42.890625 25.5 43 
 " id="Computer_Modern_Bright-103"/>
      </defs>
-     <g style="fill:#262626;" transform="translate(294.280809 380.54934)scale(0.15 -0.15)">
+     <g style="fill:#262626;" transform="translate(305.284072 380.54934)scale(0.15 -0.15)">
       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-69"/>
       <use transform="translate(58.737787 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
       <use transform="translate(106.890284 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
@@ -621,8 +610,347 @@ C 23.09375 42.59375 24.296875 42.890625 25.5 43
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
+     <g id="line2d_9"/>
+     <g id="text_10">
+      <!-- gon herm sujn  -->
+      <defs>
+       <path d="M 3.09375 9.640625 
+C 2.90625 8.234375 2.59375 6.9375 2.40625 5.53125 
+C 2.203125 4.421875 1.90625 3.921875 2.90625 3.421875 
+C 7 1.015625 11.90625 -0.296875 17.703125 -0.796875 
+C 24.203125 -1.40625 32.40625 0.109375 35.59375 6.53125 
+C 36.5 8.34375 37 10.34375 37.09375 12.359375 
+C 37.5 19.578125 31.796875 24.203125 26.90625 25.90625 
+C 21.40625 28.015625 13.90625 27.3125 10.09375 31.53125 
+C 8.09375 33.84375 8 37.265625 9.90625 39.671875 
+C 13.90625 45.296875 26.796875 42.875 31.90625 40.375 
+C 32.703125 39.96875 33.40625 39.46875 34.296875 39.265625 
+L 35.203125 44.6875 
+C 30.5 46.796875 26.40625 48 19.90625 48 
+C 14.296875 48 9.203125 46.703125 6 43.484375 
+C 2.796875 40.171875 1.703125 34.640625 3.59375 30.4375 
+C 5.40625 26.40625 9.203125 23.796875 13.296875 22.5 
+C 19.203125 20.390625 25.90625 21.390625 29.796875 16.578125 
+C 32 13.765625 31.59375 9.546875 29.09375 7.03125 
+C 24.296875 2.609375 14.09375 4.21875 8.5 6.625 
+C 6.59375 7.4375 4.90625 8.640625 3.09375 9.640625 
+" id="Computer_Modern_Bright-115"/>
+       <path d="M 6.40625 47 
+L 6.40625 12.96875 
+C 6.40625 10.046875 6.5 7.140625 7.703125 4.421875 
+C 9.59375 0.515625 13.59375 -1 17.703125 -1 
+C 23.203125 -1 28.703125 0.8125 32.703125 4.734375 
+C 33.796875 5.828125 34.796875 6.9375 35.5 8.34375 
+L 35.59375 8.34375 
+L 35.59375 -0.390625 
+L 41.90625 -0.390625 
+L 41.90625 47 
+L 35.5 47 
+L 35.5 22.90625 
+C 35.5 18.6875 36.09375 14.0625 33.90625 10.25 
+C 32.296875 7.4375 29.5 5.234375 26.40625 4.234375 
+C 24.296875 3.625 22.09375 3.625 19.90625 3.828125 
+C 17.796875 4.03125 15.5 4.234375 14.09375 6.03125 
+C 12.09375 8.453125 12.796875 14.171875 12.796875 17.6875 
+L 12.796875 47 
+z
+" id="Computer_Modern_Bright-117"/>
+       <path d="M 9.40625 69.328125 
+L 9.40625 63 
+L 15.703125 63 
+L 15.703125 69.328125 
+z
+M 9.40625 47 
+L 9.40625 -3.90625 
+C 9.40625 -5.609375 9.703125 -7.515625 8.703125 -9.03125 
+C 6.5 -12.4375 0.296875 -13.34375 -4.5 -11.53125 
+C -5.796875 -11.140625 -6.90625 -10.4375 -8.09375 -9.828125 
+L -9.40625 -14.84375 
+C -8.40625 -15.25 -7.5 -15.75 -6.5 -16.0625 
+C -1.09375 -18.0625 5.703125 -18.96875 10.59375 -15.453125 
+C 12.5 -14.140625 14.09375 -12.34375 14.90625 -10.03125 
+C 15.90625 -7.71875 15.703125 -5.203125 15.703125 -2.703125 
+L 15.703125 47 
+z
+" id="Computer_Modern_Bright-106"/>
+      </defs>
+      <g style="fill:#262626;" transform="translate(119.732015 28.625655)scale(0.13 -0.13)">
+       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-103"/>
+       <use transform="translate(48.152497 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
+       <use transform="translate(98.795715 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
+       <use transform="translate(178.413423 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
+       <use transform="translate(226.56592 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(271.397588 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(303.360947 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-109"/>
+       <use transform="translate(412.036285 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
+       <use transform="translate(450.475314 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
+       <use transform="translate(498.627811 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-106"/>
+       <use transform="translate(520.628484 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
      <g id="line2d_10"/>
      <g id="text_11">
+      <!-- Nucleus  -->
+      <defs>
+       <path d="M 8.203125 69.59375 
+L 8.203125 0 
+L 14.40625 0 
+L 14.40625 64.0625 
+L 14.5 64.0625 
+L 39.796875 18.140625 
+C 43.203125 12.078125 46.5 5.9375 50 0 
+C 52.703125 -0.609375 56.59375 0 59.703125 0 
+L 59.703125 69.59375 
+L 53.5 69.59375 
+L 53.5 5.53125 
+L 28.296875 51.0625 
+C 24.796875 57.203125 21.59375 63.65625 17.90625 69.59375 
+C 15.203125 70.203125 11.296875 69.59375 8.203125 69.59375 
+" id="Computer_Modern_Bright-78"/>
+      </defs>
+      <g style="fill:#262626;" transform="translate(155.326593 50.962921)scale(0.13 -0.13)">
+       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-78"/>
+       <use transform="translate(67.662753 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
+       <use transform="translate(115.81525 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
+       <use transform="translate(160.646918 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+       <use transform="translate(179.741877 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(224.573544 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
+       <use transform="translate(272.726041 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11"/>
+     <g id="text_12">
+      <!-- spermathecal-uterine valve cell  -->
+      <defs>
+       <path d="M 12.703125 40.53125 
+L 12.703125 47.15625 
+L 6.40625 47.15625 
+L 6.40625 -17 
+L 12.796875 -17 
+L 12.796875 6.09375 
+C 14.203125 4.078125 15.796875 2.28125 17.90625 1.078125 
+C 25 -3.25 34 0.171875 38.90625 6.59375 
+C 45.40625 14.96875 46.09375 27.5 41.59375 36.984375 
+C 39 42.4375 34.09375 47.5 27.796875 48 
+C 22.296875 48 18.09375 45.8125 15.09375 43.125 
+C 14.203125 42.328125 13.5 41.4375 12.703125 40.53125 
+M 21.90625 42.875 
+C 26 43.171875 30 41.265625 32.796875 38.265625 
+C 34.5 36.34375 35.796875 34.140625 36.59375 31.734375 
+C 40.09375 22.296875 36.90625 9.234375 26.796875 5.328125 
+C 21 3.109375 15.296875 5.125 13.09375 10.546875 
+C 12.59375 11.546875 12.796875 12.859375 12.796875 13.953125 
+L 12.796875 34.640625 
+C 12.796875 36.953125 13 37.15625 14.5 38.859375 
+C 16.296875 41.0625 19 42.578125 21.90625 42.875 
+" id="Computer_Modern_Bright-112"/>
+       <path d="M 0.40625 26.015625 
+L 0.40625 21 
+L 28.296875 21 
+L 28.296875 26.015625 
+z
+" id="Computer_Modern_Bright-45"/>
+       <path d="M 0.703125 47.5 
+C 1.203125 45.5 4.203125 37.578125 4.40625 37.078125 
+C 5.40625 34.28125 17.296875 0.609375 17.59375 0.296875 
+C 17.90625 -0.203125 18.796875 0 19.296875 0 
+L 22.796875 0 
+C 24.09375 0 24.90625 -0.296875 25.203125 0.90625 
+C 28.40625 9.328125 40.09375 42.703125 41.796875 47.5 
+L 35.59375 47.5 
+C 30.796875 33.984375 25.90625 20.4375 21.40625 6.609375 
+L 11 36.203125 
+C 9.5 39.796875 8.59375 43.890625 6.90625 47.203125 
+C 5.09375 47.5 2.796875 47.5 0.703125 47.5 
+" id="Computer_Modern_Bright-118"/>
+      </defs>
+      <g style="fill:#262626;" transform="translate(29.8284 73.300187)scale(0.13 -0.13)">
+       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
+       <use transform="translate(38.439029 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-112"/>
+       <use transform="translate(86.591526 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(131.423194 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(163.386553 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-109"/>
+       <use transform="translate(240.596679 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(287.088761 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(323.203149 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
+       <use transform="translate(371.355646 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(416.187314 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
+       <use transform="translate(461.018982 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(507.511064 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+       <use transform="translate(526.606023 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-45"/>
+       <use transform="translate(559.814696 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
+       <use transform="translate(607.967193 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(644.081581 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(688.913249 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(720.876608 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
+       <use transform="translate(739.971567 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
+       <use transform="translate(788.124064 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(864.420943 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-118"/>
+       <use transform="translate(906.761981 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(953.254063 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+       <use transform="translate(972.349022 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-118"/>
+       <use transform="translate(1014.69006 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(1090.986939 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
+       <use transform="translate(1135.818607 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(1180.650274 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+       <use transform="translate(1199.745233 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_12"/>
+     <g id="text_13">
+      <!-- intestine  -->
+      <g style="fill:#262626;" transform="translate(151.764982 95.637454)scale(0.13 -0.13)">
+       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
+       <use transform="translate(19.094959 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
+       <use transform="translate(67.247456 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(103.361844 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(148.193511 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
+       <use transform="translate(186.632541 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(222.746929 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
+       <use transform="translate(241.841887 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
+       <use transform="translate(289.994384 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_13"/>
+     <g id="text_14">
+      <!-- spermathecal-uterine junction  -->
+      <g style="fill:#262626;" transform="translate(35.213951 117.97472)scale(0.13 -0.13)">
+       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
+       <use transform="translate(38.439029 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-112"/>
+       <use transform="translate(86.591526 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(131.423194 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(163.386553 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-109"/>
+       <use transform="translate(240.596679 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(287.088761 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(323.203149 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
+       <use transform="translate(371.355646 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(416.187314 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
+       <use transform="translate(461.018982 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(507.511064 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+       <use transform="translate(526.606023 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-45"/>
+       <use transform="translate(559.814696 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
+       <use transform="translate(607.967193 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(644.081581 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(688.913249 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(720.876608 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
+       <use transform="translate(739.971567 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
+       <use transform="translate(788.124064 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(864.420943 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-106"/>
+       <use transform="translate(886.421616 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
+       <use transform="translate(934.574113 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
+       <use transform="translate(982.72661 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
+       <use transform="translate(1027.558278 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(1063.672665 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
+       <use transform="translate(1082.767624 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
+       <use transform="translate(1133.410842 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14"/>
+     <g id="text_15">
+      <!-- somatic gonad  -->
+      <g style="fill:#262626;" transform="translate(117.832506 140.311986)scale(0.13 -0.13)">
+       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
+       <use transform="translate(38.439029 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
+       <use transform="translate(89.082247 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-109"/>
+       <use transform="translate(166.292373 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(212.784456 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(248.898844 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
+       <use transform="translate(267.993803 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
+       <use transform="translate(344.290682 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-103"/>
+       <use transform="translate(392.443179 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
+       <use transform="translate(443.086397 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
+       <use transform="translate(491.238894 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(537.730976 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-100"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_15"/>
+     <g id="text_16">
+      <!-- outer labial sensillum  -->
+      <defs>
+       <path d="M 6.40625 69.6875 
+L 6.40625 0 
+L 12.796875 0 
+L 12.796875 6.328125 
+L 12.90625 6.328125 
+C 14 4.109375 16.5 2.015625 18.59375 0.90625 
+C 25.796875 -2.90625 34.40625 0.90625 39.09375 7.03125 
+C 48.59375 19.578125 44.796875 40.875 32.296875 46.796875 
+C 27.40625 49 21.5 48 17.09375 44.984375 
+C 15.40625 43.78125 14 42.375 12.703125 40.765625 
+L 12.703125 69.6875 
+z
+M 21.90625 42.984375 
+C 26.59375 43.375 31.5 41.265625 34.296875 37.453125 
+C 36.203125 34.9375 37.203125 31.9375 37.703125 28.8125 
+C 38.703125 21.484375 37.90625 12.25 31.40625 7.4375 
+C 30.296875 6.625 29.09375 6.03125 27.796875 5.515625 
+C 22.40625 3.515625 17 4.109375 14 8.84375 
+C 13.09375 10.4375 12.796875 10.546875 12.796875 12.953125 
+L 12.796875 33.734375 
+C 12.796875 34.75 12.59375 35.953125 13 36.859375 
+C 14.59375 40.171875 18.296875 42.671875 21.90625 42.984375 
+" id="Computer_Modern_Bright-98"/>
+      </defs>
+      <g style="fill:#262626;" transform="translate(83.328063 162.649253)scale(0.13 -0.13)">
+       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
+       <use transform="translate(50.643218 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
+       <use transform="translate(98.795715 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(134.910103 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(179.74177 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(243.170341 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+       <use transform="translate(262.2653 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(308.757382 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-98"/>
+       <use transform="translate(356.909879 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
+       <use transform="translate(376.004838 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(422.49692 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+       <use transform="translate(473.057091 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
+       <use transform="translate(511.49612 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(556.327788 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
+       <use transform="translate(604.480285 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
+       <use transform="translate(642.919314 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
+       <use transform="translate(662.014273 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+       <use transform="translate(681.109231 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+       <use transform="translate(700.20419 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
+       <use transform="translate(748.356687 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-109"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_16"/>
+     <g id="text_17">
+      <!-- hermaphrodite  -->
+      <g style="fill:#262626;" transform="translate(118.825441 184.986519)scale(0.13 -0.13)">
+       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
+       <use transform="translate(48.152497 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(92.984165 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(124.947523 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-109"/>
+       <use transform="translate(202.15765 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(248.649732 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-112"/>
+       <use transform="translate(296.802229 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
+       <use transform="translate(344.954726 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(376.918085 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
+       <use transform="translate(427.561303 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-100"/>
+       <use transform="translate(475.7138 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
+       <use transform="translate(494.808759 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(530.923146 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_17"/>
+     <g id="text_18">
       <!-- PVD  -->
       <defs>
        <path d="M 8 70 
@@ -680,131 +1008,18 @@ C 33.40625 5.3125 30.703125 5.3125 28.09375 5.3125
 z
 " id="Computer_Modern_Bright-68"/>
       </defs>
-      <g style="fill:#262626;" transform="translate(149.163851 29.423414)scale(0.13 -0.13)">
+      <g style="fill:#262626;" transform="translate(171.170377 207.323785)scale(0.13 -0.13)">
        <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-80"/>
        <use transform="translate(62.888907 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-86"/>
        <use transform="translate(126.400525 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-68"/>
       </g>
      </g>
     </g>
-    <g id="ytick_2">
-     <g id="line2d_11"/>
-     <g id="text_12">
-      <!-- labial sensillum  -->
-      <defs>
-       <path d="M 6.40625 69.6875 
-L 6.40625 0 
-L 12.796875 0 
-L 12.796875 6.328125 
-L 12.90625 6.328125 
-C 14 4.109375 16.5 2.015625 18.59375 0.90625 
-C 25.796875 -2.90625 34.40625 0.90625 39.09375 7.03125 
-C 48.59375 19.578125 44.796875 40.875 32.296875 46.796875 
-C 27.40625 49 21.5 48 17.09375 44.984375 
-C 15.40625 43.78125 14 42.375 12.703125 40.765625 
-L 12.703125 69.6875 
-z
-M 21.90625 42.984375 
-C 26.59375 43.375 31.5 41.265625 34.296875 37.453125 
-C 36.203125 34.9375 37.203125 31.9375 37.703125 28.8125 
-C 38.703125 21.484375 37.90625 12.25 31.40625 7.4375 
-C 30.296875 6.625 29.09375 6.03125 27.796875 5.515625 
-C 22.40625 3.515625 17 4.109375 14 8.84375 
-C 13.09375 10.4375 12.796875 10.546875 12.796875 12.953125 
-L 12.796875 33.734375 
-C 12.796875 34.75 12.59375 35.953125 13 36.859375 
-C 14.59375 40.171875 18.296875 42.671875 21.90625 42.984375 
-" id="Computer_Modern_Bright-98"/>
-       <path d="M 3.09375 9.640625 
-C 2.90625 8.234375 2.59375 6.9375 2.40625 5.53125 
-C 2.203125 4.421875 1.90625 3.921875 2.90625 3.421875 
-C 7 1.015625 11.90625 -0.296875 17.703125 -0.796875 
-C 24.203125 -1.40625 32.40625 0.109375 35.59375 6.53125 
-C 36.5 8.34375 37 10.34375 37.09375 12.359375 
-C 37.5 19.578125 31.796875 24.203125 26.90625 25.90625 
-C 21.40625 28.015625 13.90625 27.3125 10.09375 31.53125 
-C 8.09375 33.84375 8 37.265625 9.90625 39.671875 
-C 13.90625 45.296875 26.796875 42.875 31.90625 40.375 
-C 32.703125 39.96875 33.40625 39.46875 34.296875 39.265625 
-L 35.203125 44.6875 
-C 30.5 46.796875 26.40625 48 19.90625 48 
-C 14.296875 48 9.203125 46.703125 6 43.484375 
-C 2.796875 40.171875 1.703125 34.640625 3.59375 30.4375 
-C 5.40625 26.40625 9.203125 23.796875 13.296875 22.5 
-C 19.203125 20.390625 25.90625 21.390625 29.796875 16.578125 
-C 32 13.765625 31.59375 9.546875 29.09375 7.03125 
-C 24.296875 2.609375 14.09375 4.21875 8.5 6.625 
-C 6.59375 7.4375 4.90625 8.640625 3.09375 9.640625 
-" id="Computer_Modern_Bright-115"/>
-       <path d="M 6.40625 47 
-L 6.40625 12.96875 
-C 6.40625 10.046875 6.5 7.140625 7.703125 4.421875 
-C 9.59375 0.515625 13.59375 -1 17.703125 -1 
-C 23.203125 -1 28.703125 0.8125 32.703125 4.734375 
-C 33.796875 5.828125 34.796875 6.9375 35.5 8.34375 
-L 35.59375 8.34375 
-L 35.59375 -0.390625 
-L 41.90625 -0.390625 
-L 41.90625 47 
-L 35.5 47 
-L 35.5 22.90625 
-C 35.5 18.6875 36.09375 14.0625 33.90625 10.25 
-C 32.296875 7.4375 29.5 5.234375 26.40625 4.234375 
-C 24.296875 3.625 22.09375 3.625 19.90625 3.828125 
-C 17.796875 4.03125 15.5 4.234375 14.09375 6.03125 
-C 12.09375 8.453125 12.796875 14.171875 12.796875 17.6875 
-L 12.796875 47 
-z
-" id="Computer_Modern_Bright-117"/>
-      </defs>
-      <g style="fill:#262626;" transform="translate(94.552421 53.3562)scale(0.13 -0.13)">
-       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
-       <use transform="translate(19.094959 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
-       <use transform="translate(65.587041 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-98"/>
-       <use transform="translate(113.739538 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
-       <use transform="translate(132.834497 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
-       <use transform="translate(179.326579 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
-       <use transform="translate(229.88675 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
-       <use transform="translate(268.325779 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(313.157447 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
-       <use transform="translate(361.309944 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
-       <use transform="translate(399.748973 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
-       <use transform="translate(418.843932 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
-       <use transform="translate(437.938891 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
-       <use transform="translate(457.03385 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
-       <use transform="translate(505.186346 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-109"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_3">
-     <g id="line2d_12"/>
-     <g id="text_13">
+    <g id="ytick_10">
+     <g id="line2d_18"/>
+     <g id="text_19">
       <!-- anal depressor muscle  -->
-      <defs>
-       <path d="M 12.703125 40.53125 
-L 12.703125 47.15625 
-L 6.40625 47.15625 
-L 6.40625 -17 
-L 12.796875 -17 
-L 12.796875 6.09375 
-C 14.203125 4.078125 15.796875 2.28125 17.90625 1.078125 
-C 25 -3.25 34 0.171875 38.90625 6.59375 
-C 45.40625 14.96875 46.09375 27.5 41.59375 36.984375 
-C 39 42.4375 34.09375 47.5 27.796875 48 
-C 22.296875 48 18.09375 45.8125 15.09375 43.125 
-C 14.203125 42.328125 13.5 41.4375 12.703125 40.53125 
-M 21.90625 42.875 
-C 26 43.171875 30 41.265625 32.796875 38.265625 
-C 34.5 36.34375 35.796875 34.140625 36.59375 31.734375 
-C 40.09375 22.296875 36.90625 9.234375 26.796875 5.328125 
-C 21 3.109375 15.296875 5.125 13.09375 10.546875 
-C 12.59375 11.546875 12.796875 12.859375 12.796875 13.953125 
-L 12.796875 34.640625 
-C 12.796875 36.953125 13 37.15625 14.5 38.859375 
-C 16.296875 41.0625 19 42.578125 21.90625 42.875 
-" id="Computer_Modern_Bright-112"/>
-      </defs>
-      <g style="fill:#262626;" transform="translate(56.864162 77.288985)scale(0.13 -0.13)">
+      <g style="fill:#262626;" transform="translate(78.870688 229.661052)scale(0.13 -0.13)">
        <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
        <use transform="translate(46.492082 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
        <use transform="translate(94.644579 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
@@ -827,11 +1042,11 @@ C 16.296875 41.0625 19 42.578125 21.90625 42.875
       </g>
      </g>
     </g>
-    <g id="ytick_4">
-     <g id="line2d_13"/>
-     <g id="text_14">
+    <g id="ytick_11">
+     <g id="line2d_19"/>
+     <g id="text_20">
       <!-- Psub1  -->
-      <g style="fill:#262626;" transform="translate(142.170104 101.22177)scale(0.13 -0.13)">
+      <g style="fill:#262626;" transform="translate(164.17663 251.998318)scale(0.13 -0.13)">
        <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-80"/>
        <use transform="translate(62.888907 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
        <use transform="translate(101.327936 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
@@ -840,212 +1055,10 @@ C 16.296875 41.0625 19 42.578125 21.90625 42.875
       </g>
      </g>
     </g>
-    <g id="ytick_5">
-     <g id="line2d_14"/>
-     <g id="text_15">
-      <!-- cephalic sheath cell  -->
-      <g style="fill:#262626;" transform="translate(69.934183 125.154556)scale(0.13 -0.13)">
-       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
-       <use transform="translate(44.831668 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(89.663335 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-112"/>
-       <use transform="translate(137.815832 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
-       <use transform="translate(185.968329 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
-       <use transform="translate(232.460412 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
-       <use transform="translate(251.55537 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
-       <use transform="translate(270.650329 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
-       <use transform="translate(346.947208 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
-       <use transform="translate(385.386238 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
-       <use transform="translate(433.538735 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(478.370402 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
-       <use transform="translate(524.862485 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
-       <use transform="translate(560.976873 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
-       <use transform="translate(640.594581 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
-       <use transform="translate(685.426249 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(730.257916 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
-       <use transform="translate(749.352875 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_6">
-     <g id="line2d_15"/>
-     <g id="text_16">
-      <!-- sex organ  -->
-      <defs>
-       <path d="M -0.203125 47.390625 
-L 10.09375 34.46875 
-L 18.203125 24.546875 
-L 18.203125 24.453125 
-L 15.703125 21.328125 
-L -0.796875 0 
-C 1.5 0 3.90625 0 6.09375 0 
-L 7.40625 1.625 
-L 20.90625 20.828125 
-L 21 20.828125 
-C 26 13.921875 31 6.90625 36.296875 0.296875 
-C 38.40625 0 40.90625 0 43.296875 0 
-L 31.09375 15.296875 
-C 28.703125 18.40625 26.203125 21.4375 23.703125 24.453125 
-L 23.703125 24.546875 
-L 27.09375 28.75 
-L 41.5 47.390625 
-C 39.203125 47.390625 36.90625 47.390625 34.703125 47.390625 
-L 33.40625 45.890625 
-L 21 29.171875 
-C 16.203125 35.046875 11.703125 41.3125 6.796875 47.09375 
-C 4.703125 47.390625 2.203125 47.390625 -0.203125 47.390625 
-" id="Computer_Modern_Bright-120"/>
-      </defs>
-      <g style="fill:#262626;" transform="translate(123.941145 149.087341)scale(0.13 -0.13)">
-       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
-       <use transform="translate(38.439029 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(83.270697 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-120"/>
-       <use transform="translate(157.076947 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
-       <use transform="translate(204.814435 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(236.777794 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-103"/>
-       <use transform="translate(284.930291 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
-       <use transform="translate(331.422373 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_7">
-     <g id="line2d_16"/>
-     <g id="text_17">
-      <!-- hermaphrodite  -->
-      <g style="fill:#262626;" transform="translate(96.818915 173.020126)scale(0.13 -0.13)">
-       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
-       <use transform="translate(48.152497 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(92.984165 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(124.947523 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-109"/>
-       <use transform="translate(202.15765 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
-       <use transform="translate(248.649732 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-112"/>
-       <use transform="translate(296.802229 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
-       <use transform="translate(344.954726 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(376.918085 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
-       <use transform="translate(427.561303 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-100"/>
-       <use transform="translate(475.7138 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
-       <use transform="translate(494.808759 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
-       <use transform="translate(530.923146 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_8">
-     <g id="line2d_17"/>
-     <g id="text_18">
-      <!-- dorsal nerve cord  -->
-      <defs>
-       <path d="M 0.703125 47.5 
-C 1.203125 45.5 4.203125 37.578125 4.40625 37.078125 
-C 5.40625 34.28125 17.296875 0.609375 17.59375 0.296875 
-C 17.90625 -0.203125 18.796875 0 19.296875 0 
-L 22.796875 0 
-C 24.09375 0 24.90625 -0.296875 25.203125 0.90625 
-C 28.40625 9.328125 40.09375 42.703125 41.796875 47.5 
-L 35.59375 47.5 
-C 30.796875 33.984375 25.90625 20.4375 21.40625 6.609375 
-L 11 36.203125 
-C 9.5 39.796875 8.59375 43.890625 6.90625 47.203125 
-C 5.09375 47.5 2.796875 47.5 0.703125 47.5 
-" id="Computer_Modern_Bright-118"/>
-      </defs>
-      <g style="fill:#262626;" transform="translate(82.561741 196.952912)scale(0.13 -0.13)">
-       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-100"/>
-       <use transform="translate(48.152497 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
-       <use transform="translate(95.889985 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(127.853344 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
-       <use transform="translate(166.292373 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
-       <use transform="translate(212.784456 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
-       <use transform="translate(263.344626 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
-       <use transform="translate(311.497123 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(356.328791 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(388.29215 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-118"/>
-       <use transform="translate(430.633188 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(506.930067 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
-       <use transform="translate(551.761735 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
-       <use transform="translate(599.499223 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(631.462582 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-100"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_9">
-     <g id="line2d_18"/>
-     <g id="text_19">
-      <!-- nerve ring  -->
-      <g style="fill:#262626;" transform="translate(121.814963 220.885697)scale(0.13 -0.13)">
-       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
-       <use transform="translate(48.152497 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(92.984165 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(124.947523 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-118"/>
-       <use transform="translate(167.288561 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(243.585441 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(275.5488 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
-       <use transform="translate(294.643758 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
-       <use transform="translate(342.796255 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-103"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_10">
-     <g id="line2d_19"/>
-     <g id="text_20">
-      <!-- hmc  -->
-      <g style="fill:#262626;" transform="translate(152.887315 244.818482)scale(0.13 -0.13)">
-       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
-       <use transform="translate(48.152497 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-109"/>
-       <use transform="translate(125.362623 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_11">
+    <g id="ytick_12">
      <g id="line2d_20"/>
      <g id="text_21">
-      <!-- intestinal muscle  -->
-      <g style="fill:#262626;" transform="translate(84.838983 268.751268)scale(0.13 -0.13)">
-       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
-       <use transform="translate(19.094959 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
-       <use transform="translate(67.247456 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
-       <use transform="translate(103.361844 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(148.193511 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
-       <use transform="translate(186.632541 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
-       <use transform="translate(222.746929 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
-       <use transform="translate(241.841887 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
-       <use transform="translate(289.994384 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
-       <use transform="translate(336.486467 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
-       <use transform="translate(387.046637 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-109"/>
-       <use transform="translate(464.256764 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
-       <use transform="translate(512.409261 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
-       <use transform="translate(550.84829 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
-       <use transform="translate(595.679957 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
-       <use transform="translate(614.774916 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_12">
-     <g id="line2d_21"/>
-     <g id="text_22">
-      <!-- lateral nerve cord  -->
-      <g style="fill:#262626;" transform="translate(80.651424 292.684053)scale(0.13 -0.13)">
-       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
-       <use transform="translate(19.094959 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
-       <use transform="translate(65.587041 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
-       <use transform="translate(101.701429 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(146.533097 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(178.496456 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
-       <use transform="translate(224.988538 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
-       <use transform="translate(275.548708 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
-       <use transform="translate(323.701205 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(368.532873 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(400.496232 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-118"/>
-       <use transform="translate(442.83727 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(519.134149 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
-       <use transform="translate(563.965817 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
-       <use transform="translate(611.703305 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(643.666664 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-100"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_13">
-     <g id="line2d_22"/>
-     <g id="text_23">
-      <!-- excretory cell  -->
+      <!-- muscular system  -->
       <defs>
        <path d="M 0.703125 47.65625 
 C 1.296875 45.75 5.40625 35.609375 5.5 35.3125 
@@ -1075,241 +1088,296 @@ C 7.09375 47.65625 6.703125 47.65625 5.203125 47.65625
 z
 " id="Computer_Modern_Bright-121"/>
       </defs>
-      <g style="fill:#262626;" transform="translate(103.575271 316.616838)scale(0.13 -0.13)">
-       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(44.831668 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-120"/>
-       <use transform="translate(87.172706 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
-       <use transform="translate(132.004373 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(163.967732 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(208.7994 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
-       <use transform="translate(244.913788 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
-       <use transform="translate(292.651276 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(324.614635 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-121"/>
-       <use transform="translate(398.420884 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
-       <use transform="translate(443.252552 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(488.08422 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
-       <use transform="translate(507.179179 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+      <g style="fill:#262626;" transform="translate(107.514661 274.335584)scale(0.13 -0.13)">
+       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-109"/>
+       <use transform="translate(77.210126 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
+       <use transform="translate(125.362623 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
+       <use transform="translate(163.801653 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
+       <use transform="translate(208.63332 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
+       <use transform="translate(256.785817 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+       <use transform="translate(275.880776 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(319.467129 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(382.895699 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
+       <use transform="translate(421.334729 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-121"/>
+       <use transform="translate(463.675767 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
+       <use transform="translate(502.114796 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(538.229184 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(583.060852 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-109"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_21"/>
+     <g id="text_22">
+      <!-- cephalic sheath cell  -->
+      <g style="fill:#262626;" transform="translate(91.940709 296.672851)scale(0.13 -0.13)">
+       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
+       <use transform="translate(44.831668 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(89.663335 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-112"/>
+       <use transform="translate(137.815832 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
+       <use transform="translate(185.968329 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(232.460412 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+       <use transform="translate(251.55537 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
+       <use transform="translate(270.650329 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
+       <use transform="translate(346.947208 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
+       <use transform="translate(385.386238 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
+       <use transform="translate(433.538735 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(478.370402 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(524.862485 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(560.976873 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-104"/>
+       <use transform="translate(640.594581 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
+       <use transform="translate(685.426249 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(730.257916 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+       <use transform="translate(749.352875 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
       </g>
      </g>
     </g>
     <g id="ytick_14">
+     <g id="line2d_22"/>
+     <g id="text_23">
+      <!-- reproductive tract  -->
+      <g style="fill:#262626;" transform="translate(99.733127 319.010117)scale(0.13 -0.13)">
+       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(31.963359 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(76.795026 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-112"/>
+       <use transform="translate(122.041794 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(154.005153 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
+       <use transform="translate(204.648371 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-100"/>
+       <use transform="translate(252.800868 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-117"/>
+       <use transform="translate(300.953365 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
+       <use transform="translate(345.785032 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(381.89942 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-105"/>
+       <use transform="translate(400.994379 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-118"/>
+       <use transform="translate(443.335417 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(519.632296 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+       <use transform="translate(555.746684 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(587.710043 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(634.202125 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
+       <use transform="translate(679.033793 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_15">
      <g id="line2d_23"/>
      <g id="text_24">
-      <!-- excretory secretory system  -->
-      <g style="fill:#262626;" transform="translate(29.8284 340.549624)scale(0.13 -0.13)">
-       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(44.831668 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-120"/>
-       <use transform="translate(87.172706 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
-       <use transform="translate(132.004373 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(163.967732 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(208.7994 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
-       <use transform="translate(244.913788 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
-       <use transform="translate(292.651276 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(324.614635 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-121"/>
-       <use transform="translate(398.420884 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
-       <use transform="translate(436.859914 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(481.691581 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
-       <use transform="translate(526.523249 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(558.486608 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(603.318275 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
-       <use transform="translate(639.432663 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
-       <use transform="translate(687.170152 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
-       <use transform="translate(719.133511 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-121"/>
-       <use transform="translate(792.93976 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
-       <use transform="translate(831.37879 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-121"/>
-       <use transform="translate(873.719828 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
-       <use transform="translate(912.158857 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-116"/>
-       <use transform="translate(948.273245 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
-       <use transform="translate(993.104912 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-109"/>
+      <!-- dorsal nerve cord  -->
+      <g style="fill:#262626;" transform="translate(104.568267 341.347383)scale(0.13 -0.13)">
+       <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-100"/>
+       <use transform="translate(48.152497 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
+       <use transform="translate(95.889985 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(127.853344 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-115"/>
+       <use transform="translate(166.292373 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-97"/>
+       <use transform="translate(212.784456 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-108"/>
+       <use transform="translate(263.344626 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
+       <use transform="translate(311.497123 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(356.328791 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(388.29215 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-118"/>
+       <use transform="translate(430.633188 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-101"/>
+       <use transform="translate(506.930067 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-99"/>
+       <use transform="translate(551.761735 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-111"/>
+       <use transform="translate(599.499223 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
+       <use transform="translate(631.462582 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-100"/>
       </g>
      </g>
     </g>
    </g>
    <g id="patch_3">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 15.353279 
-L 457.861678 15.353279 
-L 457.861678 34.499507 
-L 183.091756 34.499507 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 15.193727 
+L 545.995156 15.193727 
+L 545.995156 33.06354 
+L 205.098282 33.06354 
 z
 " style="fill:#ea96a3;"/>
    </g>
    <g id="patch_4">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 39.286064 
-L 457.082763 39.286064 
-L 457.082763 58.432292 
-L 183.091756 58.432292 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 37.530993 
+L 543.987625 37.530993 
+L 543.987625 55.400806 
+L 205.098282 55.400806 
 z
-" style="fill:#e4946a;"/>
+" style="fill:#e59471;"/>
    </g>
    <g id="patch_5">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 63.218849 
-L 500.701587 63.218849 
-L 500.701587 82.365077 
-L 183.091756 82.365077 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 59.868259 
+L 539.352227 59.868259 
+L 539.352227 77.738072 
+L 205.098282 77.738072 
 z
-" style="fill:#c29a4b;"/>
+" style="fill:#c6994b;"/>
    </g>
    <g id="patch_6">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 87.151635 
-L 517.4495 87.151635 
-L 517.4495 106.297863 
-L 183.091756 106.297863 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 82.205526 
+L 470.607676 82.205526 
+L 470.607676 100.075339 
+L 205.098282 100.075339 
 z
-" style="fill:#a69f46;"/>
+" style="fill:#ab9e47;"/>
    </g>
    <g id="patch_7">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 111.08442 
-L 498.055647 111.08442 
-L 498.055647 130.230648 
-L 183.091756 130.230648 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 104.542792 
+L 533.947141 104.542792 
+L 533.947141 122.412605 
+L 205.098282 122.412605 
 z
-" style="fill:#88a746;"/>
+" style="fill:#91a446;"/>
    </g>
    <g id="patch_8">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 135.017205 
-L 444.641587 135.017205 
-L 444.641587 154.163434 
-L 183.091756 154.163434 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 126.880058 
+L 510.266838 126.880058 
+L 510.266838 144.749871 
+L 205.098282 144.749871 
 z
-" style="fill:#48b05e;"/>
+" style="fill:#60ae47;"/>
    </g>
    <g id="patch_9">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 158.949991 
-L 437.58258 158.949991 
-L 437.58258 178.096219 
-L 183.091756 178.096219 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 149.217325 
+L 473.491462 149.217325 
+L 473.491462 167.087138 
+L 205.098282 167.087138 
 z
-" style="fill:#4aad8f;"/>
+" style="fill:#49ae83;"/>
    </g>
    <g id="patch_10">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 182.882776 
-L 462.100619 182.882776 
-L 462.100619 202.029004 
-L 183.091756 202.029004 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 171.554591 
+L 472.835304 171.554591 
+L 472.835304 189.424404 
+L 205.098282 189.424404 
 z
-" style="fill:#4baba4;"/>
+" style="fill:#4aac9b;"/>
    </g>
    <g id="patch_11">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 206.815561 
-L 452.673234 206.815561 
-L 452.673234 225.96179 
-L 183.091756 225.96179 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 193.891857 
+L 472.609506 193.891857 
+L 472.609506 211.76167 
+L 205.098282 211.76167 
 z
-" style="fill:#4eabb8;"/>
+" style="fill:#4cabad;"/>
    </g>
    <g id="patch_12">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 230.748347 
-L 544.947226 230.748347 
-L 544.947226 249.894575 
-L 183.091756 249.894575 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 216.229124 
+L 514.210776 216.229124 
+L 514.210776 234.098937 
+L 205.098282 234.098937 
 z
-" style="fill:#55acd7;"/>
+" style="fill:#50acc3;"/>
    </g>
    <g id="patch_13">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 254.681132 
-L 484.975004 254.681132 
-L 484.975004 273.82736 
-L 183.091756 273.82736 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 238.56639 
+L 530.510614 238.56639 
+L 530.510614 256.436203 
+L 205.098282 256.436203 
 z
-" style="fill:#a0adea;"/>
+" style="fill:#6daee2;"/>
    </g>
    <g id="patch_14">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 278.613917 
-L 462.221246 278.613917 
-L 462.221246 297.760146 
-L 183.091756 297.760146 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 260.903656 
+L 453.345893 260.903656 
+L 453.345893 278.773469 
+L 205.098282 278.773469 
 z
-" style="fill:#c79fe9;"/>
+" style="fill:#adabeb;"/>
    </g>
    <g id="patch_15">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 302.546703 
-L 446.550754 302.546703 
-L 446.550754 321.692931 
-L 183.091756 321.692931 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 283.240922 
+L 511.635625 283.240922 
+L 511.635625 301.110736 
+L 205.098282 301.110736 
 z
-" style="fill:#e78ae0;"/>
+" style="fill:#ce9be9;"/>
    </g>
    <g id="patch_16">
-    <path clip-path="url(#p0389b6b7f2)" d="M 183.091756 326.479488 
-L 444.015486 326.479488 
-L 444.015486 345.625716 
-L 183.091756 345.625716 
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 305.578189 
+L 458.708827 305.578189 
+L 458.708827 323.448002 
+L 205.098282 323.448002 
 z
-" style="fill:#e891c1;"/>
+" style="fill:#e78bdb;"/>
+   </g>
+   <g id="patch_17">
+    <path clip-path="url(#pd39350be1f)" d="M 205.098282 327.915455 
+L 476.642539 327.915455 
+L 476.642539 345.785268 
+L 205.098282 345.785268 
+z
+" style="fill:#e891bf;"/>
    </g>
    <g id="line2d_24">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="line2d_25">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="line2d_26">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="line2d_27">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="line2d_28">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="line2d_29">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="line2d_30">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="line2d_31">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="line2d_32">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="line2d_33">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="line2d_34">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="line2d_35">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="line2d_36">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="line2d_37">
-    <path clip-path="url(#p0389b6b7f2)" d="M 0 0 
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
 " style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
-   <g id="patch_17">
-    <path d="M 183.091756 348.018995 
-L 183.091756 12.96 
-" style="fill:none;"/>
+   <g id="line2d_38">
+    <path clip-path="url(#pd39350be1f)" d="M 0 0 
+" style="fill:none;stroke:#424242;stroke-linecap:round;stroke-width:3.6;"/>
    </g>
    <g id="patch_18">
+    <path d="M 205.098282 348.018995 
+L 205.098282 12.96 
+" style="fill:none;"/>
+   </g>
+   <g id="patch_19">
     <path d="M 563.04 348.018995 
 L 563.04 12.96 
 " style="fill:none;"/>
    </g>
-   <g id="patch_19">
-    <path d="M 183.091756 348.018995 
+   <g id="patch_20">
+    <path d="M 205.098282 348.018995 
 L 563.04 348.018995 
 " style="fill:none;"/>
    </g>
-   <g id="patch_20">
-    <path d="M 183.091756 12.96 
+   <g id="patch_21">
+    <path d="M 205.098282 12.96 
 L 563.04 12.96 
 " style="fill:none;"/>
    </g>
@@ -1347,12 +1415,6 @@ L 18.203125 26.21875
 L 26.90625 50.109375 
 z
 " id="Computer_Modern_Bright-65"/>
-     <path d="M 0.40625 26.015625 
-L 0.40625 21 
-L 28.296875 21 
-L 28.296875 26.015625 
-z
-" id="Computer_Modern_Bright-45"/>
      <path d="M 8 69.328125 
 L 8 -0.5 
 L 14.90625 -0.5 
@@ -1406,7 +1468,7 @@ C 62.09375 5.171875 62.09375 5.59375 62.09375 5.90625
 z
 " id="Computer_Modern_Bright-71"/>
     </defs>
-    <g style="fill:#262626;" transform="translate(242.600123 6.96)scale(0.15 -0.15)">
+    <g style="fill:#262626;" transform="translate(253.603386 6.96)scale(0.15 -0.15)">
      <use transform="scale(0.996264)" xlink:href="#Computer_Modern_Bright-69"/>
      <use transform="translate(58.737787 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-110"/>
      <use transform="translate(106.890284 0)scale(0.996264)" xlink:href="#Computer_Modern_Bright-114"/>
@@ -1447,8 +1509,8 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p0389b6b7f2">
-   <rect height="335.058995" width="379.948244" x="183.091756" y="12.96"/>
+  <clipPath id="pd39350be1f">
+   <rect height="335.058995" width="357.941718" x="205.098282" y="12.96"/>
   </clipPath>
  </defs>
 </svg>
