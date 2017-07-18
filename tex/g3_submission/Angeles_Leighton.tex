@@ -2,11 +2,6 @@
 % Use the documentclass option 'lineno' to view line numbers
 
 \articletype{gos} % article type
-% {inv} Investigation
-% {gs} Genomic Selection
-% {goi} Genetics of Immunity
-% {gos} Genetics of Sex
-% {mp} Multiparental Populations
 \usepackage{gensymb}
 \usepackage[switch]{lineno}
 \usepackage{siunitx}
@@ -73,25 +68,6 @@ sex determination}
 \linenumbers{}
 
 \begin{abstract}
-  % Understanding genome and gene function in a whole organism requires us to
-  % fully comprehend the life cycle and the physiology of the organism in question.
-  % Although \cel{} is traditionally thought of as a hermaphrodite, XX animals exhaust
-  % their sperm and become endogenous females after 3 days of egg-laying.
-  % The molecular physiology of this state has not been as intensely studied as other
-  % parts of the life cycle, despite documented changes in behavior and metabolism
-  % that occur at this stage. To study the female-like state of \cel{}, we measured the
-  % transcriptomes of 1st day adult hermaphrodites; endogenous, 6th day adult females;
-  % and at the same time points, mutant \fog{} worms that have a feminized germline
-  % phenotype. At these time points, we could separate the effects of biological
-  % aging from the transition into the female-like state.\@ \fog{} mutants partially phenocopy
-  % 6 day adult wild-type animals and exhibit fewer differentially expressed genes as
-  % they age throughout these 6 days. Therefore, \emph{fog-2} is epistatic to age as
-  % assessed by this transcriptomic phenotype, which indicates that both factors act
-  % on sperm status to mediate entry into the female-like state. These changes are enriched
-  % in transcription factors canonically associated with neuronal development and
-  % differentiation. Our data provide a high-quality picture of the changes that
-  % happen in global gene expression throughout the period of early aging in the
-  % worm.
   Understanding genome and gene function in a whole organism requires us to
   fully comprehend the life cycle and the physiology of the organism in
   question. \emph{Caenorhabditis~elegans} XX animals are hermaphrodites that
@@ -111,7 +87,6 @@ sex determination}
   internal state of the worm, which we call the female-like state. Our data
   provide a high-quality picture of the changes that happen in global gene
   expression throughout the period of early aging in the worm.
-
 \end{abstract}
 
 \setboolean{displaycopyright}{true}
@@ -152,7 +127,6 @@ which are less accurate than RNA-seq, especially for genes expressed at low
 levels~\citep{Wang2014}.
 
 Here, we investigate what we argue is a distinct state in the \cel{} life cycle.
-% the endogenous female-like state.
 Although \cel{} hermaphrodites emerge into adulthood replete with sperm,
 after about 3 days of egg-laying the animals become sperm-depleted and can only
 reproduce by mating. This marks a transition into what we define as the
@@ -172,7 +146,7 @@ experiment. We examined wild-type XX animals at the beginning of adulthood
 depletion (6 days after the last molt, which we term 6th day adults). Second, we
 examined feminized XX animals that fail to produce sperm but are fully fertile
 if supplied sperm by mating with males (see Fig.~\ref{fig:wormlife}). We used
-\fog{} mutants to obtain feminized animals. \gene{fog-2} is involved in
+\gene{fog-2} null mutants to obtain feminized animals. \gene{fog-2} is involved in
 germ-cell sex determination in the hermaphrodite worm and is required for sperm
 production~\citep{Schedl1988,Clifford2000}. \cel{} defective in sperm formation
 will emerge from the larval stage as female adults. As time moves forward, these
@@ -181,12 +155,7 @@ spermless worms only exhibit changes related to biological aging. As a result,
 adulthood compared to their egg-laying counterparts that age and also transition
 from egg-laying into a sperm depleted stage.
 
-% We also reasoned that we might be able to
-% identify gene expression changes due to different life histories: whereas
-% hermaphrodites lay almost 300 eggs over three days, spermless females do not lay
-% a single one. The different life histories could affect gene expression.
-
-Here, we show that we can detect a transcriptional signature associated both
+Here, we show that we can detect a transcriptional signature associated
 with loss of hermaphroditic sperm marking entrance into the endogenous
 female-like state. We can also detect changes associated specifically with
 biological aging. Biological aging causes transcriptomic changes consisting of
@@ -268,7 +237,7 @@ bcl2fastq 1.8.4.
 
 \subsubsection*{RNA-Seq Analysis.}
 RNA-Seq alignment was performed using Kallisto~\citep{Bray2016} with 200
-bootstraps. The commands used for read-alignment are in the S.I. file 1.
+bootstraps.
 Differential expression analysis was performed using Sleuth~\citep{Pimentel2016}.
 The following General Linear Model (GLM) was fit:
 \begin{align*}
@@ -420,7 +389,7 @@ the q-value associated with it was less than 0.1.
              adulthood and the 6th day of adulthood in \cel{}}
 We identified a transcriptomic signature consisting of \agen{} genes that were
 differentially expressed in 6th day adult animals of either genotype relative to
-1st day adult animals (see SI file 2). This constitutes more than one quarter of
+1st day adult animals (see S1). This constitutes more than one quarter of
 the genes in \cel{}. Tissue Enrichment Analysis
 (TEA)~\citep{Angeles-Albores2016} showed that nervous tissues including the
 `nerve ring', `dorsal nerve cord', `PVD' and `labial sensillum' were enriched in
@@ -457,7 +426,7 @@ twice the expected level ($q<10^{-1}$, 13 genes).
 
 \subsection*{The whole-organism \fog{} differential expression signature}
 We identified \fogn{} genes associated with the \fog{} genotype, including
-\tffog{} transcription factors (see SI file 3). TEA showed that the terms `AB',
+\tffog{} transcription factors (see S2). TEA showed that the terms `AB',
 `somatic gonad', `uterine muscle', `cephalic sheath cell', `spermathecal-uterine
 junction', and `PVD' were enriched in this gene set. The `somatic gonad' and
 `spermathecal-uterine junction' are both near the site of action of \fog{} (the
@@ -515,7 +484,7 @@ be not be path-dependent.
   \caption{
     \fog{} partially phenocopies early aging in \cel{}. The $\beta$ in each axes
     is the regression coefficient from the GLM, and can be loosely interpreted
-    as an estimator of the log-fold change. Feminization by loss of \fog{} is
+    as an estimator of the log-fold change. Loss of \gene{fog-2} is
     associated with a transcriptomic phenotype involving \fogn{} genes.
     \intersectn{}/\fogn{} of these genes are also altered in wild-type worms as
     they progress from young adulthood to old adulthood, and \coexpressed{}
@@ -549,7 +518,7 @@ loss of function of \gene{fog-2} should show non-additivity of phenotypes
 (generalized epistasis). To test whether these two perturbations deviate from
 additivity, we generated an epistasis plot using this gene set. We
 have previously used epistasis plots to measure transcriptome-wide epistasis
-between genes in a pathway~\citep{Angeles-Albores2017}. Briefly, an epistasis
+between genes in a pathway~\citep{Angeles2017}. Briefly, an epistasis
 plot shows the expected expression of a double perturbation under an additive
 model (null model) on the x-axis, and the deviation from this null model in the
 y-axis. In other words, we calculated the x-coordinates for each point by adding
@@ -562,7 +531,7 @@ which suggests that the \gene{fog-2} gene and time are acting to generate a
 single transcriptomic phenotype along a single pathway. Overall, we identified
 \femalen{} genes that changed in the same direction through age or mutation of
 the \fog{} gene and that had an interaction coefficient of opposite sign to the
-aging or genotype coefficient (see SI file 4). Taken together, these observations
+aging or genotype coefficient (see S3). Taken together, these observations
 suggests that these \femalen{} genes define a female-like state in \cel{}.
 
 \subsection*{Analysis of the female-like state expression signature}
@@ -638,7 +607,7 @@ without the need to resort to further pairwise combinations.
 Our explorations have shown that the loss of \fog{} partially phenocopies the
 transcriptional events that occur naturally as \cel{} ages from the 1st day of
 adulthood to the 6th day of adulthood. Moreover, epistasis analysis of these
-perturbations suggest that they act on the same pathway, namely sperm generation
+perturbations suggests that they act on the same pathway, namely sperm generation
 and depletion (see Fig.~\ref{fig:lifecycle}). Self-sperm generation promotes the
 hermaphrodite state, whereas sperm depletion marks entry into the female-like
 state. Given the enrichment of neuronal transcription factors that are
@@ -650,16 +619,16 @@ genes.
 Behavioral and physiological changes upon mating are not unknown in other
 species. In particular, in the fruit fly \emph{Drosophila melanogaster}, sex
 peptide present in the male seminal fluid is known to drive changes in gene
-expression~\citep{Liu2003,Xue2000,Avila2011} as well as behavior. More recently,
-sperm was found to be necessary to drive changes in aggression in the fruit
-fly~\citep{Bath2017}. These changes are often reversible upon the disappearance
-of seminal fluid or sperm. In the case of \cel{}, we have observed that sperm
-loss is associated with gene expression changes that probably reflect
-physiological changes in the worm. Our experimental design did not include a
-test for reversibility of these changes. The possibility of a rescue experiment
-with males raises interesting possibilities: What fraction of the changes
-observed upon loss of self-sperm are reversible? Do male seminal fluid or male
-sperm cause changes beyond rescue?
+expression~\citep{Liu2003,Xue2000,Avila2011,Heifetz2014,Rezaval2014,Mack2006} as
+well as behavior. More recently, sperm was found to be necessary to drive
+changes in aggression in the fruit fly~\citep{Bath2017}. These changes are often
+reversible upon the disappearance of seminal fluid or sperm. In the case of
+\cel{}, we have observed that sperm loss is associated with gene expression
+changes that probably reflect physiological changes in the worm. Our
+experimental design did not include a test for reversibility of these changes.
+The possibility of a rescue experiment with males raises interesting
+possibilities: What fraction of the changes observed upon loss of self-sperm are
+reversible? Do male seminal fluid or male sperm cause changes beyond rescue?
 
 \subsection*{The \cel{} life cycle, life stages and life states}
 
@@ -710,8 +679,8 @@ they are, the morphological changes may be very subtle, making positive
 identification difficult. However, the detailed information afforded by a
 transcriptome should in theory provide sufficient information to definitively
 identify a state, since transcriptomic information underlies morphology.
-Moreover, transcriptomics can provide an informative description into the
-physiology of complex metazoan life state's. By identifying differentially
+Moreover, transcriptomics can provide an insight into the
+physiology of complex metazoan life states. By identifying differentially
 expressed genes and using ontology enrichment analyses to identify gene
 functions, sites of expression or phenotypes that are enriched in a given gene
 set, we can obtain a clear picture of the changes that occur in the worm
@@ -720,7 +689,7 @@ analogous to identifying gross morphological changes.
 RNA-seq is a powerful technology that has been used successfully in the past as
 a qualitative tool for target acquisition, though recent work has successfully
 used RNA-seq to measure genetic interactions via
-epistasis~\citep{Dixit2016,Angeles-Albores2017}. Here, we have shown that
+epistasis~\citep{Dixit2016,Angeles2017}. Here, we have shown that
 whole-organism RNA-seq data can also be used to successfully identify internal
 states in a multi-cellular organism.
 
