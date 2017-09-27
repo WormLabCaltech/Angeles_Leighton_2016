@@ -24,12 +24,12 @@ interests are in genetics, evolution and quantitative biology. For more about
 him, visit [his website](https://dangeles.github.io)
 
 #### Daniel Leighton
-Daniel is a post-doc with [Leonid Kruglyak](https://labs.genetics.ucla.edu/kruglyak/home)
-at UCLA, where he does population
-genetics research on the variations in metabolism across natural *C. elegans*
-populations. He completed his Ph.D. with Paul, where he elucidated an
-interesting connection between the fertilization state of a female *C. elegans*
-and pheromone production (see the
+Daniel is a post-doc with
+[Leonid Kruglyak](https://labs.genetics.ucla.edu/kruglyak/home)
+at UCLA, where he does population genetics research on the variations in
+metabolism across natural *C. elegans* populations. He completed his Ph.D. with
+Paul, where he elucidated an interesting connection between the fertilization
+state of a female *C. elegans* and pheromone production (see the
 [paper](http://www.pnas.org/content/111/50/17905.long)).
 
 #### Tiffany Tsou
@@ -44,13 +44,13 @@ Molecular Biology. She was a SURF at Caltech in 2014, where she was a fantastic
 student and crucial in the RNA extraction process for this paper.
 
 #### Igor Antoshechkin
-
 Igor Antoshechkin is the head of the Millard and Muriel Jacobs Genetics and
 Genomics Laboratory at Caltech. He was in charge of sequencing and quality
 control of the RNA samples.
 
-#### Paul W Sternberg
-Paul is Professor of Thomas Hunt Morgan Professor of Biology at Caltech
+#### Paul W. Sternberg
+Paul is
+[Professor of Thomas Hunt Morgan Professor of Biology at Caltech](https://wormlabcaltech.github.io/paul/)
 
 ### Contact us
 If there are broken links, or you have questions, you can contact us at:
