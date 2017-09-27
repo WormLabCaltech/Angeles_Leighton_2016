@@ -3,7 +3,6 @@ layout: page
 title: About
 permalink: /about
 ---
-
 Hi, welcome to the main website for our project
 ['The *C. elegans* female state:
 decoupling the transcriptomic effects of aging and
@@ -49,8 +48,8 @@ Genomics Laboratory at Caltech. He was in charge of sequencing and quality
 control of the RNA samples.
 
 #### Paul W. Sternberg
-Paul is
-[Professor of Thomas Hunt Morgan Professor of Biology at Caltech](https://wormlabcaltech.github.io/paul/)
+Paul is the
+[Thomas Hunt Morgan Professor of Biology at Caltech](https://wormlabcaltech.github.io/paul/)
 
 ### Contact us
 If there are broken links, or you have questions, you can contact us at:
