@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sperm-loss causes entry into the female state, regardless of how sperm is lost – The <em>C. elegans</em> female state – Decoupling the transcriptomic effects of aging and sperm-status</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Decoupling the transcriptomic effects of aging and sperm-status">
+    <meta property="og:description" content="Decoupling the transcriptomic effects of aging and sperm-status" />
+    
+    <meta name="author" content="The <em>C. elegans</em> female state" />
+
+    
+    <meta property="og:title" content="Sperm-loss causes entry into the female state, regardless of how sperm is lost" />
+    <meta property="twitter:title" content="Sperm-loss causes entry into the female state, regardless of how sperm is lost" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="The <em>C. elegans</em> female state - Decoupling the transcriptomic effects of aging and sperm-status" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="" class="site-avatar">
+            <img src="/images/LifeCycle.svg"/>
+          </a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="">The <em>C. elegans</em> female state</a></h1>
+            <p class="site-description">Decoupling the transcriptomic effects of aging and sperm-status</p>
+          </div>
+
+          <nav>
+            <a href="https://wormlabcaltech.github.io">Back to WormLab!</a>
+            <a href="">Brief History</a>
+            <a href="/interactive/">Interactive Plots</a>
+            <a href="/RNASeqAnalysis.html">Jupyter Notebook</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="page">
+
+  <h1>Sperm-loss causes entry into the female state, regardless of how sperm is lost</h1>
+
+  <div class="entry">
+    <p>How are <em>fog-2</em> and natural sperm depletion related? Formally, there are four
+possibilities.</p>
+
+<ul>
+  <li><em>fog-2</em> and sperm depletion through time are independent of each other
+(they do not affect the same genes at all)</li>
+  <li><em>fog-2</em> and sperm depletion have additive effects. They act on the same
+phenotype but are otherwise independent of each other.</li>
+  <li><em>fog-2</em> and sperm depletion share an epistatic interaction, which means they
+act along the same pathways. The combined effect of having a <em>fog-2</em> mutation
+and being a 6d old adult is less than expected by additivity.</li>
+  <li><em>fog-2</em> and sperm depletion share a synthetic interaction, which means they
+act along parallel pathways. The combined effect of having a <em>fog-2</em> mutation
+and being a 6d old adult is more than expected by additivity.</li>
+</ul>
+
+<p>In order to explore these possibilities, we decided to first ask whether
+these two perturbations were acting on overlapping gene modules. If so, do their
+effects have the same sign?</p>
+
+<p>The plots below will help us answer these questions. We have plotted the
+biological effect of each variable versus another. Points are colored according
+to the logarithm of their q-value. Purple indicates a q-value closer to 0.1,
+whereas yellow indicates a q-value $&lt;10^{-20}$.</p>
+
+<h1 id="fog-2-partially-phenocopies-changes-in-expression-due-natural-sperm-depletion"><em>fog-2</em> partially phenocopies changes in expression due natural sperm depletion</h1>
+
+<p>Indeed, the graph below shows that not only do the <em>fog-2</em> transcriptome and the
+transcriptome of 6 day old <em>C. elegans</em> act on the same modules, they also share
+the same sign!</p>
+
+<iframe src="/plots/aging_vs_genotype.html" style="max-width = 100%" sandbox="allow-same-origin allow-scripts" width="100%" height="600" scrolling="no" seamless="seamless" frameborder="0">
+</iframe>
+<p># Changes due to sperm depletion are not additive with changes in expression associated with mutation of <em>fog-2</em></p>
+
+<p>Next we checked whether the interaction coefficient was positively or negatively
+correlated with the aging coefficient. A negative correlation indicates that,
+on average, mutation of <em>fog-2</em> and aging are epistatic to each other and act
+along the same molecular pathways; whereas a positive correlation indicates that
+on average mutation of <em>fog-2</em> and aging have a synthetic interaction and they are
+acting along parallel pathways.</p>
+
+<p>We can see that the correlation is negative, which indicates that <em>fog-2</em> and
+aging are acting along the same molecular pathways.</p>
+
+<iframe src="/plots/aging_vs_interaction.html" style="max-width = 100%" sandbox="allow-same-origin allow-scripts" width="100%" height="600" scrolling="no" seamless="seamless" frameborder="0">
+</iframe>
+<p>For completeness, we also show a plot of the genotype coefficient versus the
+interaction coefficient. Having seen the plot above, we expect a negative
+correlation between genotype and interaction. Indeed, that is what we see.
+This evidence suggests that sperm-depletion, whether natural or induced by a
+mutation, causes entry into a new <em>C. elegans</em> state.</p>
+
+<iframe src="/plots/genotype_vs_interaction.html" style="max-width = 100%" sandbox="allow-same-origin allow-scripts" width="100%" height="600" scrolling="no" seamless="seamless" frameborder="0">
+</iframe>
+
+  </div>
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:pws@caltech.edu"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/WormLabCaltech/Angeles_Leighton_2016"><i class="svg-icon github"></i></a>
+
+
+
+
+<a href="https://www.twitter.com/DavidAngeles13"><i class="svg-icon twitter"></i></a>
+
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>

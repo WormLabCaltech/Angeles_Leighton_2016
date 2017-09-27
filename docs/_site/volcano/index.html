@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Volcano Plots – The <em>C. elegans</em> female state – Decoupling the transcriptomic effects of aging and sperm-status</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Decoupling the transcriptomic effects of aging and sperm-status">
+    <meta property="og:description" content="Decoupling the transcriptomic effects of aging and sperm-status" />
+    
+    <meta name="author" content="The <em>C. elegans</em> female state" />
+
+    
+    <meta property="og:title" content="Volcano Plots" />
+    <meta property="twitter:title" content="Volcano Plots" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="The <em>C. elegans</em> female state - Decoupling the transcriptomic effects of aging and sperm-status" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="" class="site-avatar">
+            <img src="/images/LifeCycle.svg"/>
+          </a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="">The <em>C. elegans</em> female state</a></h1>
+            <p class="site-description">Decoupling the transcriptomic effects of aging and sperm-status</p>
+          </div>
+
+          <nav>
+            <a href="https://wormlabcaltech.github.io">Back to WormLab!</a>
+            <a href="">Brief History</a>
+            <a href="/interactive/">Interactive Plots</a>
+            <a href="/RNASeqAnalysis.html">Jupyter Notebook</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="page">
+
+  <h1>Volcano Plots</h1>
+
+  <div class="entry">
+    <p>Volcano plots are a convenient way of visualizing RNA-seq data. The
+x-axis is a measurement of biological effect of a variable (time, genotype
+or the interaction between them). The y-axis is a measurement of the probability
+that a deviation from the mean as extreme or more than the observed value
+happens given that the null hypothesis is true. In practice, we are often
+interested in the genes that have the lowest q-value and the largest effect
+size.</p>
+
+<p>In the plots below, green points are genes that are not transcription factors,
+and orange points are transcription factors.</p>
+
+<h1 id="aging-volcano">Aging Volcano</h1>
+
+<iframe src="/plots/aging_volcano.html" style="max-width = 100%" sandbox="allow-same-origin allow-scripts" width="100%" height="600" scrolling="no" seamless="seamless" frameborder="0">
+</iframe>
+
+<h1 id="genotype-volcano">Genotype Volcano</h1>
+
+<iframe src="/plots/genotype_volcano.html" style="max-width = 100%" sandbox="allow-same-origin allow-scripts" width="100%" height="600" scrolling="no" seamless="seamless" frameborder="0">
+</iframe>
+
+<h1 id="interaction-volcano">Interaction Volcano</h1>
+
+<iframe src="/plots/interaction_volcano.html" style="max-width = 100%" sandbox="allow-same-origin allow-scripts" width="100%" height="600" scrolling="no" seamless="seamless" frameborder="0">
+</iframe>
+
+  </div>
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:pws@caltech.edu"><i class="svg-icon email"></i></a>
+
+
+<a href="https://github.com/WormLabCaltech/Angeles_Leighton_2016"><i class="svg-icon github"></i></a>
+
+
+
+
+<a href="https://www.twitter.com/DavidAngeles13"><i class="svg-icon twitter"></i></a>
+
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
