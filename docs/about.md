@@ -18,8 +18,8 @@ for our paper.
 ### About the authors
 
 #### David Angeles-Albores
-David is a graduate student with Paul W Sternberg at Caltech. His research
-interests are in genetics, evolution and quantitative biology. For more about
+David is a graduate student with Paul Sternberg at Caltech. His research
+interests are in genetics and quantitative biology. For more about
 him, visit [his website](https://dangeles.github.io)
 
 #### Daniel Leighton
