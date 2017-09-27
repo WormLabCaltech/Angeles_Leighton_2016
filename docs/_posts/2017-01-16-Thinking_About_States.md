@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thinking About States - How to Use RNA-Seq in an Entirely New Way
+title: Thinking About States - How to Use RNA-Seq in differently
 ---
 
 Hi! Welcome to our site. I hope if you're here, it means that you enjoyed the
@@ -9,36 +9,22 @@ would like to tell you a little bit about our thoughts on how to use RNA-seq
 to identify internal states in multicellular organisms.
 
 RNA-seq, as you will know by now, is a fantastic tool with which to explore
-genome-wide relationships. A frustration that comes with these tools, however,
-is the feeling that they are purely a descriptive apparatus. Get your favorite
-mutant, compare it to wild-type, select a new target and study that! And let's
-ignore all the other hundreds of changes that we got from that study.
+transcriptome-wide relationships. A frustration that comes with these tools, however,
+is the feeling that they are purely a descriptive apparatus.
 
-Well, descriptive is not always bad. But descriptive can be boring when there
-are no alternatives. Luckily, this is changing. In the very recent past, many
+Luckily, this is changing. Recently, many
 labs, including us, have begun to use RNA-seq as a quantitative tool to discover
 not gene targets, but rather genetics interactions (see *Aviv Regev*'s wonderful
-paper on T-cells or maybe our BioRxiv *paper* on reconstructing the hypoxia
-pathway). As you may have realized, though, the focus of *this* particular paper
-was not to identify genetic interactions. Rather, we tried to identify a novel
-state of the *C. elegans* life cycle. Somewhat amazingly, the statistical method
-that we used to identify this state is exactly the same method that Aviv's team
-used to reconstruct genetic interactions in T-cells!
+paper on T-cells or maybe our
+[paper](https://www.biorxiv.org/content/early/2017/06/18/112920) on
+reconstructing the hypoxia pathway). As you may have realized, though, the focus
+of *this* particular paper was not to identify genetic interactions. Rather, we
+tried to identify a novel state of the *C. elegans* life cycle. Somewhat
+amazingly, the statistical method that we used to identify this state is exactly
+the same method that Aviv's team used to reconstruct genetic interactions in
+T-cells!
 
-I think there's something really interesting in that. Maybe I can explain, at the
-risk of being terribly dull about numbers, why the formalism is the same.
-
-First, though, a bit of history. Usually, when people do RNA-seq, they make
-what is called a PCA plot. In few words, Principal Component Analysis takes an
-enormous matrix of data and understands it to find the multidimensional lines
-that your data lies on most compactly. Then, we plot the two lines that most
-compactify your data. That gives you a compact description of the data in a way
-that is easy to visualize. This is great, because plotting N-dimensional data is
-a real problem. On the other hand, what do these coordinates mean? The new
-coordinates are composite coordinates -- they are a number made by adding very
-many components together in a weighted manner. Well, it seems we've just traded
-one problem for another!
-
+I think there's something really interesting in that. Maybe I can explain.
 
 First, though, a bit of history. Usually, when people do RNA-seq, they make
 what is called a PCA plot. In few words, Principal Component Analysis takes an
@@ -49,7 +35,7 @@ that is easy to visualize. This is great, because plotting N-dimensional data is
 a real problem. On the other hand, what do these coordinates mean? The new
 coordinates are composite coordinates -- they are a number made by adding very
 many components together in a weighted manner. Well, it seems we've just traded
-one problem for another! Indeed, the problem of how to interpret PCA coordinates
+one problem for another! Indeed, the problem of how to interpret PC coordinates
 is rather complicated, but certain papers (for an example, see
 [this one](http://www.sciencedirect.com/science/article/pii/S0092867416311497))
 have begun to make progress in using PCA to understand how cellular

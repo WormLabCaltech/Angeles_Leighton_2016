@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Interactive Plots
-permalink: /interactive/
+permalink: /interactive
 ---
 Our interactive plots are split into two sections.
 
