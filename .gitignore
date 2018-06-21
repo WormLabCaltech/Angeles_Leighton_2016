@@ -119,3 +119,10 @@ ENV/
 phenotype_ontology.csv
 
 go_dictionary.csv
+rdocs/.Rhistory
+rdocs/.zip
+*.json
+*.sketch
+
+raw_reads/
+geo/
